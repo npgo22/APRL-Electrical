@@ -1,0 +1,193 @@
+(version 1)
+
+# APRL custom design rules for JLCPCB, assuming 4 layers, 1 oz outer / 0.5 oz inner.
+# These settings were made by Nolan Poe on 9/12/2026, in response to Daniel Fan roasting him on Discord.
+
+# DRILL
+
+# Drill diameter is 0.3-6.3 mm.
+(rule "Via drill"
+	(condition "A.Type == 'Via'")
+	(constraint hole_size (min 0.3mm) (max 6.3mm))
+)
+
+(rule "PTH drill"
+	(condition "A.Type == 'Pad' && A.isPlated() && A.Hole_Size_X == A.Hole_Size_Y")
+	(constraint hole_size (min 0.3mm) (max 6.3mm))
+)
+
+# Minimum NPTH hole size is 0.5 mm.
+(rule "NPTH drill"
+	(condition "A.Type == 'Pad' && !A.isPlated() && A.Hole_Size_X == A.Hole_Size_Y")
+	(constraint hole_size (min 0.5mm))
+)
+
+# Minimum plated slot width is 0.35 mm.
+(rule "Plated slot width"
+	(condition "A.Type == 'Pad' && A.isPlated() && A.Hole_Size_X != A.Hole_Size_Y")
+	(constraint hole_size (min 0.35mm) (max 6.3mm))
+)
+
+# Non-plated slots are 1 mm minimum.
+(rule "Non-plated slot width"
+	(condition "A.Type == 'Pad' && !A.isPlated() && A.Hole_Size_X != A.Hole_Size_Y")
+	(constraint hole_size (min 1mm))
+)
+
+# Via hole to hole is 0.2 mm.
+(rule "Via hole to via hole"
+	(condition "A.Type == 'Via' && B.Type == 'Via'")
+	(constraint hole_to_hole (min 0.2mm))
+)
+
+# Pad hole to hole is 0.45 mm.
+(rule "Pad hole to any hole"
+	(condition "A.Type == 'Pad' || B.Type == 'Pad'")
+	(constraint hole_to_hole (min 0.45mm))
+)
+
+# Minimum castellated hole is 0.5 mm, hole to board edge is 1 mm minimum, and hole to hole is 0.5 mm minimum.
+(rule "Castellated hole size"
+	(layer outer)
+	(condition "A.Type == 'Pad' && A.Fabrication_Property == 'Castellated pad'")
+	(constraint hole_size (min 0.5mm))
+)
+
+# TRACES
+
+# Minimum track width and spacing is 0.09 mm.
+(rule "Track width"
+	(condition "A.Type == 'Track'")
+	(constraint track_width (min 0.09mm))
+)
+
+(rule "Track to track"
+	(condition "A.Type == 'Track' && B.Type == 'Track'")
+	(constraint clearance (min 0.09mm))
+)
+
+# PTH annular ring is 0.2 mm, as the total diameter added over the drill, so a 0.3/0.5 via should pass.
+(rule "PTH annular ring"
+	(condition "(A.Type == 'Pad' && A.Pad_Type == 'Through-hole') || A.Type == 'Via'")
+	(constraint annular_width (min 0.1mm))
+)
+
+# NPTH annular ring is 0.45 mm.
+# Not sure if 0.45 mm is a diameter figure like the PTH one above, this should be 0.225 mm
+(rule "NPTH annular ring"
+	(condition "A.Type == 'Pad' && A.Pad_Type == 'NPTH, mechanical'")
+	(constraint annular_width (min 0.45mm))
+)
+
+# Same net track spacing is 0.25 mm, but KiCad can't check for this.
+# (Can't differentiate between a different trace and the same trace)
+
+# Inner layer via hole to copper clearance is 0.2 mm.
+(rule "Via hole to copper (inner layer)"
+	(layer inner)
+	(condition "A.Type == 'Via'")
+	(constraint hole_clearance (min 0.2mm))
+)
+
+# Inner layer PTH pad hole to copper clearance is 0.3 mm.
+(rule "PTH pad hole to copper (inner layer)"
+	(layer inner)
+	(condition "A.Type == 'Pad' && A.Pad_Type == 'Through-hole'")
+	(constraint hole_clearance (min 0.3mm))
+)
+
+# Pad to track clearance is 0.1 mm.
+(rule "Pad to track"
+	(condition "A.Type == 'Pad' && B.Type == 'Track'")
+	(constraint clearance (min 0.1mm))
+)
+
+# SMD pad to pad clearance on different nets is 0.15 mm.
+(rule "SMD pad to SMD pad"
+	(condition "A.Type == 'Pad' && A.Pad_Type == 'SMD' && B.Type == 'Pad' && B.Pad_Type == 'SMD' && A.Net != B.Net")
+	(constraint clearance (min 0.15mm))
+)
+
+# Minimum SMD pad is 0.25 x 0.25 mm.
+# Copper only: a paste-only aperture is also an SMD pad to KiCad, and stencil
+# apertures are routinely smaller than any copper minimum.
+(rule "Minimum SMD pad size"
+	(condition "A.Type == 'Pad' && A.Pad_Type == 'SMD' && (A.existsOnLayer('F.Cu') || A.existsOnLayer('B.Cu'))")
+	(constraint assertion "A.Size_X >= 0.25mm && A.Size_Y >= 0.25mm")
+)
+
+# Via hole to track is 0.2 mm.
+(rule "Via hole to track"
+	(condition "A.Type == 'Via' && B.Type == 'Track'")
+	(constraint hole_clearance (min 0.2mm))
+)
+
+# PTH to track is 0.35 mm.
+(rule "PTH hole to track (outer layer)"
+	(layer outer)
+	(condition "A.Type == 'Pad' && A.Pad_Type == 'Through-hole' && B.Type == 'Track'")
+	(constraint hole_clearance (min 0.35mm))
+)
+
+# NPTH to track is 0.2 mm.
+(rule "NPTH hole to track"
+	(condition "A.Type == 'Pad' && A.Pad_Type == 'NPTH, mechanical' && B.Type == 'Track'")
+	(constraint hole_clearance (min 0.2mm))
+)
+
+
+# SOLDERMASK
+
+# Soldermask bridge is 0.1 mm.
+(rule "Soldermask bridge"
+	(constraint solder_mask_sliver (min 0.1mm))
+)
+
+# Everything else KiCad can't check
+
+# LEGEND
+
+# Minimum line width is above 0.15 mm, minimum text height is 1 mm.
+(rule "Silkscreen text"
+	(layer "?.Silkscreen")
+	(condition "A.Type == 'Text' || A.Type == 'Text Box'")
+	(constraint text_thickness (min 0.15mm))
+	(constraint text_height (min 1mm))
+)
+
+# Character width to height ratio is 1:6
+# But ong this spams the output and nobody cares so I mean
+# (rule "Silkscreen character ratio"
+# 	(layer "?.Silkscreen")
+# 	(severity warning)
+# 	(condition "A.Type == 'Text' || A.Type == 'Text Box'")
+# 	(constraint assertion "A.Thickness * 6 >= A.Height")
+# )
+
+# Pad to silkscreen is 0.15 mm.
+(rule "Pad to silkscreen"
+	(condition "A.Type == 'Pad' && ((A.existsOnLayer('F.Mask') && B.Layer == 'F.Silkscreen') || (A.existsOnLayer('B.Mask') && B.Layer == 'B.Silkscreen'))")
+	(constraint silk_clearance (min 0.15mm))
+)
+
+
+# OUTLINE
+
+# Copper clearance from routed slots is 0.2 mm.
+(rule "Copper to board edge"
+	(constraint edge_clearance (min 0.2mm))
+)
+
+# Copper to V-cut clearance is 0.4 mm, swap this in for the 0.2 mm rule above when a board ships on a V-cut panel
+# (rule "Copper to V-cut edge"
+# 	(constraint edge_clearance (min 0.4mm))
+# )
+
+# ADDITIONS
+# JLC doesn't do blind/buried vias. This is just a check to make sure nobody tries something stupid
+# Might actually check if someone tries to use Astra to route a board and Astra gives up
+
+(rule "Through vias only"
+	(condition "A.Type == 'Via'")
+	(constraint assertion "!(A.isBlindBuriedVia() || A.isMicroVia())")
+)

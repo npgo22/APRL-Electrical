@@ -1,0 +1,298 @@
+# Shared KiBot configuration for all APRL boards.
+#
+# Usage (from repo root):
+#   cd <board-dir> && kibot -c ../kibot.yaml -e <board>.kicad_sch -b <board>.kicad_pcb
+#
+# Or via just:
+#   just kibot ground-station-valve-driver-1A
+#   just kibot-all
+#
+# Every board uses this config. All symbols, footprints and 3D models come from
+# kicadlibs/ in this repo, so the 3D outputs below render the same on any
+# machine and in CI.
+
+kibot:
+  version: 1
+
+globals:
+  filters:
+    - filter: Ignore PcbDraw missing components
+      number: 103
+    - filter: Ignore missing KiCad config, not in docker images
+      number: 8
+    # kicadlibs/models/ carries everything except four packages KiCad ships no STEP for
+    # (QFN-68, VQFN-32, TG2520SMN, ublox_NEO). Those still warn.
+    - filter: Ignore missing KiCad 3D models, not in docker images
+      number: 10
+    - filter: Ignore missing KiCad config from KiAuto, not in docker images
+      number: 58
+      regex: kicad_common.json
+  restore_project: true
+  time_reformat: false
+
+preflight:
+  check_zone_fills: true
+  erc: true
+  drc: true
+  filters:
+    - filter: "Connectors that intentionally extend outside the board outline"
+      error: "silk_over_copper"
+      regex: "clipped by solder mask"
+  set_text_variables:
+    - name: "git_hash"
+      command: 'git log -1 --format="%h" $KIBOT_PCB_NAME'
+      before: "Git:"
+    - name: "date"
+      command: "date --iso-8601=minutes"
+
+filters:
+  - name: only_jlc_parts
+    comment: 'Only parts with a JLC (LCSC) part number'
+    type: generic
+    include_only:
+      - column: 'LCSC#'
+        regex: '^C\d+'
+
+outputs:
+  # -------------------------------------------------------------------------
+  # Documentation
+  # -------------------------------------------------------------------------
+
+  - name: print_sch
+    comment: Schematic PDF
+    type: pdf_sch_print
+    dir: Schematic
+
+  - name: print_board
+    comment: PCB layer PDFs (B&W and colour)
+    type: pcb_print
+    dir: Schematic
+    options:
+      format: PDF
+      scaling: 0
+      autoscale_margin_x: 50
+      autoscale_margin_y: 50
+      pages:
+        - sheet: FrontBW
+          layers:
+            - { layer: User.Drawings, color: "#000000" }
+            - { layer: F.Cu,          color: "#F0F0F0" }
+            - { layer: F.Paste,       color: "#C4C4C4" }
+            - { layer: F.Silkscreen,  color: "#000000" }
+            - { layer: Edge.Cuts,     color: "#575757" }
+            - { layer: User.Eco1,     color: "#000000" }
+            - { layer: User.Comments, color: "#6c6c6c" }
+        - sheet: In1BW
+          layers:
+            - { layer: User.Drawings, color: "#000000" }
+            - { layer: In1.Cu,        color: "#000000" }
+            - { layer: Edge.Cuts,     color: "#575757" }
+            - { layer: User.Comments, color: "#6c6c6c" }
+        - sheet: In2BW
+          layers:
+            - { layer: User.Drawings, color: "#000000" }
+            - { layer: In2.Cu,        color: "#000000" }
+            - { layer: Edge.Cuts,     color: "#575757" }
+            - { layer: User.Comments, color: "#6c6c6c" }
+        - sheet: BottomBW
+          layers:
+            - { layer: User.Drawings, color: "#000000" }
+            - { layer: B.Cu,          color: "#F0F0F0" }
+            - { layer: B.Paste,       color: "#C4C4C4" }
+            - { layer: B.Silkscreen,  color: "#000000" }
+            - { layer: Edge.Cuts,     color: "#575757" }
+            - { layer: User.Comments, color: "#6c6c6c" }
+        - sheet: FrontColor
+          layers:
+            - { layer: User.Drawings, color: "#000000" }
+            - { layer: User.Eco1,     color: "#000080" }
+            - { layer: F.Cu,          color: "#B3FFB3" }
+            - { layer: F.Paste,       color: "#FF8A8A" }
+            - { layer: F.Silkscreen,  color: "#626262" }
+            - { layer: Edge.Cuts,     color: "#FF8000" }
+            - { layer: User.Comments, color: "#6c6c6c" }
+        - sheet: In1Color
+          layers:
+            - { layer: User.Drawings, color: "#000000" }
+            - { layer: In1.Cu,        color: "#B3FFB3" }
+            - { layer: Edge.Cuts,     color: "#FF8000" }
+            - { layer: User.Eco1,     color: "#000080" }
+            - { layer: User.Comments, color: "#6c6c6c" }
+        - sheet: In2Color
+          layers:
+            - { layer: User.Drawings, color: "#000000" }
+            - { layer: In2.Cu,        color: "#B3FFB3" }
+            - { layer: Edge.Cuts,     color: "#FF8000" }
+            - { layer: User.Eco1,     color: "#000080" }
+            - { layer: User.Comments, color: "#6c6c6c" }
+        - sheet: BottomColor
+          layers:
+            - { layer: User.Drawings, color: "#000000" }
+            - { layer: B.Cu,          color: "#B3FFB3" }
+            - { layer: B.Paste,       color: "#FF8A8A" }
+            - { layer: B.Silkscreen,  color: "#626262" }
+            - { layer: Edge.Cuts,     color: "#FF8000" }
+            - { layer: User.Comments, color: "#6c6c6c" }
+
+  - name: PdfUnite
+    type: pdfunite
+    dir: Schematic
+    options:
+      use_external_command: true
+      output: combined.pdf
+      outputs:
+        - source: "Schematic/*.pdf"
+
+  # -------------------------------------------------------------------------
+  # JLCPCB manufacturing package
+  # -------------------------------------------------------------------------
+
+  - name: JLCPCB_gerbers
+    comment: Gerbers compatible with JLCPCB
+    type: gerber
+    dir: JLCPCB
+    options: &gerber_options
+      exclude_edge_layer: true
+      exclude_pads_from_silkscreen: true
+      plot_sheet_reference: false
+      plot_footprint_refs: true
+      plot_footprint_values: false
+      force_plot_invisible_refs_vals: false
+      tent_vias: true
+      use_protel_extensions: true
+      create_gerber_job_file: false
+      disable_aperture_macros: true
+      gerber_precision: 4.6
+      use_gerber_x2_attributes: false
+      use_gerber_net_attributes: false
+      line_width: 0.1
+      subtract_mask_from_silk: true
+      inner_extension_pattern: '.g%n'
+    layers:
+      - F.Cu
+      - B.Cu
+      - In1.Cu
+      - In2.Cu
+      - F.SilkS
+      - B.SilkS
+      - F.Paste
+      - B.Paste
+      - F.Mask
+      - B.Mask
+      - Edge.Cuts
+
+  - name: JLCPCB_drill
+    comment: Drill files compatible with JLCPCB
+    type: excellon
+    dir: JLCPCB
+    options:
+      pth_and_npth_single_file: false
+      pth_id: '-PTH'
+      npth_id: '-NPTH'
+      metric_units: true
+      map: gerber
+      route_mode_for_oval_holes: false
+      output: "%f%i.%x"
+
+  - name: JLCPCB_bom
+    comment: BoM for JLCPCB
+    type: bom
+    dir: JLCPCB
+    options:
+      output: '%f_%i_jlc.%x'
+      exclude_filter: only_jlc_parts
+      ref_separator: ','
+      columns:
+        - { field: Value,      name: Comment    }
+        - { field: References, name: Designator }
+        - Footprint
+        - { field: LCSC,       name: 'LCSC Part #' }
+      csv:
+        hide_pcb_info: true
+        hide_stats_info: true
+        quote_all: true
+
+  - name: JLCPCB
+    comment: ZIP file for JLCPCB upload
+    type: compress
+    dir: JLCPCB
+    options:
+      files:
+        - { from_output: JLCPCB_gerbers, dest: / }
+        - { from_output: JLCPCB_drill,   dest: / }
+        - { from_output: JLCPCB_bom,     dest: / }
+
+  # -------------------------------------------------------------------------
+  # Misc
+  # -------------------------------------------------------------------------
+
+  - name: iBom
+    type: ibom
+    dir: Bom
+
+  - name: BoardView
+    type: boardview
+    dir: Boardview
+
+  # -------------------------------------------------------------------------
+  # 3D
+  #
+  # kicadlibs/models/ is complete and repo-relative, so these are reproducible rather
+  # than dependent on whatever the local KiCad install happens to have.
+  # -------------------------------------------------------------------------
+
+  - name: STEP
+    comment: STEP model of the assembled board
+    type: step
+    dir: 3D
+    options:
+      origin: grid
+      download: false      # every model is already in kicadlibs/models/
+
+  - name: render_top
+    comment: Ray traced render, top
+    type: render_3d
+    dir: 3D
+    options:
+      view: top
+      zoom: 3
+      ray_tracing: true
+      width: 1920
+      height: 1080
+
+  - name: render_bottom
+    comment: Ray traced render, bottom
+    type: render_3d
+    dir: 3D
+    options:
+      view: bottom
+      zoom: 3
+      ray_tracing: true
+      width: 1920
+      height: 1080
+
+  - name: pcbdraw_top
+    comment: Flat board drawing, top
+    type: pcbdraw
+    dir: 3D
+    options:
+      format: png
+      dpi: 600
+
+  - name: pcbdraw_bottom
+    comment: Flat board drawing, bottom
+    type: pcbdraw
+    dir: 3D
+    options:
+      format: png
+      dpi: 600
+      bottom: true
+
+  # -------------------------------------------------------------------------
+  # Index - must stay last, it links everything generated above
+  # -------------------------------------------------------------------------
+
+  - name: Navigate
+    comment: HTML index of every output
+    type: navigate_results
+    dir: .

@@ -1,0 +1,33 @@
+# KiCad backups
+LC-backups/
+thermocouples-backups/
+
+# KiCad auto-save and scratch
+fp-info-cache
+\#auto_saved_files#
+~*
+**/*lck
+
+# Old/backup suffixes
+**old
+**bak
+
+# KiCad local history
+.history/
+
+# ERC/DRC reports
+*-erc.txt
+*-drc.txt
+*.log
+
+# KiBot output directories
+Schematic/
+JLCPCB/
+Bom/
+Boardview/
+
+# KiBot cache
+.kibot/
+
+# Misc
+production/

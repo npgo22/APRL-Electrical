@@ -1,0 +1,246 @@
+(footprint "Molex_CLIK-Mate_503175-0300_1x03-1MP_P1.50mm_Horizontal-noct"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "1.50mm Pitch, CLIK-Mate PCB Receptacle, Single Row, Through Hole, Right-Angle, Tin Plating, Positive Lock, with Peg, 3 Circuits, Natural (https://www.molex.com/en-us/products/part-detail-pdf/5031750300?display=pdf)")
+	(tags "connector Molex CLIK-Mate 503175-0300 horizontal natural")
+	(property "Reference" "REF**"
+		(at 1.5 -1.45 0)
+		(layer "F.SilkS")
+		(uuid "0e2f706a-4eeb-4711-b414-f126ea6f0ddb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Molex_CLIK-Mate_503175-0300_1x03-1MP_P1.50mm_Horizontal"
+		(at 1.5 7.789 0)
+		(layer "F.Fab")
+		(uuid "36dd48cd-06ee-46dc-9ef8-e02da9e31e8d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/5031750300?display=pdf"
+		(at 1.5 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fdf43626-e672-46c6-8e0a-de4216f2339d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "1.50mm Pitch, CLIK-Mate PCB Receptacle, Single Row, Through Hole, Right-Angle, Tin Plating, Positive Lock, with Peg, 3 Circuits, Natural"
+		(at 1.5 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a8eeaf7-a50e-4098-86b5-98d35b9db145")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.3227 -0.576999)
+		(end -2.3227 1.333119)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e66f6a41-0485-4ad3-811f-1d75e44f6168")
+	)
+	(fp_line
+		(start -2.3227 2.366884)
+		(end -2.3227 6.916001)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "07b45f33-6941-428d-8dd4-839d88fbea93")
+	)
+	(fp_line
+		(start -2.3227 6.916001)
+		(end 5.3227 6.916001)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aea45350-4078-4668-ad3a-5608d0724610")
+	)
+	(fp_line
+		(start -0.808331 -0.576999)
+		(end -2.3227 -0.576999)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "01977559-e803-45ab-bccb-125229a9dc87")
+	)
+	(fp_line
+		(start 2.191669 -0.576999)
+		(end 0.808331 -0.576999)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d685bd49-1fc0-4f0a-a572-64c3d15675d1")
+	)
+	(fp_line
+		(start 5.3227 -0.576999)
+		(end 3.808331 -0.576999)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8de9c663-35e9-4682-acdc-96b9b86f2b4f")
+	)
+	(fp_line
+		(start 5.3227 1.333119)
+		(end 5.3227 -0.576999)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d7fd2699-6a5f-422b-b681-f452cd35e562")
+	)
+	(fp_line
+		(start 5.3227 6.916001)
+		(end 5.3227 2.366884)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8a850857-8c76-4543-9bbe-22ece2c5362b")
+	)
+	(fp_line
+		(start -2.1957 -0.449999)
+		(end -2.1957 6.789001)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1b1433c0-8df6-4206-818d-f78175a5ee6a")
+	)
+	(fp_line
+		(start -2.1957 6.789001)
+		(end 5.1957 6.789001)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c1a661bb-d6b4-4c5c-831e-917e82e4f94f")
+	)
+	(fp_line
+		(start 5.1957 -0.449999)
+		(end -2.1957 -0.449999)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d2662988-e652-44de-9248-d7f17996caba")
+	)
+	(fp_line
+		(start 5.1957 6.789001)
+		(end 5.1957 -0.449999)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "012eb848-0713-4baa-8018-ee3d4f2fa2b6")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.381 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "7b09a0c2-8e50-46ef-aa7b-941159766b5b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.5 0 0)
+		(layer "F.Fab")
+		(uuid "c32d9194-ffc7-4baa-a57a-a77fba4de545")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.3208 1.3208)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c01962f3-c4ed-4a67-8560-61ab2e573b39")
+	)
+	(pad "2" thru_hole circle
+		(at 1.5 3.7)
+		(size 1.3208 1.3208)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b69925bc-8ed8-46c6-9a4e-5450bc29eedb")
+	)
+	(pad "3" thru_hole circle
+		(at 3 0)
+		(size 1.3208 1.3208)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d0e4e0ce-ae22-465f-96e9-49a59c039930")
+	)
+	(pad "" np_thru_hole circle
+		(at -1.550002 1.850001)
+		(size 1.1938 1.1938)
+		(drill 1.1938)
+		(layers "*.Cu" "*.Mask")
+		(uuid "cece4ba7-2152-456d-bec8-a8ff8d3bfd64")
+	)
+	(pad "" np_thru_hole circle
+		(at 4.550002 1.850001)
+		(size 1.1938 1.1938)
+		(drill 1.1938)
+		(layers "*.Cu" "*.Mask")
+		(uuid "20dee689-1e0f-40b5-9ef5-81ad8d44769d")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../../kicadlibs/models/Molex_CLIK-Mate_503175-0300_1x03-1MP_P1.50mm_Horizontal.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

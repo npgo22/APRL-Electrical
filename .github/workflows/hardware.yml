@@ -1,0 +1,84 @@
+name: Hardware
+
+on:
+  push:
+    paths:
+      - '**/*.kicad_sch'
+      - '**/*.kicad_pcb'
+      - '**/*.kicad_pro'
+      - '**/fp-lib-table'
+      - '**/sym-lib-table'
+      - 'kicadlibs/**'
+      - 'kibot.yaml'
+      - '.github/workflows/hardware.yml'
+  pull_request:
+    paths:
+      - '**/*.kicad_sch'
+      - '**/*.kicad_pcb'
+      - '**/*.kicad_pro'
+      - '**/fp-lib-table'
+      - '**/sym-lib-table'
+      - 'kicadlibs/**'
+      - 'kibot.yaml'
+      - '.github/workflows/hardware.yml'
+
+jobs:
+  kibot:
+    name: KiBot - ${{ matrix.name }}
+    runs-on: ubuntu-latest
+    env:
+      # Library root for projects that use ${APRL_LIBS} instead of counting ../
+      # KiBot runs in a container with the checkout mounted at /github/workspace.
+      APRL_LIBS: /github/workspace/kicadlibs
+
+    strategy:
+      fail-fast: false   # run all boards even if one fails
+      matrix:
+        include:
+          - name: valve-driver
+            dir:  ali/valve-drivers
+            sch:  valve-driver.kicad_sch
+            pcb:  valve-driver.kicad_pcb
+
+          - name: thermocouple-2A
+            dir:  ali/thermocouples
+            sch:  thermocouple.kicad_sch
+            pcb:  thermocouple.kicad_pcb
+
+          - name: load-cell
+            dir:  ali/loadcells
+            sch:  load-cell.kicad_sch
+            pcb:  load-cell.kicad_pcb
+
+          - name: pressure-1B
+            dir:  ali/pressure-transducers
+            sch:  pressure.kicad_sch
+            pcb:  pressure.kicad_pcb
+
+          - name: gps
+            dir:  ophio/gps
+            sch:  gps.kicad_sch
+            pcb:  gps.kicad_pcb
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Full history so `git log` in set_text_variables works
+          fetch-depth: 0
+
+      - name: Run KiBot
+        uses: INTI-CMNB/KiBot@v2_k10
+        with:
+          config:  kibot.yaml
+          schema:  ${{ matrix.dir }}/${{ matrix.sch }}
+          board:   ${{ matrix.dir }}/${{ matrix.pcb }}
+          dir:     outputs/${{ matrix.name }}
+          verbose: 0
+
+      - name: Upload outputs
+        uses: actions/upload-artifact@v4
+        if: always()   # upload even on ERC/DRC failure so errors are visible
+        with:
+          name: kibot-${{ matrix.name }}
+          path: outputs/${{ matrix.name }}/
+          if-no-files-found: warn

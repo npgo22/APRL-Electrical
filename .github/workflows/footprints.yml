@@ -1,0 +1,37 @@
+name: Footprints
+
+on:
+  push:
+    paths:
+      - 'kicadlibs/aprl/*.pretty/*.kicad_mod'
+      - '.github/scripts/strip.py'
+      - '.github/workflows/footprints.yml'
+  workflow_dispatch:
+
+jobs:
+  noct:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Generate -noct variants
+        run: python3 .github/scripts/strip.py
+
+      - name: Commit and push
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add 'kicadlibs/aprl/*-noct.pretty'
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: regenerate -noct footprint variants"
+            git push
+          fi

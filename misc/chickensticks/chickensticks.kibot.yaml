@@ -1,0 +1,275 @@
+kibot:
+  version: 1
+
+globals:
+  # Filters for KiBot warnings
+  filters:
+    - filter: Ignore PcbDraw missing components
+      number: 103
+    - filter: Ignore missing KiCad config, not in docker images
+      number: 8
+    - filter: Ignore missing KiCad 3D models, not in docker images
+      number: 10
+    - filter: Ignore missing KiCad config from KiAuto, not in docker images
+      number: 58
+      regex: kicad_common.json
+  # This will undo the `set_text_variables` when we run it locally
+  restore_project: true
+  # We will use a value externally formatted
+  time_reformat: false
+
+preflight:
+  check_zone_fills: true
+  erc: true
+  drc: true
+  # Filters for ERC/DRC errors/warnings
+  filters:
+    - filter: "We know some connectors extend outside the board"
+      error: "silk_over_copper"
+      regex: "clipped by solder mask"
+  set_text_variables:
+    # The revision will be the short git hash
+    # We use ${git_hash} for the REV field in the worksheet (frame)
+    - name: "git_hash"
+      command: 'git log -1 --format="%h" $KIBOT_PCB_NAME'
+      before: "Git:"
+    # Coherent date and time for the schematic and PCB
+    # This will be the time stamp of the files generation, not the commit times
+    # We use `${date}` for the time field in the worksheet (frame)
+    - name: "date"
+      command: "date --iso-8601=minutes"
+
+filters:
+  - name: only_jlc_parts
+    comment: 'Only parts with JLC (LCSC) code'
+    type: generic
+    include_only:
+      - column: 'LCSC#'
+        regex: '^C\d+'
+
+outputs:
+  # Schematic and board PDFs
+  - name: "print_sch"
+    comment: "Schematic PDF"
+    type: pdf_sch_print
+    dir: Schematic
+
+  - name: "print_board"
+    comment: "Print Top and Bottom layers"
+    type: pcb_print
+    dir: Schematic
+    options:
+      format: "PDF"
+      scaling: 1.2
+      pages:
+        - sheet: FrontBW
+          layers:
+            - layer: User.Drawings
+              color: "#000000"
+            - layer: F.Cu
+              color: "#F0F0F0"
+            - layer: F.Paste
+              color: "#C4C4C4"
+            - layer: F.Silkscreen
+              color: "#000000"
+            - layer: Edge.Cuts
+              color: "#575757"
+            - layer: User.Eco1
+              color: "#000000"
+            - layer: User.Comments
+              color: "#6c6c6c"
+        - sheet: In1BW
+          layers:
+            - layer: User.Drawings
+              color: "#000000"
+            - layer: In1.Cu
+              color: "#000000"
+            - layer: Edge.Cuts
+              color: "#575757"
+            - layer: User.Comments
+              color: "#6c6c6c"
+        - sheet: In2BW
+          layers:
+            - layer: User.Drawings
+              color: "#000000"
+            - layer: In2.Cu
+              color: "#000000"
+            - layer: Edge.Cuts
+              color: "#575757"
+            - layer: User.Comments
+              color: "#6c6c6c"
+        - sheet: BottomBW
+          layers:
+            - layer: User.Drawings
+              color: "#000000"
+            - layer: B.Cu
+              color: "#F0F0F0"
+            - layer: B.Paste
+              color: "#C4C4C4"
+            - layer: B.Silkscreen
+              color: "#000000"
+            - layer: Edge.Cuts
+              color: "#575757"
+            - layer: User.Comments
+              color: "#6c6c6c"
+
+        - sheet: FrontColor
+          layers:
+            - layer: User.Drawings
+              color: "#000000"
+            - layer: User.Eco1
+              color: "#000080"
+            - layer: F.Cu
+              color: "#B3FFB3"
+            - layer: F.Paste
+              color: "#FF8A8A"
+            - layer: F.Silkscreen
+              color: "#626262"
+            - layer: Edge.Cuts
+              color: "#FF8000"
+            - layer: User.Comments
+              color: "#6c6c6c"
+
+              # plot_footprint_refs: false
+              # plot_footprint_values: false
+        - sheet: In1Color
+          layers:
+            - layer: User.Drawings
+              color: "#000000"
+            - layer: In1.Cu
+              color: "#B3FFB3"
+            - layer: Edge.Cuts
+              color: "#FF8000"
+            - layer: User.Eco1
+              color: "#000080"
+            - layer: User.Comments
+              color: "#6c6c6c"
+        - sheet: In2Color
+          layers:
+            - layer: User.Drawings
+              color: "#000000"
+            - layer: In2.Cu
+              color: "#B3FFB3"
+            - layer: Edge.Cuts
+              color: "#FF8000"
+            - layer: User.Eco1
+              color: "#000080"
+            - layer: User.Comments
+              color: "#6c6c6c"
+        - sheet: BottomColor
+          layers:
+            - layer: User.Drawings
+              color: "#000000"
+            - layer: B.Cu
+              color: "#B3FFB3"
+            - layer: B.Paste
+              color: "#FF8A8A"
+            - layer: B.Silkscreen
+              color: "#626262"
+            - layer: Edge.Cuts
+              color: "#FF8000"
+            - layer: User.Comments
+              color: "#6c6c6c"
+
+  - name: "PdfUnite"
+    type: pdfunite
+    dir: Schematic
+    options:
+      use_external_command: true
+      # [string='%f-%i%I%v.%x'] Name for the generated PDF (%i=name of the output %x=pdf). Affected by global options
+      output: "combined.pdf"
+      # [list(dict)=[]] Which files will be included
+      outputs:
+        - source: "Schematic/*.pdf"
+
+  # JLCPCB Manufacturing stuff
+  - name: JLCPCB_gerbers
+    comment: Gerbers compatible with JLCPCB
+    type: gerber
+    dir: JLCPCB
+    options: &gerber_options
+      exclude_edge_layer: true
+      exclude_pads_from_silkscreen: true
+      plot_sheet_reference: false
+      plot_footprint_refs: true
+      plot_footprint_values: false
+      force_plot_invisible_refs_vals: false
+      tent_vias: true
+      use_protel_extensions: true
+      create_gerber_job_file: false
+      disable_aperture_macros: true
+      gerber_precision: 4.6
+      use_gerber_x2_attributes: false
+      use_gerber_net_attributes: false
+      line_width: 0.1
+      subtract_mask_from_silk: true
+      inner_extension_pattern: '.g%n'
+    layers:
+      # Note: a more generic approach is to use 'copper' but then the filenames
+      # are slightly different.
+      - F.Cu
+      - B.Cu
+      - In1.Cu
+      - In2.Cu
+      - F.SilkS
+      - B.SilkS
+      - F.Paste
+      - B.Paste
+      - F.Mask
+      - B.Mask
+      - Edge.Cuts
+
+  - name: JLCPCB_drill
+    comment: Drill files compatible with JLCPCB
+    type: excellon
+    dir: JLCPCB
+    options:
+      pth_and_npth_single_file: false
+      pth_id: '-PTH'
+      npth_id: '-NPTH'
+      metric_units: true
+      map: gerber
+      route_mode_for_oval_holes: false
+      output: "%f%i.%x"
+
+  - name: 'JLCPCB_bom'
+    comment: "BoM for JLCPCB"
+    type: bom
+    dir: JLCPCB
+    options:
+      output: '%f_%i_jlc.%x'
+      exclude_filter: 'only_jlc_parts'
+      ref_separator: ','
+      columns:
+        - field: Value
+          name: Comment
+        - field: References
+          name: Designator
+        - Footprint
+        - field: 'LCSC'
+          name: 'LCSC Part #'
+      csv:
+        hide_pcb_info: true
+        hide_stats_info: true
+        quote_all: true
+
+  - name: JLCPCB
+    comment: ZIP file for JLCPCB
+    type: compress
+    dir: JLCPCB
+    options:
+      files:
+        - from_output: JLCPCB_gerbers
+          dest: /
+        - from_output: JLCPCB_drill
+          dest: /
+        - from_output: JLCPCB_bom
+          dest: /
+
+  # Misc
+  - name: "iBom"
+    type: ibom
+    dir: Bom
+  - name: "BoardView"
+    type: boardview
+    dir: Boardview

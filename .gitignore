@@ -1,0 +1,41 @@
+# KiBot CI output
+outputs/
+
+# KiBot generated outputs
+**/Schematic/
+**/JLCPCB/
+**/Bom/
+**/Boardview/
+**/3D/
+**/index.html
+**/_navigate_results*/
+
+# KiCad backup and lock files
+**/*-backups/
+**/_restore_*/
+**/*.lck
+**/*.prl
+
+# History directories created by KiCad
+**/.history/
+
+# KiBot temporary files
+**/.kibot/
+
+# VSCode user-specific stuff
+.vscode/*.code-workspace
+
+# Misc
+*.xlsx
+*.csv
+*.~lock.*
+__pycache__/
+*.pyc
+.python-version
+**/*.venv
+
+# KiCad creates a "default" template wherever KICAD_USER_TEMPLATE_DIR points
+ali/v2/default/
+
+# Secret Nolan stuff  
+do-not-include/

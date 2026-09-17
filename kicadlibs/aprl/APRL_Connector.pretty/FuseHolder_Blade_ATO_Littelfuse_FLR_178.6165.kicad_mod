@@ -1,0 +1,284 @@
+(footprint "FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Littelfuse fuse holder for ATO/FKS blade fuses, 80V, vertical, 20 x 6mm, PCB thickness up to 1.5mm, http://www.littelfuse.com/~/media/commercial-vehicle/datasheets/automotive-fuse-holders/ato/littelfuse-fuse-holder-ato-flr-pcb-datasheet.pdf")
+	(tags "ATO FKS blade fuse holder")
+	(property "Reference" "REF**"
+		(at 6.4 -2.8 0)
+		(layer "F.SilkS")
+		(uuid "e8aa8ac9-b5cd-4a31-abba-b33127b5b51b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165"
+		(at 6.4 5.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fc33a29d-bb71-4eec-a30a-dc57cd7bce9c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f7d2ab8a-d6a3-49be-bbcc-f895a952fa90")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b0b411ae-60f5-48e5-b67a-edcfb7736535")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.91 -2.06)
+		(end 16.71 -2.06)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0dd58336-1fcb-4d1e-af21-4cdef5cef3eb")
+	)
+	(fp_line
+		(start -3.91 4.56)
+		(end -3.91 -2.06)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1fd2695f-887d-4768-97fd-d281f8781e68")
+	)
+	(fp_line
+		(start 16.71 -2.06)
+		(end 16.71 4.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b692be56-7507-4930-b344-b7aa98a579e7")
+	)
+	(fp_line
+		(start 16.71 4.56)
+		(end -3.91 4.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a20dc085-ce09-449f-9b85-ee39363acb2c")
+	)
+	(fp_line
+		(start -4.1 -2.25)
+		(end 16.9 -2.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e247d743-6d20-45d5-8204-178e73a5160a")
+	)
+	(fp_line
+		(start -4.1 4.75)
+		(end -4.1 -2.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "042c5d5a-dfe1-4792-b3cd-c9e303fc9bec")
+	)
+	(fp_line
+		(start 16.9 -2.25)
+		(end 16.9 4.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a121ac6c-626e-4f9b-8d81-a11cdce0beb0")
+	)
+	(fp_line
+		(start 16.9 4.75)
+		(end -4.1 4.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "8f94881c-17cc-4293-ac89-da0369bfb451")
+	)
+	(fp_line
+		(start -3.6 -1.75)
+		(end 16.4 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b432c0df-45fc-46a3-a754-17bb2d6600b2")
+	)
+	(fp_line
+		(start -3.6 4.25)
+		(end -3.6 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a108e405-64eb-4bb6-aab1-558e85e8daa0")
+	)
+	(fp_line
+		(start 16.4 -1.75)
+		(end 16.4 4.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f1058c02-6f84-475f-b930-6628518f20d1")
+	)
+	(fp_line
+		(start 16.4 4.25)
+		(end -3.6 4.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "812d5750-7f1b-45f3-a9a4-51e617856816")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 6.4 1.25 0)
+		(layer "F.Fab")
+		(uuid "2d25990a-0044-4da3-b7ea-f1a8967da454")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 6.4 1.25)
+		(size 2.4 2.4)
+		(drill 2.4)
+		(layers "*.Cu" "*.Mask")
+		(uuid "1285457f-9cfc-49ca-a040-d6b6cbce873f")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "400611dc-68bd-4fcd-93ca-8c800302e19d")
+	)
+	(pad "1" thru_hole circle
+		(at 0 2.5)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "76cc5426-9b5a-4ba5-9bc4-a5142d005a95")
+	)
+	(pad "1" thru_hole circle
+		(at 3.5 0)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "641a5ecb-bb8c-434c-aa4c-df984f3e80df")
+	)
+	(pad "1" thru_hole circle
+		(at 3.5 2.5)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ce677bfe-e495-4eea-9aee-9a72a188db35")
+	)
+	(pad "2" thru_hole circle
+		(at 9.3 0)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e60e16fa-166e-412e-bea6-77016b4af9e5")
+	)
+	(pad "2" thru_hole circle
+		(at 9.3 2.5)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "35a58b28-8ce8-454b-bdaa-65c6d6640e0a")
+	)
+	(pad "2" thru_hole circle
+		(at 12.8 0)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "acd11faf-608d-47dc-b869-3713212b3c7e")
+	)
+	(pad "2" thru_hole circle
+		(at 12.8 2.5)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "72348cb2-c77a-4408-8008-3fa2fd20d4dd")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../../kicadlibs/models/178.6165.0001.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/../../kicadlibs/models/178.6165.0001.step"
+		(offset
+			(xyz 6.5 -1 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
