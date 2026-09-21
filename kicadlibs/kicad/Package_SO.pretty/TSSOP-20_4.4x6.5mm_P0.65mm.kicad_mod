@@ -322,7 +322,7 @@
 		(roundrect_rratio 0.25)
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../../kicadlibs/models/TSSOP-20_4.4x6.5mm_P0.65mm.step"
+	(model "${APRL_LIBS}/models/TSSOP-20_4.4x6.5mm_P0.65mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

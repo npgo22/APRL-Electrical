@@ -616,7 +616,7 @@
 		(roundrect_rratio 0.25)
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../../kicadlibs/models/LQFP-48_7x7mm_P0.5mm.step"
+	(model "${APRL_LIBS}/models/LQFP-48_7x7mm_P0.5mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

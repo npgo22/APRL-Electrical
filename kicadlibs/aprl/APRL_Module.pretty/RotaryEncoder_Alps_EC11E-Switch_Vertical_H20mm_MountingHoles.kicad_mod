@@ -379,7 +379,7 @@
 		(uuid "d9d7a0e1-51ca-4c09-a3b3-9c523cd54687")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../../kicadlibs/models/ec11e18244au.step"
+	(model "${APRL_LIBS}/models/ec11e18244au.step"
 		(offset
 			(xyz 7.5 -2.25 -12)
 		)

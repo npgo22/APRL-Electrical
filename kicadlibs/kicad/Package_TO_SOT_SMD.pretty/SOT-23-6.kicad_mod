@@ -274,7 +274,7 @@
 		(roundrect_rratio 0.25)
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../../kicadlibs/models/SOT-23-6.step"
+	(model "${APRL_LIBS}/models/SOT-23-6.step"
 		(offset
 			(xyz 0 0 0)
 		)

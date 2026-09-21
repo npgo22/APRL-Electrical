@@ -1978,10 +1978,6 @@
 		(color 0 0 0 0)
 		(uuid "fb34195c-5810-460d-84c8-43c6bf7ada1d")
 	)
-	(no_connect
-		(at 227.33 106.68)
-		(uuid "0e112b1b-431a-4d71-950f-25234698c6d1")
-	)
 	(wire
 		(pts
 			(xy 113.03 113.03) (xy 113.03 111.76)
@@ -3474,6 +3470,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 107.95) (xy 228.6 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9652cc1c-7631-495b-8790-0d646b7e2100")
+	)
+	(wire
+		(pts
 			(xy 107.95 73.66) (xy 107.95 74.93)
 		)
 		(stroke
@@ -4391,6 +4397,16 @@
 			(type default)
 		)
 		(uuid "eae5ebc7-698e-42ec-b497-1c4279241078")
+	)
+	(wire
+		(pts
+			(xy 228.6 106.68) (xy 227.33 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed75937d-88fc-43be-ae00-adbe9461cd4e")
 	)
 	(wire
 		(pts
@@ -11457,6 +11473,85 @@
 			(project "load-cell"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/de3cef6c-f0bf-43f9-bc77-3e59044b84fe"
 					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 228.6 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc9cc7eb-ebb6-46d6-8cee-4f91ee378be4")
+		(property "Reference" "#PWR097"
+			(at 228.6 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 228.6 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 228.6 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "60676975-044b-45b4-a78c-2be48fe28e5f")
+		)
+		(instances
+			(project "load-cell"
+				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/de3cef6c-f0bf-43f9-bc77-3e59044b84fe"
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)

@@ -427,7 +427,7 @@
 		(uuid "6d212996-d47e-442a-86f0-473cd81184ac")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../../kicadlibs/models/132203-12.stp"
+	(model "${APRL_LIBS}/models/132203-12.stp"
 		(offset
 			(xyz 0 0 -4)
 		)

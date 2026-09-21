@@ -126,7 +126,7 @@
 		(uuid "277b29ad-3d86-4e4c-8fc3-4ab3ce86e288")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../../kicadlibs/models/Crystal_SMD_3225-4Pin_3.2x2.5mm.step"
+	(model "${APRL_LIBS}/models/Crystal_SMD_3225-4Pin_3.2x2.5mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

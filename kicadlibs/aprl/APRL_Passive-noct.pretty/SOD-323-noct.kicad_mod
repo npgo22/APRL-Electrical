@@ -210,7 +210,7 @@
 		(uuid "c9761b48-9e0e-49d7-8a73-4e53ce23d384")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../../kicadlibs/models/D_SOD-323.step"
+	(model "${APRL_LIBS}/models/D_SOD-323.step"
 		(offset
 			(xyz 0 0 0)
 		)

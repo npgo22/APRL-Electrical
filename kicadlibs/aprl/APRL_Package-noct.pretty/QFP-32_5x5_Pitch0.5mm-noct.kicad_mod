@@ -429,7 +429,7 @@
 		(uuid "991e5dc9-5299-4bb4-b27c-eab745b21c62")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../../kicadlibs/models/TQFP-32.STEP"
+	(model "${APRL_LIBS}/models/TQFP-32.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

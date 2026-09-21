@@ -383,7 +383,7 @@
 		(uuid "98d35788-bcd2-4c0a-a588-0edb7827463d")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../../kicadlibs/models/PCC-SMP-K-5.stp"
+	(model "${APRL_LIBS}/models/PCC-SMP-K-5.stp"
 		(offset
 			(xyz -6.829999821 7.909999729 0)
 		)

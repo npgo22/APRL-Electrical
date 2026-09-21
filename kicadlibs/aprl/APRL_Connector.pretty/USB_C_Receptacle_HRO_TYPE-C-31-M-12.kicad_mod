@@ -329,7 +329,7 @@
 		(uuid "4514a455-a984-400a-8f5a-7f6761be8d64")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../../kicadlibs/models/HRO_TYPE-C-31-M-12.step"
+	(model "${APRL_LIBS}/models/HRO_TYPE-C-31-M-12.step"
 		(offset
 			(xyz -4.475 -2.453 0)
 		)

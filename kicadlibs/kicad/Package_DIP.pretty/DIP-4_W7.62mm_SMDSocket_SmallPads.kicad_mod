@@ -207,7 +207,7 @@
 		(layer "F.Fab")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../../kicadlibs/models/DIP-4_W7.62mm_SMDSocket.step"
+	(model "${KICAD10_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-4_W7.62mm_SMDSocket.step"
 		(offset
 			(xyz 0 0 0)
 		)

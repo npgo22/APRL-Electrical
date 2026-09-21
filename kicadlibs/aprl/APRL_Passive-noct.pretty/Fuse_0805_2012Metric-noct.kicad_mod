@@ -118,7 +118,7 @@
 		(uuid "12c30114-05b0-46dc-bd42-b451d4d21a74")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../../kicadlibs/models/Fuse_0805_2012Metric.step"
+	(model "${APRL_LIBS}/models/Fuse_0805_2012Metric.step"
 		(offset
 			(xyz 0 0 0)
 		)

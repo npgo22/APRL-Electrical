@@ -27,9 +27,10 @@ LIBS_DIR = "kicadlibs"          # repo-relative name of the library tree
 LIBS = ROOT / LIBS_DIR
 DEST = LIBS / "kicad"           # generated; everything in it is overwritten
 MODELS = LIBS / "models"
-# Boards live two levels down (ali/loadcells), so KIPRJMOD needs two hops
-# to reach the repo root.
-UP = "../.."
+# Boards sit at varying depths, so paths go through the APRL_LIBS path
+# variable (KiCad: Preferences > Configure Paths; CI: the workflow env) rather
+# than counting "../" hops from KIPRJMOD.
+VAR = "${APRL_LIBS}"
 
 # KiCad ships these footprints but not their 3D models. Where we already carry
 # the same manufacturer part, point at ours; the rest stay dangling and are
@@ -78,8 +79,15 @@ MODEL_XFORM = {
 MODEL_REF = re.compile(r'\(model "\$\{KICAD10_3DMODEL_DIR\}/([^"]+)"')
 
 
+# Directories that hold boards we do not maintain: archived designs, KiCad's
+# generated template stub, and backup/history dumps.
+SKIP = ("kicadlibs", "do-not-include", "-backups", ".history", "ali/v1", "ali/v2/default")
+
+
 def boards():
-    return sorted({p.parent for p in ROOT.glob("*/*/*.kicad_pro")})
+    """Every live board, at whatever depth it sits."""
+    return sorted({p.parent for p in ROOT.rglob("*.kicad_pro")
+                   if not any(s in p.as_posix() for s in SKIP)})
 
 
 def copy_libraries():
@@ -114,9 +122,9 @@ def model_targets():
     """Files whose model refs get vendored: boards, our own footprints, and the
     stock footprints actually placed on a board."""
     fp_uri, _ = uri_index()
-    targets = set(ROOT.glob("*/*/*.kicad_pcb"))
+    targets = {f for b in boards() for f in b.glob("*.kicad_pcb") if "autosave" not in f.name}
     targets |= {f for f in LIBS.rglob("*.kicad_mod") if DEST not in f.parents}
-    for pcb in ROOT.glob("*/*/*.kicad_pcb"):
+    for pcb in [f for b in boards() for f in b.glob("*.kicad_pcb")]:
         for lib, name in re.findall(r'\(footprint "([^":]+):([^"]+)"',
                                     pcb.read_text(errors="replace")):
             f = ROOT / fp_uri.get(lib, "-") / f"{name}.kicad_mod"
@@ -145,12 +153,16 @@ def copy_models(targets):
         else:
             dangling.append(ref)
 
+    # Older boards and footprints counted "../" hops from KIPRJMOD; normalise
+    # those to the path variable so a moved board heals itself on the next run.
+    LEGACY = re.compile(r"\$\{KIPRJMOD\}/(?:\.\./)+" + LIBS_DIR + "/")
+
     changed = 0
     for f in targets:
-        t = orig = f.read_text(errors="replace")
+        orig = f.read_text(errors="replace")
+        t = LEGACY.sub(VAR + "/", orig)
         for ref, name in rename.items():
-            t = t.replace(f'${{KICAD10_3DMODEL_DIR}}/{ref}',
-                          f'${{KIPRJMOD}}/{UP}/{LIBS_DIR}/models/{name}')
+            t = t.replace(f'${{KICAD10_3DMODEL_DIR}}/{ref}', f'{VAR}/models/{name}')
         for name, xyz in MODEL_XFORM.items():
             t = re.sub(r'(\(model "[^"]*' + re.escape(name) + r'"\s*\(offset\s*\(xyz )[^)]*',
                        lambda m, v=xyz: m.group(1) + "%g %g %g" % v, t)
@@ -177,8 +189,13 @@ def update_tables():
                 ("sym-lib-table", "sym", "*.kicad_sch", r'\(lib_id "([^":]+):', sym_uri)):
             rows = "".join(
                 f'\t(lib (name "{n}") (type "KiCad") '
-                f'(uri "${{KIPRJMOD}}/{UP}/{p}") (options "") (descr ""))\n'
+                f'(uri "{VAR}/{p[len(LIBS_DIR) + 1:]}") (options "") (descr ""))\n'
                 for n, p in sorted(uri.items()))
+            # Rows for libraries that live with the board, not in kicadlibs/.
+            if (b / tbl).exists():
+                rows += "".join(l for l in (b / tbl).read_text().splitlines(keepends=True)
+                                if "(lib " in l
+                                and re.search(r'\(name "([^"]+)"', l).group(1) not in uri)
             (b / tbl).write_text(f"({kind}_lib_table\n\t(version 7)\n{rows})\n")
             used = set()
             for f in b.glob(pattern_glob):

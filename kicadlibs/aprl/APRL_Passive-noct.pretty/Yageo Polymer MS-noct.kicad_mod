@@ -262,7 +262,7 @@
 		(uuid "9bc183b9-afcd-4085-a1bd-6639a42df581")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../../kicadlibs/models/CAP-SMD_BD10.0-L10.3-W10.3-LS11.0-FD.step"
+	(model "${APRL_LIBS}/models/CAP-SMD_BD10.0-L10.3-W10.3-LS11.0-FD.step"
 		(offset
 			(xyz 0 0 0)
 		)

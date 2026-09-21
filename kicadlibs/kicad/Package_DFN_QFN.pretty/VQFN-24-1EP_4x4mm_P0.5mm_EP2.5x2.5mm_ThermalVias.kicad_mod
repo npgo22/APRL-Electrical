@@ -582,7 +582,7 @@
 		(remove_unused_layers no)
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../../kicadlibs/models/QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm.step"
+	(model "${APRL_LIBS}/models/QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

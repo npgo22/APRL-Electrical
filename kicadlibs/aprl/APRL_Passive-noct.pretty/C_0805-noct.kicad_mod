@@ -81,7 +81,7 @@
 		(uuid "f0c27420-9845-4a10-81b7-48a723389b05")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../../kicadlibs/models/C_0805_2012Metric.step"
+	(model "${APRL_LIBS}/models/C_0805_2012Metric.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -444,9 +444,9 @@
 		(uuid "201b1c0a-5dbe-41b2-ab9e-13e21e988740")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../../kicadlibs/models/RJ45-TH_HR911105A.step"
+	(model "${KICAD10_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_Hanrun_HR911105A_Horizontal.step"
 		(offset
-			(xyz 4.44 -6.56 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)

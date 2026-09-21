@@ -236,7 +236,7 @@
 		(uuid "791124b1-1fc1-4a54-ba4c-5f5d598a0065")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../../kicadlibs/models/SOP-12_L5.6-W4.4-P0.80-LS7.0-BL.step"
+	(model "${APRL_LIBS}/models/SOP-12_L5.6-W4.4-P0.80-LS7.0-BL.step"
 		(offset
 			(xyz 0 0 1.3)
 		)

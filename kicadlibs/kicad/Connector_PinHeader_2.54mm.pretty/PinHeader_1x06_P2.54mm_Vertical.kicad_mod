@@ -199,7 +199,7 @@
 		(remove_unused_layers no)
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../../kicadlibs/models/PinHeader_1x06_P2.54mm_Vertical.step"
+	(model "${APRL_LIBS}/models/PinHeader_1x06_P2.54mm_Vertical.step"
 		(offset
 			(xyz 0 0 0)
 		)

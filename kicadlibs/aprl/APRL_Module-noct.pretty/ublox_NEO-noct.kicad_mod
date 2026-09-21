@@ -376,7 +376,7 @@
 		(uuid "73a4c945-76b5-415e-a26b-d80ba78b2166")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../../kicadlibs/models/GPSM-SMD_NEO-M8N.step"
+	(model "${APRL_LIBS}/models/GPSM-SMD_NEO-M8N.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -387,7 +387,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KIPRJMOD}/../../kicadlibs/models/Ublox_LEA_M8T.step"
+	(model "${APRL_LIBS}/models/Ublox_LEA_M8T.step"
 		(offset
 			(xyz 0 -0.5 0)
 		)

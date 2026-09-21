@@ -256,7 +256,7 @@
 		(uuid "f2215728-0353-4a90-b7b6-6e682c295ead")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../../kicadlibs/models/L_0603_1608Metric.step"
+	(model "${APRL_LIBS}/models/L_0603_1608Metric.step"
 		(offset
 			(xyz 0 0 0)
 		)

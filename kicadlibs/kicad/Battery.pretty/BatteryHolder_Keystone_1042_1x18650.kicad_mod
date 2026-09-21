@@ -270,7 +270,7 @@
 		(roundrect_rratio 0.038462)
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../../kicadlibs/models/BatteryHolder_Keystone_1042_1x18650.step"
+	(model "${APRL_LIBS}/models/BatteryHolder_Keystone_1042_1x18650.step"
 		(offset
 			(xyz 0 0 0)
 		)

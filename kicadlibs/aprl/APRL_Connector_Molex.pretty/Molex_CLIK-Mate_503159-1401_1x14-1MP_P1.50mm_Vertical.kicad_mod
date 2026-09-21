@@ -393,7 +393,7 @@
 		(uuid "caf2172f-a588-4bf2-9a8d-d57c9462413f")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../../kicadlibs/models/Molex_CLIK-Mate_503159-1401_1x14-1MP_P1.50mm_Vertical.wrl"
+	(model "${APRL_LIBS}/models/Molex_CLIK-Mate_503159-1401_1x14-1MP_P1.50mm_Vertical.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

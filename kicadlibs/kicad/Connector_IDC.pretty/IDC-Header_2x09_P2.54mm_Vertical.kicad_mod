@@ -419,7 +419,7 @@
 		(remove_unused_layers no)
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../../kicadlibs/models/IDC-Header_2x09_P2.54mm_Vertical.step"
+	(model "${APRL_LIBS}/models/IDC-Header_2x09_P2.54mm_Vertical.step"
 		(offset
 			(xyz 0 0 0)
 		)

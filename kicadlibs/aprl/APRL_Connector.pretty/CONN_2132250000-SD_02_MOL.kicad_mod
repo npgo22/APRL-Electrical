@@ -350,7 +350,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../../kicadlibs/models/2132250231.stp"
+	(model "${APRL_LIBS}/models/2132250231.stp"
 		(offset
 			(xyz 0 -3.15 9.75)
 		)

@@ -48,7 +48,7 @@
 	(pad "" np_thru_hole circle (at 5.715 -2.39) (size 3.2 3.2) (drill 3.2) (layers "*.Cu" "*.Mask"))
 	(pad "" np_thru_hole circle (at -5.715 -2.39) (size 3.2 3.2) (drill 3.2) (layers "*.Cu" "*.Mask"))
 
-	(model "${KIPRJMOD}/../../kicadlibs/models/RJ45-TH_HY951180A.step"
+	(model "${APRL_LIBS}/models/RJ45-TH_HY951180A.step"
 		(offset (xyz 0 0.7 0))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 -90))

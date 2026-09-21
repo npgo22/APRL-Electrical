@@ -304,7 +304,7 @@
 		(uuid "5fbddc79-89f4-4da2-b086-94f26b96e588")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../../kicadlibs/models/SMA-TH_BWSMA-KWE-Z001.step"
+	(model "${APRL_LIBS}/models/SMA-TH_BWSMA-KWE-Z001.step"
 		(offset
 			(xyz 0 0 0)
 		)

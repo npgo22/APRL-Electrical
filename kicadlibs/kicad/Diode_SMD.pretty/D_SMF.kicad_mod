@@ -251,7 +251,7 @@
 		(uuid "a8350f57-0534-4a70-8189-1f55dd37bad0")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../../kicadlibs/models/D_SMF.step"
+	(model "${APRL_LIBS}/models/D_SMF.step"
 		(offset
 			(xyz 0 0 0)
 		)

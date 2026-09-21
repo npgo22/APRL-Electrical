@@ -111,9 +111,9 @@
 		(pos 25.5 3.6002)
 		(comment "Sheet id")
 	)
-	(tbtext "BOARD: ${BOARD}"
+	(tbtext "${BOARD}"
 		(name "")
-		(pos 109.5 18.7002)
+		(pos 109.5 18.7)
 		(font
 			(size 1.651 1.651) bold italic)
 	)
@@ -296,7 +296,7 @@
 	)
 	(bitmap
 		(name "")
-		(pos 70.989 16.0022)
+		(pos 69.989 16.0022)
 		(scale 1)
 		(data "iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAYAAAB5fY51AAAACXBIWXMAALiMAAC4jAHM9rsvAABJ"
 			"KklEQVR42u2dd3wc1bn+v2dmdlWtZssdY0wzpplOIBQDCTWhJCFAygUTsMMlgCGhhBpiMMH0Di5y"

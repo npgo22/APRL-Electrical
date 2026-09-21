@@ -372,7 +372,7 @@
 		(uuid "40efcb48-7f17-41ae-b74f-648161863af8")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../../kicadlibs/models/TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal.step"
+	(model "${APRL_LIBS}/models/TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -54,7 +54,7 @@
 			)
 		)
 	)
-	(attr through_hole)
+	(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 	(fp_poly
 		(pts
 			(xy 0.045693 -0.157538) (xy 0.125021 -0.035288) (xy 0.258213 0.556525) (xy 0.507326 0.905944) (xy 0.919954 1.195181)

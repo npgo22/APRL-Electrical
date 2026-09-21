@@ -325,7 +325,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../../kicadlibs/models/s02-25200300.step"
+	(model "${APRL_LIBS}/models/s02-25200300.step"
 		(offset
 			(xyz 0 0 3.5)
 		)
@@ -336,7 +336,7 @@
 			(xyz 90 -180 -90)
 		)
 	)
-	(model "${KIPRJMOD}/../../kicadlibs/models/s0981-46r.step"
+	(model "${APRL_LIBS}/models/s0981-46r.step"
 		(offset
 			(xyz 12.5 10 0)
 		)
@@ -347,7 +347,7 @@
 			(xyz -90 -0 -0)
 		)
 	)
-	(model "${KIPRJMOD}/../../kicadlibs/models/s0981-46r.step"
+	(model "${APRL_LIBS}/models/s0981-46r.step"
 		(offset
 			(xyz -12.5 -10 0)
 		)
@@ -358,7 +358,7 @@
 			(xyz 90 -180 -0)
 		)
 	)
-	(model "${KIPRJMOD}/../../kicadlibs/models/s0981-46r.step"
+	(model "${APRL_LIBS}/models/s0981-46r.step"
 		(offset
 			(xyz -12.5 10 0)
 		)
@@ -369,7 +369,7 @@
 			(xyz -90 -0 -90)
 		)
 	)
-	(model "${KIPRJMOD}/../../kicadlibs/models/s0981-46r.step"
+	(model "${APRL_LIBS}/models/s0981-46r.step"
 		(offset
 			(xyz 12.5 -10 0)
 		)

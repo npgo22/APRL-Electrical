@@ -211,7 +211,7 @@
 		(uuid "e2fdad8a-103e-4369-9a6c-6287d8f6759a")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../../kicadlibs/models/DFN8_2x3MC_MCH.step"
+	(model "${APRL_LIBS}/models/DFN8_2x3MC_MCH.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -222,7 +222,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KIPRJMOD}/../../kicadlibs/models/DFN8_2x3MC_MCH.step"
+	(model "${APRL_LIBS}/models/DFN8_2x3MC_MCH.step"
 		(offset
 			(xyz 0 0 0)
 		)

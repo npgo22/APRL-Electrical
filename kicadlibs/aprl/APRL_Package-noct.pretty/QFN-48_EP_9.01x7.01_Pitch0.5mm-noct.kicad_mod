@@ -756,7 +756,7 @@
 		(uuid "9e1ea777-7b32-4b35-a92a-25da69c48e1e")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../../kicadlibs/models/QFN-48_L8.0-W6.0-P0.50-TL-EP.step"
+	(model "${APRL_LIBS}/models/QFN-48_L8.0-W6.0-P0.50-TL-EP.step"
 		(offset
 			(xyz 0 0 0)
 		)

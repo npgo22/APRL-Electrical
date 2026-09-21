@@ -295,7 +295,7 @@
 			(uuid "cadfdf34-011e-4fdd-8269-2c0d2d351b3e")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/C_0603_1608Metric.step"
+		(model "${APRL_LIBS}/models/C_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -719,7 +719,7 @@
 			(uuid "927c8cde-7387-42bc-9a26-3d6886a50126")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/ec11e18244au.step"
+		(model "${APRL_LIBS}/models/ec11e18244au.step"
 			(offset
 				(xyz 7.5 -2.25 -12)
 			)
@@ -866,7 +866,7 @@
 			(uuid "16506c92-78cc-432d-a336-b804fcd9d967")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/C_0402_1005Metric.step"
+		(model "${APRL_LIBS}/models/C_0402_1005Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1156,7 +1156,7 @@
 			(uuid "f4d3c7fc-401f-434c-9bbe-f2527f840a0d")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/PinHeader_1x04_P2.54mm_Vertical.step"
+		(model "${APRL_LIBS}/models/PinHeader_1x04_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1303,7 +1303,7 @@
 			(uuid "7feef984-c950-4d59-86ec-6edcd913bcef")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/L_0402_1005Metric.step"
+		(model "${APRL_LIBS}/models/L_0402_1005Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1450,7 +1450,7 @@
 			(uuid "7af5c03e-3685-4f74-bc8a-1608c47c016b")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/C_0805_2012Metric.step"
+		(model "${APRL_LIBS}/models/C_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1634,7 +1634,7 @@
 			(uuid "813880be-b950-4d2d-b874-b38fe7afa25b")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/Fuse_0805_2012Metric.step"
+		(model "${APRL_LIBS}/models/Fuse_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1781,7 +1781,7 @@
 			(uuid "9a7efdec-ee7b-410d-868b-e714725045ba")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/R_0603_1608Metric.step"
+		(model "${APRL_LIBS}/models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1928,7 +1928,7 @@
 			(uuid "997f429e-18b1-4f94-83c5-4d40a86d8d57")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/C_0603_1608Metric.step"
+		(model "${APRL_LIBS}/models/C_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2120,7 +2120,7 @@
 			(uuid "f468084a-dedf-49d9-b8dc-b2b0db9659b8")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/LED_0603_1608Metric.step"
+		(model "${APRL_LIBS}/models/LED_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2267,7 +2267,7 @@
 			(uuid "1a28b800-905e-496a-8539-60f50af5c09c")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/C_0402_1005Metric.step"
+		(model "${APRL_LIBS}/models/C_0402_1005Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2427,7 +2427,7 @@
 			(uuid "92c65916-193b-4db8-a485-6fe0f31c83c4")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/C_0603_1608Metric.step"
+		(model "${APRL_LIBS}/models/C_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2574,7 +2574,7 @@
 			(uuid "ca4a1527-aad2-4479-b2a2-47ec04f238b7")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/R_0603_1608Metric.step"
+		(model "${APRL_LIBS}/models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2721,7 +2721,7 @@
 			(uuid "1a75d8a5-5a24-43f5-a766-f6e8d4a3bec1")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/C_0603_1608Metric.step"
+		(model "${APRL_LIBS}/models/C_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2868,7 +2868,7 @@
 			(uuid "73d10a07-02dd-48d5-980f-d0ecb5584fc3")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/C_0805_2012Metric.step"
+		(model "${APRL_LIBS}/models/C_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3060,7 +3060,7 @@
 			(uuid "ad69e248-b9c4-45ea-8946-52a679d4bba5")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/LED_0603_1608Metric.step"
+		(model "${APRL_LIBS}/models/LED_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3207,7 +3207,7 @@
 			(uuid "5ab73d77-3d56-435b-9957-2830d8a9445b")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/R_0603_1608Metric.step"
+		(model "${APRL_LIBS}/models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3354,7 +3354,7 @@
 			(uuid "6acbcb75-dd87-4770-bf0a-4a17c1ca0097")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/C_0402_1005Metric.step"
+		(model "${APRL_LIBS}/models/C_0402_1005Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3514,7 +3514,7 @@
 			(uuid "67c36130-220f-4042-bdf6-44c7c9f6f7da")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/C_0603_1608Metric.step"
+		(model "${APRL_LIBS}/models/C_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3661,7 +3661,7 @@
 			(uuid "fd667422-5b02-4298-8bd8-47d18c91ab7b")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/C_0805_2012Metric.step"
+		(model "${APRL_LIBS}/models/C_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4044,7 +4044,7 @@
 			(uuid "d1c5b6fe-2b1d-4e86-8128-66be6db2dd26")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/SOT-23.step"
+		(model "${APRL_LIBS}/models/SOT-23.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4356,7 +4356,7 @@
 			(uuid "57c9b17c-b13e-4b4e-9c6e-09b430a8354f")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/PinHeader_1x06_P2.54mm_Vertical.step"
+		(model "${APRL_LIBS}/models/PinHeader_1x06_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4646,7 +4646,7 @@
 			(uuid "afcff234-377f-4bef-b4aa-977916d3dc7d")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/PinHeader_1x04_P2.54mm_Vertical.step"
+		(model "${APRL_LIBS}/models/PinHeader_1x04_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4793,7 +4793,7 @@
 			(uuid "c4b8552a-a5ac-437b-9bb1-d8c3429cd28f")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/R_0603_1608Metric.step"
+		(model "${APRL_LIBS}/models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4940,7 +4940,7 @@
 			(uuid "2f81c8fc-9141-41d7-bfe9-7ab0fcb1341d")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/C_0805_2012Metric.step"
+		(model "${APRL_LIBS}/models/C_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5132,7 +5132,7 @@
 			(uuid "73eebc0a-e051-4cf1-98d5-72b02219e194")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/LED_0603_1608Metric.step"
+		(model "${APRL_LIBS}/models/LED_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5324,7 +5324,7 @@
 			(uuid "541819ad-e797-49d4-939a-501cf453ac88")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/LED_0603_1608Metric.step"
+		(model "${APRL_LIBS}/models/LED_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5733,7 +5733,7 @@
 			(uuid "b294f52c-9cf3-4909-a062-95e9e059ada0")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/SOT-23.step"
+		(model "${APRL_LIBS}/models/SOT-23.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6023,7 +6023,7 @@
 			(uuid "de4cec71-d068-4e40-a34c-2137351cd493")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/PinHeader_1x04_P2.54mm_Vertical.step"
+		(model "${APRL_LIBS}/models/PinHeader_1x04_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6331,7 +6331,7 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/OSC-SMD_4P-L2.5-W2.0-BL.step"
+		(model "${APRL_LIBS}/models/OSC-SMD_4P-L2.5-W2.0-BL.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6645,7 +6645,7 @@
 			(uuid "6875decb-3860-4fa7-a16a-cfd7a02f1e8c")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/PinHeader_1x05_P2.54mm_Vertical.step"
+		(model "${APRL_LIBS}/models/PinHeader_1x05_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6792,7 +6792,7 @@
 			(uuid "49993672-cd60-4d01-a9bd-3c4b6bc4f1d6")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/C_0402_1005Metric.step"
+		(model "${APRL_LIBS}/models/C_0402_1005Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6939,7 +6939,7 @@
 			(uuid "5560927a-dbc4-436e-b3b0-6562534aedc3")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/R_0603_1608Metric.step"
+		(model "${APRL_LIBS}/models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7425,7 +7425,7 @@
 			(uuid "bd9ab908-7c81-43b8-962f-8b416ffc93b9")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/R_0603_1608Metric.step"
+		(model "${APRL_LIBS}/models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7585,7 +7585,7 @@
 			(uuid "d69f640d-6e8a-47df-9330-44854e9bc106")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/R_0603_1608Metric.step"
+		(model "${APRL_LIBS}/models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7974,7 +7974,7 @@
 			(uuid "dfb5ff89-887c-4a79-81d1-0554536d2c65")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/SOT-23-6.step"
+		(model "${APRL_LIBS}/models/SOT-23-6.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8166,7 +8166,7 @@
 			(uuid "09128b76-5675-41be-acd7-c1139035a75c")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/LED_0603_1608Metric.step"
+		(model "${APRL_LIBS}/models/LED_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8358,7 +8358,7 @@
 			(uuid "bdf1bcc1-a972-4c3c-99c4-94dbfa8f1805")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/LED_0603_1608Metric.step"
+		(model "${APRL_LIBS}/models/LED_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8518,7 +8518,7 @@
 			(uuid "2cd48351-e8cf-4e3d-8678-76f4eb44da78")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/C_0603_1608Metric.step"
+		(model "${APRL_LIBS}/models/C_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8771,7 +8771,7 @@
 			(uuid "44ac24eb-67fb-44f6-9ea4-40b6db3d6b4e")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/PinHeader_1x03_P2.54mm_Vertical.step"
+		(model "${APRL_LIBS}/models/PinHeader_1x03_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8963,7 +8963,7 @@
 			(uuid "81782c6d-b25b-498f-9531-4d6d1cf3f040")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/LED_0603_1608Metric.step"
+		(model "${APRL_LIBS}/models/LED_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9110,7 +9110,7 @@
 			(uuid "faa7190e-4734-4ee3-b163-c1a189ef8ca1")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/C_0805_2012Metric.step"
+		(model "${APRL_LIBS}/models/C_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9257,7 +9257,7 @@
 			(uuid "e61acbf0-df6e-450f-a1c2-8a18f9d379b8")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/R_0603_1608Metric.step"
+		(model "${APRL_LIBS}/models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9404,7 +9404,7 @@
 			(uuid "60393280-03ff-4cf1-b82f-b0f3cda2162b")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/C_0603_1608Metric.step"
+		(model "${APRL_LIBS}/models/C_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9551,7 +9551,7 @@
 			(uuid "01b5826b-92dc-455c-ac50-ad5f4dcb2371")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/R_0603_1608Metric.step"
+		(model "${APRL_LIBS}/models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9698,7 +9698,7 @@
 			(uuid "64249a76-b323-4639-a401-6910923431bc")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/C_0805_2012Metric.step"
+		(model "${APRL_LIBS}/models/C_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9890,7 +9890,7 @@
 			(uuid "cc95117d-7d2c-4a12-a757-77c5665fa2fb")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/LED_0603_1608Metric.step"
+		(model "${APRL_LIBS}/models/LED_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10037,7 +10037,7 @@
 			(uuid "0dddca11-7e55-4b13-b3fa-bfd2943a4fe6")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/C_0402_1005Metric.step"
+		(model "${APRL_LIBS}/models/C_0402_1005Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10569,7 +10569,7 @@
 			(uuid "289367d5-e9d5-434f-afb1-bcaaf32df281")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/132203-12.stp"
+		(model "${APRL_LIBS}/models/132203-12.stp"
 			(offset
 				(xyz 0 0 -4)
 			)
@@ -10716,7 +10716,7 @@
 			(uuid "29135eaf-d3bb-4099-b2ee-5b19d8e42f27")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/C_0805_2012Metric.step"
+		(model "${APRL_LIBS}/models/C_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10863,7 +10863,7 @@
 			(uuid "33a1d39c-1028-492d-b110-43760bb15bf5")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/C_0402_1005Metric.step"
+		(model "${APRL_LIBS}/models/C_0402_1005Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11271,7 +11271,7 @@
 			(uuid "04e34ad0-cba9-411a-935e-9a9fd816eab1")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/DFN8_2x3MC_MCH.step"
+		(model "${APRL_LIBS}/models/DFN8_2x3MC_MCH.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11282,7 +11282,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/../../kicadlibs/models/DFN8_2x3MC_MCH.step"
+		(model "${APRL_LIBS}/models/DFN8_2x3MC_MCH.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11429,7 +11429,7 @@
 			(uuid "bbe17285-54b5-41c0-bf19-bfacdd2ce736")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/C_0402_1005Metric.step"
+		(model "${APRL_LIBS}/models/C_0402_1005Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11621,7 +11621,7 @@
 			(uuid "978ef99f-eec7-41c9-9274-53fef4b5b68e")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/LED_0603_1608Metric.step"
+		(model "${APRL_LIBS}/models/LED_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11768,7 +11768,7 @@
 			(uuid "fddfbe51-0a14-4972-9697-7dc391b5e4a2")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/C_0603_1608Metric.step"
+		(model "${APRL_LIBS}/models/C_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12032,7 +12032,7 @@
 			(uuid "9261809f-16af-400a-bf43-9486c7142dbd")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/C_0805_2012Metric.step"
+		(model "${APRL_LIBS}/models/C_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12179,7 +12179,7 @@
 			(uuid "49b9d0f6-34b2-4bc4-929c-9d7b286e5071")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/C_0805_2012Metric.step"
+		(model "${APRL_LIBS}/models/C_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12582,7 +12582,7 @@
 			(uuid "fd8b5fbd-4c8c-43c5-af62-7491496f6e79")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/SOT-23-5.step"
+		(model "${APRL_LIBS}/models/SOT-23-5.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12729,7 +12729,7 @@
 			(uuid "8d9052ec-9fb1-4743-94bf-ea0e965c6862")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/R_0603_1608Metric.step"
+		(model "${APRL_LIBS}/models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12876,7 +12876,7 @@
 			(uuid "7a38df43-7f68-402d-8bff-e8342355b08d")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/C_0805_2012Metric.step"
+		(model "${APRL_LIBS}/models/C_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13277,7 +13277,7 @@
 			(uuid "effbf1e2-33f1-4bcc-bc37-50d08a8f4fcd")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/s02-25200300.step"
+		(model "${APRL_LIBS}/models/s02-25200300.step"
 			(offset
 				(xyz 0 0 3.5)
 			)
@@ -13288,7 +13288,7 @@
 				(xyz 90 -180 -90)
 			)
 		)
-		(model "${KIPRJMOD}/../../kicadlibs/models/s0981-46r.step"
+		(model "${APRL_LIBS}/models/s0981-46r.step"
 			(offset
 				(xyz 12.5 10 0)
 			)
@@ -13299,7 +13299,7 @@
 				(xyz -90 -0 -0)
 			)
 		)
-		(model "${KIPRJMOD}/../../kicadlibs/models/s0981-46r.step"
+		(model "${APRL_LIBS}/models/s0981-46r.step"
 			(offset
 				(xyz -12.5 -10 0)
 			)
@@ -13310,7 +13310,7 @@
 				(xyz 90 -180 -0)
 			)
 		)
-		(model "${KIPRJMOD}/../../kicadlibs/models/s0981-46r.step"
+		(model "${APRL_LIBS}/models/s0981-46r.step"
 			(offset
 				(xyz -12.5 10 0)
 			)
@@ -13321,7 +13321,7 @@
 				(xyz -90 -0 -90)
 			)
 		)
-		(model "${KIPRJMOD}/../../kicadlibs/models/s0981-46r.step"
+		(model "${APRL_LIBS}/models/s0981-46r.step"
 			(offset
 				(xyz 12.5 -10 0)
 			)
@@ -13468,7 +13468,7 @@
 			(uuid "bea17a2e-6b11-4f07-9513-93dfe70fab31")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/R_0603_1608Metric.step"
+		(model "${APRL_LIBS}/models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13615,7 +13615,7 @@
 			(uuid "e08d6f50-d187-4009-b46c-804d3758c9ad")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/L_0402_1005Metric.step"
+		(model "${APRL_LIBS}/models/L_0402_1005Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13879,7 +13879,7 @@
 			(uuid "0bd52c36-affc-4a78-9120-1dbf4093e8f8")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/R_0603_1608Metric.step"
+		(model "${APRL_LIBS}/models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14157,7 +14157,7 @@
 			(uuid "b3971dd1-35df-4881-9788-7758db0a546f")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/D_SOD-323.step"
+		(model "${APRL_LIBS}/models/D_SOD-323.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14304,7 +14304,7 @@
 			(uuid "5d9863c3-5086-437a-b61e-5fc627720143")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/C_0402_1005Metric.step"
+		(model "${APRL_LIBS}/models/C_0402_1005Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14451,7 +14451,7 @@
 			(uuid "e3d89242-55f8-4453-bac6-e06a5eae3448")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/C_0402_1005Metric.step"
+		(model "${APRL_LIBS}/models/C_0402_1005Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14598,7 +14598,7 @@
 			(uuid "c12f80f9-6847-4e17-bcaf-ceb0416d2c47")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/C_0603_1608Metric.step"
+		(model "${APRL_LIBS}/models/C_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14745,7 +14745,7 @@
 			(uuid "182301f2-609e-4c75-a1ef-c24a4b988aec")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/C_0603_1608Metric.step"
+		(model "${APRL_LIBS}/models/C_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15023,7 +15023,7 @@
 			(uuid "3afd9dcd-53d3-4216-9418-c2f7a6fbc564")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/D_SOD-323.step"
+		(model "${APRL_LIBS}/models/D_SOD-323.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15458,7 +15458,7 @@
 			(uuid "85ad8b8e-0d0f-4aea-adc1-f18df472aebb")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/HRO_TYPE-C-31-M-12.step"
+		(model "${APRL_LIBS}/models/HRO_TYPE-C-31-M-12.step"
 			(offset
 				(xyz -4.475 -2.453 0)
 			)
@@ -15469,7 +15469,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/../../kicadlibs/models/HRO_TYPE-C-31-M-12.step"
+		(model "${APRL_LIBS}/models/HRO_TYPE-C-31-M-12.step"
 			(offset
 				(xyz -4.475 -2.453 0)
 			)
@@ -15733,7 +15733,7 @@
 			(uuid "bda04e8f-d730-4175-8f21-37079ed93607")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/L_0402_1005Metric.step"
+		(model "${APRL_LIBS}/models/L_0402_1005Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17448,7 +17448,7 @@
 			(uuid "b79cdef5-5b12-4920-a73e-d32ef4364728")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/LQFP-48_7x7mm_P0.5mm.step"
+		(model "${APRL_LIBS}/models/LQFP-48_7x7mm_P0.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17632,7 +17632,7 @@
 			(uuid "68bc0d47-3199-4503-85d4-fd5fd238f1f5")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/Fuse_0805_2012Metric.step"
+		(model "${APRL_LIBS}/models/Fuse_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17779,7 +17779,7 @@
 			(uuid "95dcc1f1-a147-4cf8-bcbd-e9a666407095")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/C_0603_1608Metric.step"
+		(model "${APRL_LIBS}/models/C_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18091,7 +18091,7 @@
 			(uuid "a0d5979b-d406-4275-9827-a1c4e1e46efc")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/PinHeader_1x06_P2.54mm_Vertical.step"
+		(model "${APRL_LIBS}/models/PinHeader_1x06_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18335,7 +18335,7 @@
 			(uuid "5740ac6b-b337-4f43-b075-7892887ae1df")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/SW-SMD_4P-L4.2-W3.2-P2.15-LS4.6-2.step"
+		(model "${APRL_LIBS}/models/SW-SMD_4P-L4.2-W3.2-P2.15-LS4.6-2.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18482,7 +18482,7 @@
 			(uuid "4d330400-4cef-4cc8-aacf-b2106da3972c")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/R_0603_1608Metric.step"
+		(model "${APRL_LIBS}/models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18629,7 +18629,7 @@
 			(uuid "71e305ec-bb78-4c83-a589-a275cd09418e")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/C_0603_1608Metric.step"
+		(model "${APRL_LIBS}/models/C_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18776,7 +18776,7 @@
 			(uuid "8cddabf3-c446-4716-b663-351af3f7909d")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/L_0402_1005Metric.step"
+		(model "${APRL_LIBS}/models/L_0402_1005Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18923,7 +18923,7 @@
 			(uuid "47695284-0af3-4831-8e9a-2c001bc355e4")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/R_0603_1608Metric.step"
+		(model "${APRL_LIBS}/models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19070,7 +19070,7 @@
 			(uuid "fa9cb1a6-fda5-4a1c-ae07-e7bca7beabe7")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/R_0603_1608Metric.step"
+		(model "${APRL_LIBS}/models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19369,7 +19369,7 @@
 			(uuid "23b6ee23-86bc-42a5-a669-9b525abe1e25")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/WSON-6_1.5x1.5mm_P0.5mm.step"
+		(model "${APRL_LIBS}/models/WSON-6_1.5x1.5mm_P0.5mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19516,7 +19516,7 @@
 			(uuid "060fc5ad-fef1-4440-9f5b-9de83cb69853")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/R_0603_1608Metric.step"
+		(model "${APRL_LIBS}/models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19663,7 +19663,7 @@
 			(uuid "cab1db94-d3f9-4c4e-b458-df23d08df0d4")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/L_0402_1005Metric.step"
+		(model "${APRL_LIBS}/models/L_0402_1005Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19810,7 +19810,7 @@
 			(uuid "3362d67e-b9f5-4791-81ac-0826593c7a25")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/C_0603_1608Metric.step"
+		(model "${APRL_LIBS}/models/C_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19970,7 +19970,7 @@
 			(uuid "ab805cb2-4f6d-40c0-9bd7-daca46b5398d")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/R_0603_1608Metric.step"
+		(model "${APRL_LIBS}/models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -20379,7 +20379,7 @@
 			(uuid "3032b154-109f-4fbb-83d3-3c6d931f2fcd")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/SOIC-8_3.9x4.9mm_P1.27mm.step"
+		(model "${APRL_LIBS}/models/SOIC-8_3.9x4.9mm_P1.27mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -20526,7 +20526,7 @@
 			(uuid "ab0d3457-24e8-4a9d-b027-c33cfbd36334")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/L_0402_1005Metric.step"
+		(model "${APRL_LIBS}/models/L_0402_1005Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -20673,7 +20673,7 @@
 			(uuid "0315ad69-e360-4aa7-be22-9044ca661021")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/R_0603_1608Metric.step"
+		(model "${APRL_LIBS}/models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -20849,7 +20849,7 @@
 			(uuid "2c47ff05-51e2-4e3c-961e-e11a06ba0228")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/CRYSTAL-SMD_4P-L3.2-W2.5-BL-2.step"
+		(model "${APRL_LIBS}/models/CRYSTAL-SMD_4P-L3.2-W2.5-BL-2.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21260,7 +21260,7 @@
 			(uuid "d408e59b-067e-4e05-be1d-40eae1f4cefc")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/SOT-23-6.step"
+		(model "${APRL_LIBS}/models/SOT-23-6.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21690,7 +21690,7 @@
 			(uuid "aa4c5562-5324-49eb-8df7-a66be3bbb048")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/BatteryHolder_Keystone_1042_1x18650.step"
+		(model "${APRL_LIBS}/models/BatteryHolder_Keystone_1042_1x18650.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21975,7 +21975,7 @@
 			(uuid "82ca7644-7728-408c-a012-8f2b40b48485")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/R_0603_1608Metric.step"
+		(model "${APRL_LIBS}/models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -22129,7 +22129,7 @@
 			(uuid "faacf8ff-9a4e-4e4a-a14c-22d58c3c8e80")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../kicadlibs/models/R_0603_1608Metric.step"
+		(model "${APRL_LIBS}/models/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)

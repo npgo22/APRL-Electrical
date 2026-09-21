@@ -187,7 +187,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../../kicadlibs/models/SW-SMD_4P-L4.2-W3.2-P2.15-LS4.6-2.step"
+	(model "${APRL_LIBS}/models/SW-SMD_4P-L4.2-W3.2-P2.15-LS4.6-2.step"
 		(offset
 			(xyz 0 0 0)
 		)

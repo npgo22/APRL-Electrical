@@ -111,7 +111,7 @@
 		(uuid "aa658a7c-d9ea-4c70-9fab-f0261b044288")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../../kicadlibs/models/LED_0402_1005Metric.step"
+	(model "${APRL_LIBS}/models/LED_0402_1005Metric.step"
 		(offset
 			(xyz 0 0 0)
 		)
