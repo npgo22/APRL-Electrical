@@ -30,7 +30,8 @@ rules:
 molex-3d +files:
     freecadcmd .github/scripts/molex_3d.py {{files}}
 
-# Repoint an LCSC logo's faces at the surrounding wall colour
+# Repoint an LCSC logo's faces at the surrounding wall colour; add `--rgb R,G,B` when the
+# logo is painted with a plain RGB colour, e.g. `just debrand model.step --rgb 1,1,1`
 debrand +models:
     python3 .github/scripts/debrand_colour.py {{models}} --write
 

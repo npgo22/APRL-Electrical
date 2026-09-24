@@ -19,7 +19,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ADS131M08xPBS"
+		(property "Value" "ADS131M08IRSN"
 			(at 5.334 32.258 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30,7 +30,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_QFP:TQFP-32_5x5mm_P0.5mm"
+		(property "Footprint" "APRL_Package_QFN:QFN-32_EP_4.4x4.4_Pitch0.4mm"
 			(at 50.8 -55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53,7 +53,7 @@
 				)
 			)
 		)
-		(property "Description" "8-channel, 24-bit, simultaneous sampling Delta-Sigma ADC, 32kSPS, G=1..128 PGA, SPI interface, integrated 1.2V reference, TQFP-32 (Texas PBS / S-PQFP-G32)"
+		(property "Description" "8-Channel, Simultaneously-Sampling, 24-Bit, Delta-Sigma ADC"
 			(at 60.96 -60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -671,6 +671,25 @@
 					)
 				)
 				(number "32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -33.02 90)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "33"
 					(effects
 						(font
 							(size 1.27 1.27)

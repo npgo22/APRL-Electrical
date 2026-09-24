@@ -507,15 +507,21 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "liblc",
       "APRL_Connector",
+      "APRL_Connector_Molex",
       "APRL_Graphic",
-      "APRL_Passive",
+      "APRL_Misc",
       "APRL_Module",
-      "APRL_Molex"
+      "APRL_Package",
+      "APRL_Package_QFN",
+      "APRL_Passive"
     ],
     "pinned_symbol_libs": [
-      "liblc"
+      "APRL_Analog",
+      "APRL_Comms",
+      "APRL_Connector",
+      "APRL_Misc",
+      "APRL_Power"
     ]
   },
   "meta": {

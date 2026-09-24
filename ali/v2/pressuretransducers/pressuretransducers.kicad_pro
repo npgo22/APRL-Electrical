@@ -60,11 +60,11 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.09,
+          "min_clearance": 0.1,
           "min_island_area": 10.0,
           "min_thickness": 0.15,
-          "pad_connection": 3,
-          "remove_islands": 0,
+          "pad_connection": 2,
+          "remove_islands": 1,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -76,12 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "drill_out_of_range|165272500|70785000|55aa5c27-e2a2-4f6c-a92b-2d14280899ef|00000000-0000-0000-0000-000000000000",
-          "This is part of the recommended layout"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -261,7 +256,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "1A"
+      "sch_revision": ""
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -525,7 +520,7 @@
     ]
   },
   "meta": {
-    "filename": "thermocouples.kicad_pro",
+    "filename": "pressuretransducers.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -630,7 +625,7 @@
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": "kicad-embed://APRL_Layout_Sheet.kicad_wks"
+    "page_layout_descr_file": "${APRL_LIBS}/APRL_Layout_Sheet.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -675,19 +670,19 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -724,24 +719,6 @@
           "label": "MANUFACTURER",
           "name": "MANUFACTURER",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "LCSC",
-          "name": "LCSC",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
-          "show": false
         }
       ],
       "filter_string": "",
@@ -789,7 +766,7 @@
       "model_mode": 4,
       "workbook_filename": ""
     },
-    "page_layout_descr_file": "kicad-embed://APRL_Schematic_Sheet.kicad_wks",
+    "page_layout_descr_file": "${APRL_LIBS}/APRL_Schematic_Sheet.kicad_wks",
     "plot_directory": "",
     "reuse_designators": true,
     "space_save_all_events": true,
@@ -803,18 +780,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "thermocouples.kicad_sch",
-        "name": "Thermocouples",
+        "filename": "pressuretransducers.kicad_sch",
+        "name": "pressuretransducers",
         "uuid": "0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666"
       }
     ],
-    "used_designators": "SW1,H1-4,F1-2,U1-13,J1-20,JP1,R1-68,D1-29,C1-74,FB1,Y1-2,#PWR1-133",
+    "used_designators": "NT1-16,SW1,H1-4,F1-19,U1-8,J1-25,JP1,R1-66,D1-21,C1-92,Y1-4,#PWR1-154",
     "variants": []
   },
   "sheets": [
     [
       "0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666",
-      "Thermocouples"
+      "pressuretransducers"
     ],
     [
       "3c5beecf-74b1-48fe-ad8e-ae30f52b972a",
@@ -825,26 +802,26 @@
       "Connectivity"
     ],
     [
-      "de3cef6c-f0bf-43f9-bc77-3e59044b84fe",
-      "ADC"
+      "05605fa8-2619-4dd6-9920-1fdef5fe2589",
+      "Analog 1"
     ],
     [
-      "ac55a505-1313-4dea-bb6a-7f7100ee270e",
-      "CJC Sensors"
+      "d996d551-3a24-490b-9bc5-004a2a005ab0",
+      "Analog 2"
     ]
   ],
   "text_variables": {
     "ASSEMBLED_BY": "",
     "ASSEMBLED_BY_DATE": "",
-    "BOARD": "THERMOCOUPLE DAQ",
+    "BOARD": "PRESSURE TRANSDUCER DAQ",
     "CHECKED_BY": "",
     "CHECKED_BY_DATE": "",
     "DRAWN_BY": "NOLAN POE",
-    "DRAWN_BY_DATE": "9/16/2026",
-    "NOTE1": "FQ 2026 ALI UPGRADE",
+    "DRAWN_BY_DATE": "",
+    "NOTE1": "FQ2026 ALI UPGRADE",
     "NOTE2": "",
     "PLATFORM": "ALI",
-    "REV": "1A",
+    "REV": "2A",
     "REV_COMMENT1": "",
     "REV_COMMENT2": "",
     "REV_COMMENT3": "",

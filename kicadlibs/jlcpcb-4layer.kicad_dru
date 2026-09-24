@@ -108,11 +108,13 @@
 	(constraint clearance (min 0.15mm))
 )
 
-# Minimum SMD pad is 0.25 x 0.25 mm.
+# Minimum SMD pad is 0.25 x 0.25 mm, but like this is kind of not nonsensical:
 # Copper only: a paste-only aperture is also an SMD pad to KiCad, and stencil
 # apertures are routinely smaller than any copper minimum.
+# Net-tie pads (NT*) are deliberately trace-width copper, so they're exempt.
+# TI's RSN package wants 0.2mm min, so they need an exemption here, too.
 (rule "Minimum SMD pad size"
-	(condition "A.Type == 'Pad' && A.Pad_Type == 'SMD' && (A.existsOnLayer('F.Cu') || A.existsOnLayer('B.Cu'))")
+	(condition "A.Type == 'Pad' && A.Pad_Type == 'SMD' && (A.existsOnLayer('F.Cu') || A.existsOnLayer('B.Cu')) && !A.memberOfFootprint('NT*') && A.Library_Link != '*QFN*P0.4mm*' && A.Library_Link != '*QFN*Pitch0.4mm*'")
 	(constraint assertion "A.Size_X >= 0.25mm && A.Size_Y >= 0.25mm")
 )
 

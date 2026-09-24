@@ -1,4 +1,4 @@
-(footprint "NetTie-2_SMD_Pad0.5mm"
+(footprint "NetTie-2_SMD_Pad0.15mm-noct"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
@@ -9,7 +9,7 @@
 		(at 0 -1.2 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "9dd71095-a986-4ed1-a4ed-0f7d2df1bdb9")
+		(uuid "56583c1b-d49b-43f1-9f8f-b7f7a2d3dd24")
 		(effects
 			(font
 				(size 1 1)
@@ -17,11 +17,11 @@
 			)
 		)
 	)
-	(property "Value" "NetTie-2_SMD_Pad0.5mm"
+	(property "Value" "NetTie-2_SMD_Pad0.15mm"
 		(at 0 1.2 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "43c06826-3aa9-44c6-98fd-39cf8334f9c7")
+		(uuid "7f509bab-55dd-499c-8260-65050e0d3e57")
 		(effects
 			(font
 				(size 1 1)
@@ -34,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e3b2dccd-1ef8-42e1-8f8f-ea4824b621bf")
+		(uuid "e9a54f88-2c81-4c9d-8377-ffcbcd2251aa")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6287b9ed-dedb-46cc-b8b4-d873de10c2bc")
+		(uuid "f18f8e49-3390-40fe-8b82-22a646a07fa6")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -60,7 +60,7 @@
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_poly
 		(pts
-			(xy -0.6 -0.15) (xy 0.6 -0.15) (xy 0.6 0.15) (xy -0.6 0.15)
+			(xy -0.602934 -0.075) (xy 0.597066 -0.075) (xy 0.597066 0.075) (xy -0.602934 0.075)
 		)
 		(stroke
 			(width 0)
@@ -68,19 +68,50 @@
 		)
 		(fill yes)
 		(layer "F.Cu")
-		(uuid "350a6e13-0a53-4345-9e83-5e7334122fc5")
+		(uuid "f9ca9ad2-ebcc-4b60-8832-5cc84a3bf2b0")
 	)
 	(pad "1" smd circle
 		(at -0.6 0)
-		(size 0.3 0.3)
+		(size 0.15 0.15)
 		(layers "F.Cu")
-		(uuid "c80c4b3b-1fa9-4e06-8fb5-36f62fa3201b")
+		(uuid "c926bb10-3d3f-452b-8fff-c0257c4dd9e8")
 	)
 	(pad "2" smd circle
 		(at 0.6 0)
-		(size 0.3 0.3)
+		(size 0.15 0.15)
 		(layers "F.Cu")
-		(uuid "5c3b2009-08d8-4134-aa75-3f60bc3801c1")
+		(uuid "0a8fffdd-7b08-4710-8e7f-f10fac7c9fbc")
+	)
+	(zone
+		(layer "F.Cu")
+		(uuid "397f748d-302d-43a8-8c7f-fd9163a2d4bb")
+		(name "net-tie pour keepout")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -0.75 -0.35) (xy 0.75 -0.35) (xy 0.75 0.35) (xy -0.75 0.35)
+			)
+		)
 	)
 	(embedded_fonts no)
 )

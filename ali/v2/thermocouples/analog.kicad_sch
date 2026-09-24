@@ -35,7 +35,7 @@
 					)
 				)
 			)
-			(property "Footprint" "APRL_Package:QFN-32_EP_5.8x5.8_Pitch0.5mm"
+			(property "Footprint" "Package_DFN_QFN:VQFN-32-1EP_5x5mm_P0.5mm_EP3.15x3.15mm_ThermalVias"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)

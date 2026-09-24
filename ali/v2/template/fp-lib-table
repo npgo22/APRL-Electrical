@@ -14,6 +14,8 @@
 	(lib (name "APRL_Package_QFN-noct") (type "KiCad") (uri "${APRL_LIBS}/aprl/APRL_Package_QFN-noct.pretty") (options "") (descr ""))
 	(lib (name "APRL_Passive") (type "KiCad") (uri "${APRL_LIBS}/aprl/APRL_Passive.pretty") (options "") (descr ""))
 	(lib (name "APRL_Passive-noct") (type "KiCad") (uri "${APRL_LIBS}/aprl/APRL_Passive-noct.pretty") (options "") (descr ""))
+	(lib (name "APRL_Misc") (type "KiCad") (uri "${APRL_LIBS}/aprl/APRL_Misc.pretty") (options "") (descr ""))
+	(lib (name "APRL_Misc-noct") (type "KiCad") (uri "${APRL_LIBS}/aprl/APRL_Misc-noct.pretty") (options "") (descr ""))
 	(lib (name "Audio_Module") (type "KiCad") (uri "${APRL_LIBS}/kicad/Audio_Module.pretty") (options "") (descr ""))
 	(lib (name "Battery") (type "KiCad") (uri "${APRL_LIBS}/kicad/Battery.pretty") (options "") (descr ""))
 	(lib (name "Button_Switch_Keyboard") (type "KiCad") (uri "${APRL_LIBS}/kicad/Button_Switch_Keyboard.pretty") (options "") (descr ""))
