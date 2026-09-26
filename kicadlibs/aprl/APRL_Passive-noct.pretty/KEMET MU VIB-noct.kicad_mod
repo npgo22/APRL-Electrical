@@ -1,0 +1,167 @@
+(footprint "KEMET MU VIB-noct"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 5.55 7.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "612faebe-c127-4dce-be2e-37b2c9f95610")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "KEMET MU VIB"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ba2851aa-5475-4104-b957-d0563b0a0a91")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a2ceb80-cc33-4c70-9233-3449cc26dcfc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "43240501-e7e0-4555-9d0e-5e09b3bf095b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.95 -4.15)
+		(end 4.15 -4.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f8d197d5-36a8-457b-80c1-8e2cb98ab170")
+	)
+	(fp_line
+		(start 4.15 -4.15)
+		(end 4.15 4.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "aa65bac0-131c-4bf1-be36-a9490c5e9222")
+	)
+	(fp_line
+		(start 4.15 4.15)
+		(end -2.95 4.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "70662838-65f0-49f5-aecf-ba8b647194f9")
+	)
+	(fp_line
+		(start -2.95 4.15)
+		(end -4.15 2.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "01b027c9-84d8-4862-90fe-1fc62a84e98d")
+	)
+	(fp_line
+		(start -4.15 2.95)
+		(end -4.15 -2.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "aaad7f61-cbb9-4346-a4a9-45e9cc35fdfb")
+	)
+	(fp_line
+		(start -4.15 -2.95)
+		(end -2.95 -4.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3b2a0c9b-624e-4433-8db5-56d2e98f15e3")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "94f12441-c3e5-4edb-9dca-c09dfab512b1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "468d2817-58c9-470d-b2b0-3e9a0d6c3a00")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -3.65 0)
+		(size 4.2 4.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "12e2fbb3-3ad2-49e0-bb2c-aaf60818e28d")
+	)
+	(pad "2" smd roundrect
+		(at 3.65 0)
+		(size 4.2 4.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "d3e7373d-b164-4699-92c9-b8d41b54e194")
+	)
+	(embedded_fonts no)
+	(model "${APRL_LIBS}/models/CP_Elec_8x12.2_KEMET_A767_KS.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

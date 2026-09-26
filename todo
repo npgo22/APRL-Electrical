@@ -1,0 +1,16 @@
+update README.md
+Update readmes for each board
+get other stuff in here (original ALI schematics, level sensor board)
+fix thermocouple v1 submodule thing
+reframe all the old ali stuff
+get daniel to review everything
+update thermocouples and load cells to use ads1261
+use individual adcs for eac lc channel
+make iolink carrier board
+make isoSPI injector accelerometer
+update chickensticks with lora thing
+make chickensticks use g431 (maybe use daniel's blocks?)
+add ads1261 to chickensticks for strain gauge stuff (maybe sneak in accelerometer and gps antenna too since we dont need a physical interface?)
+clean up claude slop scripts
+determine how we want revisions to work (maybe rename v1/v2 to rev1/rev2 and place them accordingly on each board?)
+fix the broken lcsc/claude-colored step models

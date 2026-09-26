@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PCC-SMP-K-5
+D OMEGA - PCC-SMP-K-5 - THERMOCOUPLE CONN, K TYPE, RCPT, PK 5
+K
+F https://br.omega.com/omegaFiles/temperature/pdf/PCC-OST-SMP.pdf
+$ENDCMP
+#
+#End Doc Library

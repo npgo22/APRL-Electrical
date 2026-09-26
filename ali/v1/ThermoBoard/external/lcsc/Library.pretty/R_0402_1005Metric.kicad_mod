@@ -1,0 +1,222 @@
+(footprint "R_0402_1005Metric"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+	(tags "resistor")
+	(property "Reference" "REF**"
+		(at 0 -1.17 0)
+		(layer "F.SilkS")
+		(uuid "f842efc7-7b70-4fb3-9140-fcbb53069ff5")
+		(effects
+			(font
+				(face "Inter")
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+		(render_cache "REF**" 0
+			(polygon
+				(pts
+					(xy -1.636219 -1.768511) (xy -1.571754 -1.754534) (xy -1.518945 -1.732887) (xy -1.471356 -1.701824)
+					(xy -1.433664 -1.664713) (xy -1.404761 -1.621085) (xy -1.384376 -1.572453) (xy -1.371843 -1.518777)
+					(xy -1.367514 -1.459091) (xy -1.372909 -1.392949) (xy -1.388442 -1.334607) (xy -1.413676 -1.282686)
+					(xy -1.449148 -1.238045) (xy -1.495961 -1.201926) (xy -1.556192 -1.174059) (xy -1.327886 -0.755)
+					(xy -1.478278 -0.755) (xy -1.690159 -1.150795) (xy -1.714095 -1.150123) (xy -1.933547 -1.150123)
+					(xy -1.933547 -0.755) (xy -2.063423 -0.755) (xy -2.063423 -1.26565) (xy -1.933547 -1.26565) (xy -1.720262 -1.26565)
+					(xy -1.658768 -1.269651) (xy -1.611429 -1.280436) (xy -1.575379 -1.296642) (xy -1.548315 -1.317613)
+					(xy -1.52032 -1.355185) (xy -1.502926 -1.401511) (xy -1.496719 -1.459091) (xy -1.502898 -1.517675)
+					(xy -1.520283 -1.565412) (xy -1.548315 -1.604659) (xy -1.575573 -1.626817) (xy -1.611889 -1.64386)
+					(xy -1.659589 -1.655175) (xy -1.721605 -1.65937) (xy -1.933547 -1.65937) (xy -1.933547 -1.26565)
+					(xy -2.063423 -1.26565) (xy -2.063423 -1.773553) (xy -1.714767 -1.773553)
+				)
+			)
+			(polygon
+				(pts
+					(xy -1.162656 -0.755) (xy -1.162656 -1.773553) (xy -0.541912 -1.773553) (xy -0.541912 -1.658698)
+					(xy -1.032779 -1.658698) (xy -1.032779 -1.326467) (xy -0.575435 -1.326467) (xy -0.575435 -1.211612)
+					(xy -1.032779 -1.211612) (xy -1.032779 -0.869855) (xy -0.535806 -0.869855) (xy -0.535806 -0.755)
+				)
+			)
+			(polygon
+				(pts
+					(xy -0.321483 -0.755) (xy -0.321483 -1.773553) (xy 0.294435 -1.773553) (xy 0.294435 -1.658698)
+					(xy -0.191607 -1.658698) (xy -0.191607 -1.310102) (xy 0.247968 -1.310102) (xy 0.247968 -1.195247)
+					(xy -0.191607 -1.195247) (xy -0.191607 -0.755)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.778891 -0.929328) (xy 0.78573 -1.191828) (xy 0.567621 -1.051022) (xy 0.514315 -1.144628)
+					(xy 0.748788 -1.264307) (xy 0.514987 -1.386612) (xy 0.569697 -1.479607) (xy 0.78573 -1.337397)
+					(xy 0.778891 -1.599225) (xy 0.886907 -1.599225) (xy 0.880069 -1.338129) (xy 1.095369 -1.479607)
+					(xy 1.150079 -1.386612) (xy 0.916278 -1.264307) (xy 1.150751 -1.144628) (xy 1.097445 -1.051022)
+					(xy 0.880069 -1.191156) (xy 0.886907 -0.929328)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.681612 -0.929328) (xy 1.688451 -1.191828) (xy 1.470342 -1.051022) (xy 1.417036 -1.144628)
+					(xy 1.65151 -1.264307) (xy 1.417708 -1.386612) (xy 1.472418 -1.479607) (xy 1.688451 -1.337397)
+					(xy 1.681612 -1.599225) (xy 1.789629 -1.599225) (xy 1.78279 -1.338129) (xy 1.99809 -1.479607) (xy 2.052801 -1.386612)
+					(xy 1.818999 -1.264307) (xy 2.053472 -1.144628) (xy 2.000166 -1.051022) (xy 1.78279 -1.191156)
+					(xy 1.789629 -0.929328)
+				)
+			)
+		)
+	)
+	(property "Value" "R_0402_1005Metric"
+		(at 0 1.17 0)
+		(layer "F.Fab")
+		(uuid "77fd3192-c1cd-4b11-925f-943d354237f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "28e7e8eb-2e13-46f9-b1e5-05984f4546b0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8559a8e5-9db9-4c39-a213-bf9562196284")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.93 -0.47)
+		(end 0.93 -0.47)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9b1a08b2-bf43-4a44-961e-3806b10faf8e")
+	)
+	(fp_line
+		(start -0.93 0.47)
+		(end -0.93 -0.47)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3d6f499a-8077-4c73-9ef6-df2198e9b550")
+	)
+	(fp_line
+		(start 0.93 -0.47)
+		(end 0.93 0.47)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5409756d-55c6-4d7c-8deb-13b70c3d576b")
+	)
+	(fp_line
+		(start 0.93 0.47)
+		(end -0.93 0.47)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a9b0631f-280e-492d-a70f-665880a35805")
+	)
+	(fp_line
+		(start -0.525 -0.27)
+		(end 0.525 -0.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "223bb129-ede0-4c1c-8c58-f66be8a8b026")
+	)
+	(fp_line
+		(start -0.525 0.27)
+		(end -0.525 -0.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eb09d899-1cd4-4899-9cb5-f5b7e5dcf8d2")
+	)
+	(fp_line
+		(start 0.525 -0.27)
+		(end 0.525 0.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7639d4dc-cd3e-4842-a494-5147e4c4bf43")
+	)
+	(fp_line
+		(start 0.525 0.27)
+		(end -0.525 0.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "408228a2-66b8-4156-b696-941de5940018")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "7e40a56a-f605-4c71-8c3e-aafd566268e9")
+		(effects
+			(font
+				(size 0.26 0.26)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.51 0)
+		(size 0.54 0.64)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "e8887bed-ce33-4ecf-a9af-c5eac1d3b246")
+	)
+	(pad "2" smd roundrect
+		(at 0.51 0)
+		(size 0.54 0.64)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "42ad27fd-5574-49b6-8cb1-da339c5d5027")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

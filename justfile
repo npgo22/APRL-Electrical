@@ -1,6 +1,7 @@
 set shell := ["bash", "-euo", "pipefail", "-c"]
 
-# Boards live two levels down: <group>/<board>/, e.g. ali/loadcells.
+# Every live board directory, at whatever depth it sits (same list CI builds).
+boards := `python3 -c 'import sys; sys.path.insert(0, ".github/scripts"); from vendor_kicad import ROOT, boards; print(" ".join(b.relative_to(ROOT).as_posix() for b in boards()))'`
 
 # List available recipes
 default:
@@ -21,7 +22,7 @@ constraints *args:
 # Copy the canonical JLCPCB design rules next to every board (KiCad only reads a
 # .kicad_dru sitting beside the project)
 rules:
-    for pro in */*/*.kicad_pro; do \
+    for d in {{boards}}; do pro=$(ls "$d"/*.kicad_pro); \
       cp kicadlibs/jlcpcb-4layer.kicad_dru "${pro%.kicad_pro}.kicad_dru"; \
       echo "rules -> ${pro%.kicad_pro}.kicad_dru"; \
     done
@@ -35,7 +36,7 @@ molex-3d +files:
 debrand +models:
     python3 .github/scripts/debrand_colour.py {{models}} --write
 
-# KiBot outputs for one board, e.g. `just kibot ali/valve-drivers`
+# KiBot outputs for one board, e.g. `just kibot ali/v2/valvedrivers`
 kibot board:
     cd {{board}} && \
     pro=$(ls *.kicad_pro | head -1) && b=${pro%.kicad_pro} && \
@@ -43,7 +44,7 @@ kibot board:
 
 # KiBot outputs for every board
 kibot-all:
-    for pro in */*/*.kicad_pro; do \
+    for d in {{boards}}; do pro=$(ls "$d"/*.kicad_pro); \
       d=$(dirname "$pro"); echo "=== $d"; just kibot "$d"; \
     done
 
@@ -51,7 +52,7 @@ kibot-all:
 snapshot dir:
     mkdir -p {{dir}}
     out=$(realpath {{dir}}); \
-    for pro in */*/*.kicad_pro; do \
+    for d in {{boards}}; do pro=$(ls "$d"/*.kicad_pro); \
       d=$(dirname "$pro"); b=$(basename "$pro" .kicad_pro); n=${d//\//-}; \
       [ -f "$d/$b.kicad_pcb" ] || continue; \
       ( cd "$d" && \
@@ -69,7 +70,7 @@ textvars:
     import glob, json, os, re
     wks = "".join(open(f).read() for f in glob.glob("kicadlibs/APRL_*.kicad_wks"))
     names = sorted(set(re.findall(r"\$\{([A-Z0-9_]+)\}", wks)) - {"KICAD_VERSION", "SHEETPATH"})
-    for pro in sorted(glob.glob("*/*/*.kicad_pro")):
+    for pro in sorted(glob.glob(d + "/*.kicad_pro")[0] for d in "{{boards}}".split()):
         lock = os.path.join(os.path.dirname(pro), "~" + os.path.basename(pro) + ".lck")
         if os.path.exists(lock):
             print(f"skip (open in KiCad): {pro}"); continue

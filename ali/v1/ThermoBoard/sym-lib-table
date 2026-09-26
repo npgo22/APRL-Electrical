@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MAX31856TriState")(type "KiCad")(uri "${KIPRJMOD}/external/MAX31856TriState.kicad_sym")(options "")(descr ""))
+  (lib (name "lcsc")(type "KiCad")(uri "${KIPRJMOD}/external/lcsc/symbols/lcsc.kicad_sym")(options "")(descr ""))
+  (lib (name "PCC-SMP-K-5")(type "KiCad")(uri "${KIPRJMOD}/external/Omega/PCC-SMP-K-5.kicad_sym")(options "")(descr ""))
+  (lib (name "customlib")(type "KiCad")(uri "${KIPRJMOD}/external/customlib.kicad_sym")(options "")(descr ""))
+)

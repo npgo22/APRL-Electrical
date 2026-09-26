@@ -23,8 +23,36 @@ on:
       - '.github/workflows/hardware.yml'
 
 jobs:
+  boards:
+    name: Find boards
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.list.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: list
+        # Same board list the local tooling uses (vendor_kicad.boards), so a
+        # moved or new board is picked up without editing this file.
+        run: |
+          python3 - >> "$GITHUB_OUTPUT" <<'PY'
+          import json, sys
+          sys.path.insert(0, ".github/scripts")
+          from vendor_kicad import ROOT, boards
+          SKIP = {"ali/v2/template"}  # a starting point, not a board to fabricate
+          inc = []
+          for d in boards():
+              if d.relative_to(ROOT).as_posix() in SKIP:
+                  continue
+              stem = next(d.glob("*.kicad_pro")).stem
+              rel = d.relative_to(ROOT).as_posix()
+              inc.append({"name": rel.replace("/", "-"), "dir": rel,
+                          "sch": f"{stem}.kicad_sch", "pcb": f"{stem}.kicad_pcb"})
+          print("matrix=" + json.dumps({"include": inc}))
+          PY
+
   kibot:
     name: KiBot - ${{ matrix.name }}
+    needs: boards
     runs-on: ubuntu-latest
     env:
       # Library root for projects that use ${APRL_LIBS} instead of counting ../
@@ -33,32 +61,7 @@ jobs:
 
     strategy:
       fail-fast: false   # run all boards even if one fails
-      matrix:
-        include:
-          - name: valve-driver
-            dir:  ali/valve-drivers
-            sch:  valve-driver.kicad_sch
-            pcb:  valve-driver.kicad_pcb
-
-          - name: thermocouple-2A
-            dir:  ali/thermocouples
-            sch:  thermocouple.kicad_sch
-            pcb:  thermocouple.kicad_pcb
-
-          - name: load-cell
-            dir:  ali/loadcells
-            sch:  load-cell.kicad_sch
-            pcb:  load-cell.kicad_pcb
-
-          - name: pressure-1B
-            dir:  ali/pressure-transducers
-            sch:  pressure.kicad_sch
-            pcb:  pressure.kicad_pcb
-
-          - name: gps
-            dir:  ophio/gps
-            sch:  gps.kicad_sch
-            pcb:  gps.kicad_pcb
+      matrix: ${{ fromJSON(needs.boards.outputs.matrix) }}
 
     steps:
       - uses: actions/checkout@v4

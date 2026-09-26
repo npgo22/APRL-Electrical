@@ -28,7 +28,7 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add 'kicadlibs/aprl/*-noct.pretty'
+          git add -A kicadlibs/aprl/*-noct.pretty
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else

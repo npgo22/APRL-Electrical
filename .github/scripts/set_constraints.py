@@ -16,6 +16,8 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(Path(__file__).parent))
+from vendor_kicad import boards  # noqa: E402  (one definition of "every live board")
 
 # mm, matching kicadlibs/jlcpcb-4layer.kicad_dru. Key -> Board Setup label.
 RULES = {
@@ -53,7 +55,7 @@ def main():
     dry = "--dry-run" in sys.argv
     changed = skipped = 0
 
-    for pro in sorted(ROOT.glob("*/*/*.kicad_pro")):
+    for pro in sorted(p for d in boards() for p in d.glob("*.kicad_pro")):
         board = pro.parent.name
         if locked(pro):
             print(f"  SKIP {board}: open in KiCad")
