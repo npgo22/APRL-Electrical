@@ -27,15 +27,6 @@ rules:
       echo "rules -> ${pro%.kicad_pro}.kicad_dru"; \
     done
 
-# Place and colour TraceParts CLIK-Mate STEPs, e.g. `just molex-3d ~/Downloads/5031590801.stp`
-molex-3d +files:
-    freecadcmd .github/scripts/molex_3d.py {{files}}
-
-# Repoint an LCSC logo's faces at the surrounding wall colour; add `--rgb R,G,B` when the
-# logo is painted with a plain RGB colour, e.g. `just debrand model.step --rgb 1,1,1`
-debrand +models:
-    python3 .github/scripts/debrand_colour.py {{models}} --write
-
 # KiBot outputs for one board, e.g. `just kibot ali/v2/valvedrivers`
 kibot board:
     cd {{board}} && \
@@ -61,30 +52,3 @@ snapshot dir:
         kicad-cli pcb export drill   -o "$out/$n.drl/" "$b.kicad_pcb" >/dev/null ); \
       echo "snapshot $n"; \
     done
-
-# Define the drawing-sheet fields (kicadlibs/APRL_*.kicad_wks) as
-# empty project text variables, keeping any values already set. Skips projects
-# KiCad has open -- close them and re-run.
-textvars:
-    #!/usr/bin/env python3
-    import glob, json, os, re
-    wks = "".join(open(f).read() for f in glob.glob("kicadlibs/APRL_*.kicad_wks"))
-    names = sorted(set(re.findall(r"\$\{([A-Z0-9_]+)\}", wks)) - {"KICAD_VERSION", "SHEETPATH"})
-    for pro in sorted(glob.glob(d + "/*.kicad_pro")[0] for d in "{{boards}}".split()):
-        lock = os.path.join(os.path.dirname(pro), "~" + os.path.basename(pro) + ".lck")
-        if os.path.exists(lock):
-            print(f"skip (open in KiCad): {pro}"); continue
-        d = json.load(open(pro))
-        tv = d.setdefault("text_variables", {})
-        added = [n for n in names if n not in tv]
-        # Carry over what used to live in Page Settings (root sheet title block).
-        sch = pro[:-len(".kicad_pro")] + ".kicad_sch"
-        tb = re.search(r"\(title_block(.*?)\n\t\)", open(sch).read(), re.S) if os.path.exists(sch) else None
-        tb = tb.group(1) if tb else ""
-        old = {"REV": r'\(rev "([^"]*)"', "NOTE1": r'\(comment 1 "([^"]*)"', "NOTE2": r'\(comment 2 "([^"]*)"'}
-        for n in added:
-            m = re.search(old[n], tb) if n in old else None
-            tv[n] = m.group(1) if m else ""
-        if added:
-            json.dump(d, open(pro, "w"), indent=2); open(pro, "a").write("\n")
-        print(f"{pro}: +{len(added)}")

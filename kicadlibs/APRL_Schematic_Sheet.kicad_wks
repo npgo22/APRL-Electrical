@@ -143,9 +143,9 @@
 		(pos 65 16.0002)
 		(comment "Comment 1")
 	)
-	(tbtext "ASSEMBLED BY: ${ASSEMBLED_BY}"
+	(tbtext "APPROVED BY: ${APPROVED_BY}"
 		(name "")
-		(pos 65 19.0002)
+		(pos 65 19)
 		(comment "Comment 2")
 	)
 	(line
@@ -193,9 +193,9 @@
 		(pos 24.989 16.0022)
 		(comment "Comment 0")
 	)
-	(tbtext "DATE: ${ASSEMBLED_BY_DATE}"
+	(tbtext "DATE: ${APPROVED_BY_DATE}"
 		(name "")
-		(pos 24.989 19.0022)
+		(pos 24.989 19.002)
 		(comment "Comment 0")
 	)
 	(tbtext "${NOTE1}"

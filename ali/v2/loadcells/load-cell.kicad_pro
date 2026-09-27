@@ -63,7 +63,7 @@
           "min_clearance": 0.09,
           "min_island_area": 10.0,
           "min_thickness": 0.15,
-          "pad_connection": 3,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -78,8 +78,8 @@
       ],
       "drc_exclusions": [
         [
-          "drill_out_of_range|156462500|78465000|55aa5c27-e2a2-4f6c-a92b-2d14280899ef|00000000-0000-0000-0000-000000000000",
-          "This is just the recommended layout for this part. Can't do much about it."
+          "drill_out_of_range|165462500|78465000|55aa5c27-e2a2-4f6c-a92b-2d14280899ef|00000000-0000-0000-0000-000000000000",
+          "Part of recommended footprint"
         ]
       ],
       "meta": {
@@ -261,7 +261,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "1A"
+      "sch_revision": ""
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -495,7 +495,7 @@
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "warning",
       "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
@@ -630,7 +630,7 @@
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": "${APRL_LIBS}/APRL_Layout_Sheet.kicad_wks"
+    "page_layout_descr_file": "kicad-embed://APRL_Layout_Sheet.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -771,7 +771,7 @@
       "model_mode": 4,
       "workbook_filename": ""
     },
-    "page_layout_descr_file": "${APRL_LIBS}/APRL_Schematic_Sheet.kicad_wks",
+    "page_layout_descr_file": "kicad-embed://APRL_Schematic_Sheet.kicad_wks",
     "plot_directory": "",
     "reuse_designators": true,
     "space_save_all_events": true,
@@ -790,7 +790,7 @@
         "uuid": "0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666"
       }
     ],
-    "used_designators": "SW1,H1-4,F1-2,U1-7,J1-20,JP1,R1-34,D1-17,C1-56,Y1-2,#PWR1-120",
+    "used_designators": "SW1,H1-4,F1-2,U1-10,J1-20,JP1,R1-36,D1-17,C1-72,Y1-3,#PWR1-133",
     "variants": []
   },
   "sheets": [
@@ -808,17 +808,29 @@
     ],
     [
       "de3cef6c-f0bf-43f9-bc77-3e59044b84fe",
-      "ADC"
+      "ADC 1"
+    ],
+    [
+      "3dd2150a-f33a-4307-8510-8c998ccb9475",
+      "ADC 2"
+    ],
+    [
+      "3f15d993-23b8-4db0-bf02-eda50e1ada83",
+      "ADC 3"
+    ],
+    [
+      "1fc5d55f-24b9-4baf-99d5-bae7e73ebdab",
+      "ADC 4"
     ]
   ],
   "text_variables": {
-    "ASSEMBLED_BY": "NOLAN POE",
-    "ASSEMBLED_BY_DATE": "",
+    "APPROVED_BY": "",
+    "APPROVED_BY_DATE": "",
     "BOARD": "LOAD CELL DAQ",
     "CHECKED_BY": "",
     "CHECKED_BY_DATE": "",
     "DRAWN_BY": "NOLAN POE",
-    "DRAWN_BY_DATE": "9/26/2026",
+    "DRAWN_BY_DATE": "9/27/2026",
     "NOTE1": "FQ 2026 ALI UPGRADE",
     "NOTE2": "",
     "PLATFORM": "ALI",

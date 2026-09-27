@@ -834,8 +834,6 @@
     ]
   ],
   "text_variables": {
-    "ASSEMBLED_BY": "",
-    "ASSEMBLED_BY_DATE": "",
     "BOARD": "THERMOCOUPLE DAQ",
     "CHECKED_BY": "",
     "CHECKED_BY_DATE": "",
@@ -866,7 +864,9 @@
     "REV_NUMBER_COMMENT4": "",
     "REV_NUMBER_COMMENT5": "",
     "STACKUP": "JLCPCB 7628",
-    "SUBSYSTEM": "STAND ELEC."
+    "SUBSYSTEM": "STAND ELEC.",
+    "APPROVED_BY": "",
+    "APPROVED_BY_DATE": ""
   },
   "tuning_profiles": {
     "meta": {
