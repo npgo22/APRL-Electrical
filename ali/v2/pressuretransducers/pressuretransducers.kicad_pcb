@@ -158,11 +158,11 @@
 	(property "CHECKED_BY" "")
 	(property "CHECKED_BY_DATE" "")
 	(property "DRAWN_BY" "NOLAN POE")
-	(property "DRAWN_BY_DATE" "")
+	(property "DRAWN_BY_DATE" "9/26/26")
 	(property "NOTE1" "FQ2026 ALI UPGRADE")
 	(property "NOTE2" "")
 	(property "PLATFORM" "ALI")
-	(property "REV" "")
+	(property "REV" "2A")
 	(property "REV_COMMENT1" "")
 	(property "REV_COMMENT2" "")
 	(property "REV_COMMENT3" "")
@@ -7235,6 +7235,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -15084,6 +15085,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -60916,6 +60918,36 @@
 				(xy 145.1385 120.225) (xy 144.9865 120.225) (xy 144.934174 120.203326) (xy 144.9125 120.151) (xy 144.9125 118.825)
 				(xy 144.4365 118.825) (xy 144.384174 118.803326) (xy 144.3625 118.751) (xy 144.3625 116.249) (xy 144.384174 116.196674)
 				(xy 144.4365 116.175) (xy 145.1385 116.175)
+			)
+		)
+	)
+	(zone
+		(layer "F.Cu")
+		(uuid "38965dd8-7265-44ed-85ff-fe62fe68685a")
+		(hatch edge 0.5)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.15)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "/")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 137.4625 94.125) (xy 138.3625 94.125) (xy 138.3625 94.425) (xy 137.4625 94.425)
 			)
 		)
 	)

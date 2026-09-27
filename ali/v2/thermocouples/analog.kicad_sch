@@ -1590,6 +1590,16 @@
 		)
 		(uuid "16050e79-49a5-41af-90ff-a58b9645dd44")
 	)
+	(text "Not sure if we should be using the LDO output instead of +5V,\nas there will probably be a ~50mV ripple at ~60 MHz"
+		(exclude_from_sim no)
+		(at 233.172 39.878 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1a98fd14-e277-4f35-b3dd-bf45ceb30e18")
+	)
 	(text "See SDAA150 for reference"
 		(exclude_from_sim no)
 		(at 28.956 178.816 0)
