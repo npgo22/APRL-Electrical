@@ -15876,7 +15876,7 @@
 				(justify left)
 			)
 		)
-		(pin "ADC_RESET" input
+		(pin "ADC_RESET" output
 			(at 171.45 144.78 0)
 			(uuid "abd80eb5-cf9d-4474-b02f-66df90bb0a08")
 			(effects
@@ -15934,26 +15934,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "MISO" input
-			(at 171.45 133.35 0)
-			(uuid "3c0ba5b5-38ba-4c30-b5b8-52931ff8eb9a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SCLK" output
-			(at 171.45 128.27 0)
-			(uuid "fbd63084-62ca-4de7-a921-9afc8bce54b4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "ETH_CRS_DV" input
@@ -16016,16 +15996,6 @@
 				(justify left)
 			)
 		)
-		(pin "MOSI" output
-			(at 171.45 130.81 0)
-			(uuid "e3ef219d-7ef7-44bc-87d4-c4ecda0f0ab6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "ETH_~{RST}" output
 			(at 107.95 151.13 180)
 			(uuid "5543fe75-a16f-4927-a79c-0fabf4141f13")
@@ -16064,6 +16034,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "ADC_MISO" input
+			(at 171.45 133.35 0)
+			(uuid "99c6dda0-5524-4140-9a31-be72d185c514")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_MOSI" output
+			(at 171.45 130.81 0)
+			(uuid "97f13596-b359-4f91-9142-998a7868fd7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_SCLK" output
+			(at 171.45 128.27 0)
+			(uuid "26da1559-3d9a-4810-b6d4-d5aa9e144ab7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
