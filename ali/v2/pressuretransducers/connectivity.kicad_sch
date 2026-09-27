@@ -9333,6 +9333,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 78.74 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "10"
 			(uuid "17547f35-452a-4e0f-a352-93e3d46124b9")
 		)

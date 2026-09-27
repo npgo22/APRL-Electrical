@@ -30,7 +30,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-68-1EP_8x8mm_P0.4mm_EP6.4x6.4mm"
+		(property "Footprint" "APRL_Package_QFN:QFN-68-1EP_8x8mm_P0.4mm_EP6.4x6.4mm"
 			(at -22.86 -45.72 0)
 			(show_name no)
 			(do_not_autoplace no)

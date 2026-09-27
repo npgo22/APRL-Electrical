@@ -36,6 +36,7 @@ __pycache__/
 
 # KiCad creates a "default" template wherever KICAD_USER_TEMPLATE_DIR points
 ali/v2/default/
+**/*.bak
 
 # Secret Nolan stuff  
 do-not-include/

@@ -3655,7 +3655,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_DFN_QFN:QFN-68-1EP_8x8mm_P0.4mm_EP6.4x6.4mm"
+			(property "Footprint" "APRL_Package_QFN:QFN-68-1EP_8x8mm_P0.4mm_EP6.4x6.4mm"
 				(at -22.86 -45.72 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -11131,6 +11131,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 26.67 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "297347d0-0fe2-4e4e-ad5c-e183699dc9dc")
 		)
@@ -12808,6 +12819,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 175.26 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6cbff383-ca14-4459-9473-4cdb8363efef")
 		)
@@ -14144,6 +14166,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 184.15 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3814292a-01a7-4eae-ace5-5081bea6f454")
 		)
@@ -14417,6 +14450,17 @@
 			)
 		)
 		(property "MANUFACTURER" ""
+			(at 26.67 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 26.67 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -15656,6 +15700,17 @@
 			)
 		)
 		(property "MANUFACTURER" ""
+			(at 26.67 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 26.67 138.43 0)
 			(hide yes)
 			(show_name no)
