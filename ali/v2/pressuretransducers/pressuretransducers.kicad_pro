@@ -60,11 +60,11 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.1,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.15,
           "pad_connection": 2,
-          "remove_islands": 1,
+          "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -76,7 +76,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "drill_out_of_range|165462500|78465000|55aa5c27-e2a2-4f6c-a92b-2d14280899ef|00000000-0000-0000-0000-000000000000",
+          "Part of recommended footprint"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -785,7 +790,7 @@
         "uuid": "0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666"
       }
     ],
-    "used_designators": "NT1-16,SW1,H1-4,F1-19,U1-8,J1-25,JP1,R1-66,D1-21,C1-92,Y1-4,#PWR1-154",
+    "used_designators": "NT1-16,SW1,H1-4,F1-19,U1-8,J1-26,JP1,R1-66,D1-21,C1-92,Y1-4,#PWR1-156",
     "variants": []
   },
   "sheets": [
@@ -806,7 +811,7 @@
       "Analog 1"
     ],
     [
-      "d996d551-3a24-490b-9bc5-004a2a005ab0",
+      "202b5685-64a0-4baf-931b-ba9380e34fdf",
       "Analog 2"
     ]
   ],

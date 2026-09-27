@@ -88,12 +88,8 @@ if not logo:
 planes = collections.Counter((ax, pl) for _, ax, pl in logo)
 if logo_rgb:
     # raised lettering: its tops and (tiny) side walls all take the colour of the
-    # surface it stands on. The logo is flat, so its faces' planes barely spread
-    # along the axis it sits on; take the wall from that axis.
-    spread = {a: max(p for _, x, p in logo if x == a) - min(p for _, x, p in logo if x == a)
-              for a in {x for _, x, _ in logo}}
-    ax0 = min(spread, key=spread.get)
-    pl0 = min(pl for _, ax, pl in logo if ax == ax0)
+    # surface it stands on -- the plane most of the logo's faces lie in.
+    ax0, pl0 = collections.Counter((ax, round(pl, 2)) for _, ax, pl in logo).most_common(1)[0][0]
     logo = [(i, ax0, pl0) for i, _, _ in logo]
     planes = collections.Counter({(ax0, pl0): len(logo)})
 fixed = 0

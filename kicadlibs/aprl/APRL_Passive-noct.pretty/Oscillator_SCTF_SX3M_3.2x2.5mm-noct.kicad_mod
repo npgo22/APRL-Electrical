@@ -1,0 +1,182 @@
+(footprint "Oscillator_SCTF_SX3M_3.2x2.5mm-noct"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "3.2x2.5mm 4-pad SMD oscillator/crystal, SCTF SX3M land pattern (pad 1 bottom-left: 1 EN, 2 GND, 3 OUT, 4 VDD)")
+	(tags "oscillator crystal 3225 SMD")
+	(property "Reference" "Y**"
+		(at 0 -2.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "dddac851-d0d4-42a6-b13a-70c2e79d412b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Oscillator_SCTF_SX3M_3.2x2.5mm"
+		(at 0 2.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2b282b23-9718-468b-ad3f-30420de8af3d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0cf0d3ad-7f5f-4ec8-8c54-623ecfd4478f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bbdd6374-487b-455f-8601-0677d178f97b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.6 -1.25)
+		(end 1.6 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a539d7ba-bbed-4144-b5c4-f211a2955776")
+	)
+	(fp_line
+		(start 1.6 -1.25)
+		(end 1.6 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e9f6bd0f-5159-4fc9-8e6c-4fe91b656a51")
+	)
+	(fp_line
+		(start 1.6 1.25)
+		(end -1.2000000000000002 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2c795aab-0680-482b-ae8a-ea801199b704")
+	)
+	(fp_line
+		(start -1.2000000000000002 1.25)
+		(end -1.6 0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b61ab138-e664-48ab-8036-b03e1ae38532")
+	)
+	(fp_line
+		(start -1.6 0.85)
+		(end -1.6 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f3896960-fffd-4407-9036-d64d57c4836a")
+	)
+	(fp_line
+		(start -2.0 0.3)
+		(end -2.0 1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eb88f6f0-abca-49c5-b33b-b8bc6df50cd6")
+	)
+	(fp_line
+		(start -2.0 1.55)
+		(end -0.4 1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2c5e265f-b6bd-4c62-97b1-dc36f845bcd0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "827386ac-b863-4fe0-8ddb-d9f4527d9631")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.1 0.875)
+		(size 1.2 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.0526316)
+		(uuid "e66ab8d9-ac4d-42a2-a347-26003217181c")
+	)
+	(pad "2" smd roundrect
+		(at 1.1 0.875)
+		(size 1.2 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.0526316)
+		(uuid "f80d6b74-58dd-4d0d-8675-e873c994cd22")
+	)
+	(pad "3" smd roundrect
+		(at 1.1 -0.875)
+		(size 1.2 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.0526316)
+		(uuid "803e1318-f3fa-488c-9353-870a92ce31e5")
+	)
+	(pad "4" smd roundrect
+		(at -1.1 -0.875)
+		(size 1.2 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.0526316)
+		(uuid "24f0113e-c1d7-44b5-9ed5-e98a0954d12f")
+	)
+	(embedded_fonts no)
+	(model "${APRL_LIBS}/models/Oscillator_SCTF_SX3M_3.2x2.5mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
