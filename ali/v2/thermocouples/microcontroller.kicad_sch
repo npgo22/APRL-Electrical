@@ -6674,6 +6674,16 @@
 		)
 		(uuid "05dfcbb0-ac69-4fce-ab69-7846777c38c4")
 	)
+	(text "This doesn't follow the convention used on the LC and PT DAQs but can be updated to do so"
+		(exclude_from_sim no)
+		(at 249.936 89.662 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0bf6ebb8-846e-4d9a-a7b6-906557533dc7")
+	)
 	(text "MICROCONTROLLER"
 		(exclude_from_sim no)
 		(at 42.418 17.272 0)
