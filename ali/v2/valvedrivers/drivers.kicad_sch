@@ -5867,7 +5867,7 @@
 		(instances
 			(project "valvedrivers"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/874202e5-99bb-4171-bb05-149c597c3ffb"
-					(reference "J12")
+					(reference "J20")
 					(unit 1)
 				)
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/8cc59f38-1699-44c2-acba-89190a5df7d8"

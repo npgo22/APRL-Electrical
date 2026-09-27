@@ -844,6 +844,8 @@
     ]
   ],
   "text_variables": {
+    "APPROVED_BY": "",
+    "APPROVED_BY_DATE": "",
     "BOARD": "VALVE DRIVERS",
     "CHECKED_BY": "",
     "CHECKED_BY_DATE": "",
@@ -874,9 +876,7 @@
     "REV_NUMBER_COMMENT4": "",
     "REV_NUMBER_COMMENT5": "",
     "STACKUP": "JLCPCB 7628",
-    "SUBSYSTEM": "STAND ELEC.",
-    "APPROVED_BY": "",
-    "APPROVED_BY_DATE": ""
+    "SUBSYSTEM": "STAND ELEC."
   },
   "tuning_profiles": {
     "meta": {

@@ -60,11 +60,11 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.0,
+          "min_clearance": 0.09,
           "min_island_area": 10.0,
           "min_thickness": 0.15,
           "pad_connection": 2,
-          "remove_islands": 0,
+          "remove_islands": 1,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -816,6 +816,8 @@
     ]
   ],
   "text_variables": {
+    "APPROVED_BY": "",
+    "APPROVED_BY_DATE": "",
     "BOARD": "PRESSURE TRANSDUCER DAQ",
     "CHECKED_BY": "",
     "CHECKED_BY_DATE": "",
@@ -846,9 +848,7 @@
     "REV_NUMBER_COMMENT4": "",
     "REV_NUMBER_COMMENT5": "",
     "STACKUP": "JLCPCB 7628",
-    "SUBSYSTEM": "STAND ELEC.",
-    "APPROVED_BY": "",
-    "APPROVED_BY_DATE": ""
+    "SUBSYSTEM": "STAND ELEC."
   },
   "tuning_profiles": {
     "meta": {
