@@ -6378,7 +6378,7 @@
 	)
 	(rectangle
 		(start 168.91 147.32)
-		(end 215.9 182.88)
+		(end 234.95 182.88)
 		(stroke
 			(width 0)
 			(type default)
@@ -6491,6 +6491,16 @@
 			)
 		)
 		(uuid "a627e554-d7cb-4f3b-88ec-db381d665031")
+	)
+	(text "Smaller CMOS crystals have undefined minimum rise times,\nso we're placing a series termination resistor just in case"
+		(exclude_from_sim no)
+		(at 203.708 180.594 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c289b4f7-2f78-4450-8a57-5fe2c8d76be2")
 	)
 	(text "Pinout in STM32CubeMX"
 		(exclude_from_sim no)
@@ -7454,7 +7464,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 167.64) (xy 203.2 167.64)
+			(xy 201.93 167.64) (xy 205.74 167.64)
 		)
 		(stroke
 			(width 0)
@@ -7581,6 +7591,16 @@
 			(type default)
 		)
 		(uuid "48be6b2d-68ab-438e-8923-8b67fc4f7996")
+	)
+	(wire
+		(pts
+			(xy 210.82 167.64) (xy 214.63 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fa5fc38-c3c3-4c92-bd07-dd28e80ac531")
 	)
 	(wire
 		(pts
@@ -9976,7 +9996,7 @@
 	)
 	(hierarchical_label "ADC_CLK"
 		(shape output)
-		(at 203.2 167.64 0)
+		(at 214.63 167.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13015,6 +13035,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 208.28 167.64 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "74f55acd-e571-4443-bdd2-b245dc6946d6")
+		(property "Reference" "R28"
+			(at 202.438 166.37 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "22R"
+			(at 210.312 166.116 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "APRL_Passive:R_0603"
+			(at 208.28 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 208.28 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 208.28 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Yageo"
+			(at 208.28 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0db50c5f-9779-4d3f-a3de-2b9ab87f3e1f")
+		)
+		(pin "2"
+			(uuid "ca4b8bd7-c960-4660-b31e-0167085f9ac2")
+		)
+		(instances
+			(project "load-cell"
+				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 173.99 71.12 0)
 		(unit 1)
@@ -15137,10 +15260,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9f57281e-3c2b-4a8c-ae46-39dec53f49c0")
 		(property "Reference" "Y2"
-			(at 207.01 161.2198 0)
+			(at 203.9257 157.1354 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15150,7 +15272,7 @@
 			)
 		)
 		(property "Value" "7.3278 MHz"
-			(at 207.01 163.7598 0)
+			(at 203.9257 159.6754 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

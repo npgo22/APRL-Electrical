@@ -17476,16 +17476,6 @@
 				(justify left)
 			)
 		)
-		(pin "ADC_RESET" input
-			(at 165.1 142.24 0)
-			(uuid "abd80eb5-cf9d-4474-b02f-66df90bb0a08")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "ETH_RXD0" output
 			(at 101.6 135.89 180)
 			(uuid "7646bf72-57e6-486b-8f2f-11b28bed7190")
@@ -17504,16 +17494,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "ADC_START" bidirectional
-			(at 165.1 139.7 0)
-			(uuid "e23be079-33f6-40be-a31b-b83a5ed3c4d7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "FDCAN_RX" input
@@ -17536,26 +17516,6 @@
 				(justify left)
 			)
 		)
-		(pin "MISO" input
-			(at 165.1 130.81 0)
-			(uuid "3c0ba5b5-38ba-4c30-b5b8-52931ff8eb9a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SCLK" output
-			(at 165.1 125.73 0)
-			(uuid "fbd63084-62ca-4de7-a921-9afc8bce54b4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "ETH_CRS_DV" input
 			(at 101.6 140.97 180)
 			(uuid "ac907ef1-4ca7-41aa-a518-cc7fd2b47bac")
@@ -17566,7 +17526,7 @@
 				(justify left)
 			)
 		)
-		(pin "ADC_DRDY" input
+		(pin "ADC_DRDY" output
 			(at 165.1 137.16 0)
 			(uuid "0a51c890-51be-4c04-bf55-1722af72acf0")
 			(effects
@@ -17616,16 +17576,6 @@
 				(justify left)
 			)
 		)
-		(pin "MOSI" output
-			(at 165.1 128.27 0)
-			(uuid "e3ef219d-7ef7-44bc-87d4-c4ecda0f0ab6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "ETH_~{RST}" output
 			(at 101.6 148.59 180)
 			(uuid "5543fe75-a16f-4927-a79c-0fabf4141f13")
@@ -17666,29 +17616,79 @@
 				(justify left)
 			)
 		)
-		(pin "I2C4_SCL" bidirectional
-			(at 165.1 153.67 0)
-			(uuid "81d3ebfa-bf9c-43bb-89dd-f3fa03b9885a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "I2C4_SDA" bidirectional
-			(at 165.1 156.21 0)
-			(uuid "bf63fb1e-95e3-4316-a3b4-81aaaacb40ee")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "CJC_~{RESET}" output
 			(at 165.1 158.75 0)
 			(uuid "5a5d01bf-dff0-4404-85ad-a30b09685630")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C1_SDA" bidirectional
+			(at 165.1 156.21 0)
+			(uuid "642e0d5d-b7a3-47bb-8b6f-1daa971ab37b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_START" output
+			(at 165.1 139.7 0)
+			(uuid "773e0351-aad6-4a44-bed1-2208c3134584")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C1_SCL" bidirectional
+			(at 165.1 153.67 0)
+			(uuid "e4a8ded7-29b4-4820-827c-6b7a332f0ced")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_RESET" output
+			(at 165.1 142.24 0)
+			(uuid "8a7b469b-3b19-4d6e-bbf5-a97c0be71660")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_MISO" input
+			(at 165.1 130.81 0)
+			(uuid "be5c51ea-c8c2-4af0-9c49-7c81b6774dae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_MOSI" output
+			(at 165.1 128.27 0)
+			(uuid "5282c31c-a85e-44ba-ab58-54eb315f7a3c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_SCLK" output
+			(at 165.1 125.73 0)
+			(uuid "3f97faea-71c9-4d4c-8362-f374b9419450")
 			(effects
 				(font
 					(size 1.27 1.27)

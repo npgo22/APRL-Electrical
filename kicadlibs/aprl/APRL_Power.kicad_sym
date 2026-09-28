@@ -3611,7 +3611,7 @@
 			)
 		)
 		(symbol "UCC33420_1_0"
-			(pin power_in line
+			(pin passive line
 				(at -8.89 -2.54 0)
 				(length 2.54)
 				(hide yes)
@@ -3630,7 +3630,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -8.89 -2.54 0)
 				(length 2.54)
 				(hide yes)
@@ -3649,7 +3649,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -8.89 -2.54 0)
 				(length 2.54)
 				(hide yes)
@@ -3668,7 +3668,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 8.89 -2.54 180)
 				(length 2.54)
 				(hide yes)
@@ -3687,7 +3687,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 8.89 -2.54 180)
 				(length 2.54)
 				(hide yes)
@@ -3706,7 +3706,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 8.89 -2.54 180)
 				(length 2.54)
 				(hide yes)
