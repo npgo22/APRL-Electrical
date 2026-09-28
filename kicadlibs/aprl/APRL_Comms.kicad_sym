@@ -2572,7 +2572,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 -1.27 0)
+				(at 11.43 6.35 180)
 				(length 2.54)
 				(name "~{INT0}"
 					(effects
@@ -2644,7 +2644,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 -3.81 0)
+				(at 11.43 -1.27 180)
 				(length 2.54)
 				(name "~{INT1}"
 					(effects
@@ -2698,7 +2698,7 @@
 				)
 			)
 			(pin open_collector line
-				(at 11.43 7.62 180)
+				(at -11.43 -2.54 0)
 				(length 2.54)
 				(name "~{INT}"
 					(effects

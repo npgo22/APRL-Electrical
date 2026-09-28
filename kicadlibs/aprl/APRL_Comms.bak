@@ -2483,7 +2483,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:Texas_HTSSOP-14-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask3.155x3.255mm_ThermalVias"
+		(property "Footprint" "APRL_Package:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2572,7 +2572,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 -1.27 0)
+				(at 11.43 6.35 180)
 				(length 2.54)
 				(name "~{INT0}"
 					(effects
@@ -2643,27 +2643,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 0 -15.24 90)
-				(length 2.54)
-				(hide yes)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
-				(at -11.43 -3.81 0)
+				(at 11.43 -1.27 180)
 				(length 2.54)
 				(name "~{INT1}"
 					(effects
@@ -2717,7 +2698,7 @@
 				)
 			)
 			(pin open_collector line
-				(at 11.43 7.62 180)
+				(at -11.43 -2.54 0)
 				(length 2.54)
 				(name "~{INT}"
 					(effects

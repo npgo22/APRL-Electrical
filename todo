@@ -17,3 +17,6 @@
 - add ads1261 to chickensticks for strain gauge stuff (maybe sneak in accelerometer and gps antenna too since we dont need a physical interface?)
 - determine how we want revisions to work (maybe rename v1/v2 to rev1/rev2 and place them accordingly on each board?)
 - fix the broken lcsc/claude-colored step models
+- add sample caps to +5V monitoring on ali v2 daqs
+- Maybe add a reverse series zener for threshold voltages on optocoupler for UVLO
+- ioc clocks

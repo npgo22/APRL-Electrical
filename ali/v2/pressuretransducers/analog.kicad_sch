@@ -1910,6 +1910,16 @@
 		)
 		(uuid "5582835e-6d45-4be0-9612-a120cf99604e")
 	)
+	(text "ADC"
+		(exclude_from_sim no)
+		(at 190.246 48.26 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "8b173be3-fc61-4fea-833d-2ee0f04b0ee5")
+	)
 	(text "fcm = 159 kHz\nfdm = 7.58 kHz"
 		(exclude_from_sim no)
 		(at 53.086 48.514 0)
