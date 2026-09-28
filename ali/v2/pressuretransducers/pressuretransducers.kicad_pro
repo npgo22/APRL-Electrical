@@ -802,7 +802,7 @@
         "uuid": "0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666"
       }
     ],
-    "used_designators": "NT1-16,SW1,H1-4,F1-19,U1-8,J1-26,JP1,R1-66,D1-21,C1-92,Y1-4,#PWR1-156",
+    "used_designators": "NT1-16,SW1,H1-4,F1-19,U1-8,J1-26,JP1,R1-68,D1-21,C1-92,Y1-4,#PWR1-156",
     "variants": []
   },
   "sheets": [

@@ -413,7 +413,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:VQFN-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm_ThermalVias"
+		(property "Footprint" "APRL_Package_QFN:VQFN-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm_ThermalVias"
 			(at 1.27 -26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2518,7 +2518,7 @@
 		)
 		(symbol "TCA9543A_0_0"
 			(pin input line
-				(at -19.05 -13.97 0)
+				(at -11.43 -6.35 0)
 				(length 2.54)
 				(name "A0"
 					(effects
@@ -2536,7 +2536,7 @@
 				)
 			)
 			(pin input line
-				(at -19.05 -16.51 0)
+				(at -11.43 -8.89 0)
 				(length 2.54)
 				(name "A1"
 					(effects
@@ -2554,7 +2554,7 @@
 				)
 			)
 			(pin input line
-				(at -19.05 -6.35 0)
+				(at -11.43 1.27 0)
 				(length 2.54)
 				(name "~{RESET}"
 					(effects
@@ -2572,7 +2572,7 @@
 				)
 			)
 			(pin input line
-				(at -19.05 -8.89 0)
+				(at -11.43 -1.27 0)
 				(length 2.54)
 				(name "~{INT0}"
 					(effects
@@ -2590,7 +2590,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 19.05 5.08 180)
+				(at 11.43 3.81 180)
 				(length 2.54)
 				(name "SD0"
 					(effects
@@ -2608,7 +2608,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 19.05 2.54 180)
+				(at 11.43 1.27 180)
 				(length 2.54)
 				(name "SC0"
 					(effects
@@ -2626,7 +2626,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -25.4 90)
+				(at 0 -15.24 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -2643,8 +2643,27 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 0 -15.24 90)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin input line
-				(at -19.05 -11.43 0)
+				(at -11.43 -3.81 0)
 				(length 2.54)
 				(name "~{INT1}"
 					(effects
@@ -2662,7 +2681,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 19.05 -2.54 180)
+				(at 11.43 -3.81 180)
 				(length 2.54)
 				(name "SD1"
 					(effects
@@ -2680,7 +2699,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 19.05 -5.08 180)
+				(at 11.43 -6.35 180)
 				(length 2.54)
 				(name "SC1"
 					(effects
@@ -2698,7 +2717,7 @@
 				)
 			)
 			(pin open_collector line
-				(at 19.05 8.89 180)
+				(at 11.43 7.62 180)
 				(length 2.54)
 				(name "~{INT}"
 					(effects
@@ -2716,7 +2735,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -19.05 1.27 0)
+				(at -11.43 5.08 0)
 				(length 2.54)
 				(name "SCL"
 					(effects
@@ -2734,7 +2753,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -19.05 3.81 0)
+				(at -11.43 7.62 0)
 				(length 2.54)
 				(name "SDA"
 					(effects
@@ -2752,7 +2771,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 25.4 270)
+				(at 0 15.24 270)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -2785,8 +2804,8 @@
 		)
 		(symbol "TCA9543A_1_1"
 			(rectangle
-				(start -16.51 22.86)
-				(end 16.51 -22.86)
+				(start -8.89 12.7)
+				(end 8.89 -12.7)
 				(stroke
 					(width 0.254)
 					(type solid)
@@ -2826,7 +2845,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:HVSON-8-1EP_3x3mm_P0.65mm_EP1.6x2.4mm"
+		(property "Footprint" "APRL_Package_QFN:HVSON-8-1EP_3x3mm_P0.65mm_EP1.6x2.4mm_ThermalVias"
 			(at 0 -12.7 0)
 			(show_name no)
 			(do_not_autoplace no)

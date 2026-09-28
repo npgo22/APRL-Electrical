@@ -921,17 +921,6 @@
 					)
 				)
 			)
-			(property "LCSC" "C34677"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "ki_keywords" "RJ45 Magjack Socket"
 				(at 0 0 0)
 				(show_name no)
@@ -7636,7 +7625,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM21AR72A224KAC5"
+		(property "MPN" "GRM188R71H224KAC4"
 			(at 157.48 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -7740,7 +7729,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM21A5C2J471FWA1"
+		(property "MPN" "GRM1885C1H471JA01"
 			(at 100.33 50.8 0)
 			(hide yes)
 			(show_name no)

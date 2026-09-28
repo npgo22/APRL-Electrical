@@ -381,19 +381,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "239f915d-22a9-4c55-b56c-ebe04c4f79ee")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -683,19 +670,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "033ea4f3-516f-44d5-b419-58efd02325b2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -957,19 +931,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C60490"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5b2243dd-de2b-456d-8a02-5cb43064c17b")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1302,18 +1263,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C965793"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "8c222daa-b4bd-406a-8dca-a7a227253eb3")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -1685,19 +1634,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c6bfe834-c755-4507-bec4-827eda255641")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -1972,18 +1908,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8b1104e5-f000-4bf3-89b4-0eaf8938480e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C2653162"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "8a1f6321-3a02-4de9-820d-3bdfd43ae6cd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2893,19 +2817,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C87044"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5bc9fc0c-a3d8-4d27-bd00-317f92f7792e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -3241,19 +3152,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C15195"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f505bc40-2a9a-4451-a89a-bb4e20f8213f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -3506,19 +3404,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "342cc375-2f2f-4b35-84cc-ddad6a4966c2")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3819,19 +3704,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1df06f2d-f9a7-4e38-9f0b-6233419ce4d1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -4114,19 +3986,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C105875"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0adfc255-a541-4d53-9342-da1c4251b17d")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4521,19 +4380,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "446d4fa2-82b8-4488-bd93-e3539b369e7b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -4774,19 +4620,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C105875"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9f74f47b-52da-4b7e-91f4-5685e3570162")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5111,19 +4944,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d1cf25aa-ef1c-4166-b61a-f90eecf4e3a2")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6351,18 +6171,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C467897"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "fa837b91-088a-4d1b-a8b8-66c436da45a8")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -6857,19 +6665,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c3147e63-2c81-464d-89c9-25c1fe9ccd01")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7390,19 +7185,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C15195"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "54e44bc8-19c3-42dc-bac7-0753385b3d3e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -7667,19 +7449,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C105873"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "299c1d56-8ba1-4ebc-875c-8186f8b5da72")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -8016,18 +7785,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ea9df460-b3da-462a-a542-f8cf82f38d9f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C22445414"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "65605d86-f2ac-4182-9da9-695b58f0bac5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8577,19 +8334,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C105875"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "737e1283-9e60-4b11-bc45-db63d9ab6a71")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -9253,19 +8997,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C60490"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b6c50ada-ea61-42cc-95e5-f7a8ebe882ae")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -9604,19 +9335,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "aae909ee-e19c-41f8-a770-997657a39690")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -9882,19 +9600,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C2337"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "618341a6-230c-4c55-a908-af41e7c089d3")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -10300,19 +10005,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d326e3db-ff02-4a1d-a4be-268492e941b0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -10561,19 +10253,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C19193036"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bf5e6c9e-2401-4f32-8264-ae1f2f9cb308")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -10905,19 +10584,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C602037"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d4781f90-4095-4933-86ff-3c8e2e7ef41f")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -11276,19 +10942,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C15849"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "89aae1fc-0f1d-47ae-ac07-1c2aa4cf31d1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -11537,18 +11190,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "211b1831-47a6-4815-b703-530ea7d9f26e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C165948"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "d8761c58-3577-4e5d-90d1-5cb9add24ae9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12099,19 +11740,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C32949"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "317da2ca-c93b-4e74-b6c1-4cf7c8857fb9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -12388,18 +12016,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C965793"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "3a9f92e9-8adc-4df0-97da-ac624e300a14")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -12780,19 +12396,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C60490"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "626c9dc8-47b5-43dd-9712-4ebc5b01558b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -13137,19 +12740,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C12074"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6780c0c0-d0eb-4734-b9af-50a6892d07e6")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -13895,18 +13485,6 @@
 				)
 			)
 		)
-		(property "LCSC" ""
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "f8c43c89-fd10-41c3-8d23-0a95142f7f75")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -14536,18 +14114,6 @@
 				)
 			)
 		)
-		(property "LCSC" ""
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "fe03e2f0-085c-4da0-9973-1b759d841ea9")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -15089,19 +14655,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "46bdb5dc-b7f4-4ee6-bbdb-c4d8dcabde78")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -15377,19 +14930,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C87044"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "47311f2c-c4ed-4189-82bf-349149ba1c7f")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -15739,19 +15279,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C602037"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fa26d9e3-8914-4a94-81a5-4b0dc3a8a6e4")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -16358,18 +15885,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C21260817"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "8266c306-f392-4feb-9d8f-8da2d1c1204e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -16730,19 +16245,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C22435898"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2b1ecfaf-331c-4a60-aaeb-5e5c9ebe48ce")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Part" "LUTE 0805L050/16XR"
 			(at 0 0 0)
 			(unlocked yes)
@@ -17060,18 +16562,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bcb294f1-7989-4488-9ed9-41b69d3030eb")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C2653162"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "62d2bf28-3f16-4317-8b2d-f6ad020e272a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17685,19 +17175,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "18772e00-b9ee-4b78-a66b-605acae98d6f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -17950,19 +17427,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "57b43676-59c3-4ff2-bfed-85da37b0e3fe")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -18236,18 +17700,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C965793"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "beadbeb7-facf-484e-8a74-183d1710bcf7")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -18628,18 +18080,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C602037"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "88e797e2-9b61-4506-a585-afe65c21f693")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -19001,19 +18441,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C87044"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c3031c3b-d785-4fc9-bc96-ce4853a4f499")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -19362,19 +18789,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C15195"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dcd42293-00e0-419b-a461-aabec91a04ba")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -19958,19 +19372,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C15195"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5bc4f1ce-b5f0-4177-8460-e4c3ac2b5196")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -20249,19 +19650,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C87044"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b0c96bee-cae3-40ba-b7b1-93fba9cc4551")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -20636,18 +20024,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C21260817"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "2a37b5e2-2637-4a07-8c61-7d77ffff394d")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -21008,18 +20384,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d25e14e8-b325-4453-9ed0-a3c47f2ccac7")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C2337"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "2c9c84aa-2f01-4fd3-aae6-49004f4c30f6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22102,18 +21466,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C602037"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "1ba24f92-64ee-409f-a709-9c515f873104")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -22740,19 +22092,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C15849"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "142e38b9-0f22-4b2a-bdd2-2dd1dbf36a1c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -22962,18 +22301,6 @@
 				)
 			)
 		)
-		(property "LCSC" ""
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "e021e96c-51c3-496f-8e05-df9dd93251c3")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -23176,18 +22503,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C965793"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "0ef9957c-3568-4caa-8e41-7a5eff80c1b3")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -23552,19 +22867,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C32949"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fbb259d8-6744-496b-bce0-39e3df151e06")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -23813,18 +23115,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "95cc4f89-947f-4c09-8733-21a784d01a99")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C7519"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "36472d67-5f04-47fd-ae7a-67fa312a6e71")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24312,18 +23602,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C39057"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "7ee2462c-d8b9-4c92-9f5c-82a48884cdb5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -24737,18 +24015,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C5765970"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "4e8adaf1-8903-45de-94e1-186a3159e30a")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -24953,18 +24219,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "059bd232-9efb-4246-807d-6654707cbd45")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "043a7832-67d0-4954-9ffb-1f6f2bb9e8eb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25190,19 +24444,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C170151"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "001c1d75-aacc-4ca2-9d97-6f85fc033f20")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -25456,19 +24697,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C2901668"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "14b24e23-5d74-411d-b137-c23f961c59a7")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -25729,19 +24957,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C25852"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1023d6af-5410-4717-b5ad-9a4bf7228904")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -26107,19 +25322,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C2909692"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7f345c29-44c5-43af-b300-7a70ece30b04")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -26335,19 +25537,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C105875"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "139f4c7f-d5e9-4013-a9c4-5e30f3a3efb4")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -26697,19 +25886,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "45712fbb-af8b-4bc2-b916-1f11dcac12ae")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -27007,18 +26183,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C21260817"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "880a293a-922e-4287-a614-3e4cf5bb432a")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -27413,19 +26577,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9b2c731a-a281-451c-86df-5eea209ab9d0")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -28171,19 +27322,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C105875"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5a909c35-556a-4dfc-96e6-e6ccfd0017a4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -28505,19 +27643,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C105873"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8a4b3bba-bed7-4102-b0bc-e1863b2a45b5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -28796,18 +27921,6 @@
 				)
 			)
 		)
-		(property "LCSC" ""
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "9708e4d8-6549-46dc-874c-f44c9f80ea1b")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -29026,19 +28139,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C32949"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7f7da907-694f-4b8c-bc7d-66c750b67417")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -29324,19 +28424,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C2337"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2b5b859c-2040-42f8-abd0-ac31cb946b50")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -29782,19 +28869,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C105875"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cd065282-3de8-4de3-9417-bcd2ddc3d3d8")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -30397,18 +29471,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "00668e35-d1c5-4194-bda7-24d20c902143")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C2653162"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "5dce2b4b-32bd-463d-a40f-3083100200a7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31032,19 +30094,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C105875"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a1c1b5e6-ec67-4b8f-9d05-3e2fe6bdfe2e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -31394,19 +30443,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e565713f-e3b7-4ee9-a4ec-852b60901c85")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -31650,19 +30686,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C60490"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ac53c6c5-135d-4164-b35e-0079eb8e91dc")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -31952,18 +30975,6 @@
 				)
 			)
 		)
-		(property "LCSC" ""
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "a7de3421-007d-47c7-9320-989b26696c90")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -32160,19 +31171,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C3029316"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2d36eb0f-1225-47a6-81d7-35ffd7481ad9")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -33586,19 +32584,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bd3bee22-9a22-4e4c-8d32-b6b712fc31ce")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -33855,19 +32840,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C105875"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d07a4a21-7a3b-4bb8-94de-3f1d3b08b17c")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -34213,19 +33185,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "32cc403d-b809-43f5-9864-25fe5bf9ddf7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -34493,18 +33452,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9c589b3a-6940-42a1-82f2-5ab8350175cd")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C2337"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "effefb97-855e-4330-ad88-dfdc1b10a8e5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34898,19 +33845,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "790bccc6-c379-4bf7-8c77-9060a519c230")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -35448,19 +34382,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C137954"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "352909db-e245-461e-bcd5-d7e34130e0bf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -35772,19 +34693,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C105875"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4cc8877f-2b20-4ec8-ab1b-5137114bc656")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -36166,18 +35074,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "315c6967-a5d5-49dc-91ac-7ef93e37d547")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -36708,18 +35604,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ea4b7d85-f34d-44e7-adbe-99052bead725")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C2653162"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "d3b84ad6-39ee-4a99-8d7d-d9d83f3eeb8e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37297,19 +36181,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2a67c965-0b7a-417c-bf31-60d8b990b104")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -37552,18 +36423,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c05ed55c-e360-4377-b9b2-a7f682dd71ca")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C602037"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "3eeaf871-8fe7-48f7-bf19-f60a450e2a2b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37928,19 +36787,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e5ce2f2c-04dc-4558-84bc-85e41dd98487")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -38208,19 +37054,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C60490"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ae08b9a8-27a6-4580-9452-5bbd79b634d8")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -38590,19 +37423,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C602037"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f2326f8d-25d3-461a-abe4-0d5280453f90")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -38856,18 +37676,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fc019b51-7859-4db4-a57b-e7ce592179c5")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C20619634"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "0e00f149-6dcf-4cfa-a3d1-d49b19912727")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40051,18 +38859,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C2337"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "3fec9650-2e8f-4613-9206-291db0d29869")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -40476,18 +39272,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C602037"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "89c5aa50-5781-4b4a-8767-67aad6bb424c")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -40846,18 +39630,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C965793"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "0b9d3ce7-7bd6-4212-9a93-201984a1308f")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -41592,19 +40364,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C15195"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9b16fdcc-05c4-43d5-85a2-ee0f67fcb594")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -41856,19 +40615,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C105875"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "307b29f4-1f73-4540-a42d-eb3142884ebc")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -42187,19 +40933,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C138002"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5838a949-8014-4c02-b79b-e52383f92928")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -42529,19 +41262,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C60490"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c2c9e7a0-883a-4271-917a-2a72f4ee6be7")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -42881,19 +41601,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C105875"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a4b5a21b-f20a-492b-8dae-5f6e6b44a5cf")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -43248,19 +41955,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C15195"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f5716d30-3f85-49b4-b07e-8587289513fd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -43527,19 +42221,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "de41ca9a-857b-431c-b752-28fd5797122a")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -44091,19 +42772,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C15195"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5878c923-9851-4d46-9471-224a11389c20")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -44391,18 +43059,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C21260817"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "294315c9-f37b-424e-b16f-f8e7a975bc02")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -44764,18 +43420,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C602037"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "a421f12c-af2a-4de9-9ab3-1901e6b5297f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -45121,19 +43765,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C60490"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a73f8684-087b-49e4-8312-434dc4497594")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -45452,19 +44083,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C170151"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "82f8804d-c8c1-4858-b838-b3cd02cf25d7")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -46241,19 +44859,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C602037"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fe1bb270-5874-4eb2-b1fa-d3ab0d88e48c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -46626,19 +45231,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C15195"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b2733f88-1814-490c-94b1-8c28f5cb122c")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -47252,18 +45844,6 @@
 				)
 			)
 		)
-		(property "LCSC" ""
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "7fa229ea-394f-47ff-a807-dc02a4b5d7fd")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -47804,19 +46384,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4ccd2f3a-0d3d-4e65-9f6f-1039cb9a1d32")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -48096,19 +46663,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7636f599-fbb0-42e0-ac82-582eb4c66002")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -48412,19 +46966,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "18dd457d-1d7b-4e99-8733-e1199575c6f6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -48676,19 +47217,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C32949"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "14015dd3-06aa-4ad8-96f8-f40efc36c325")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -48926,18 +47454,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8f86bb53-c231-4773-9cd5-871e7bb1549c")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C51118"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "7ee37944-4fd9-4615-9d26-2f8bfa1c8794")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49441,18 +47957,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C602037"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "ad2bb143-0e66-4305-9120-e6d2097f0a23")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -49836,19 +48340,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C60490"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "eb1dd642-fe1b-497b-a5c2-ef5930222f3b")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)

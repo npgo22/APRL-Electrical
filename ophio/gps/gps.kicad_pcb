@@ -467,19 +467,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C51118"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "03b4d70e-7cdc-4674-b977-a6cef16806a8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 0 0 270)
 			(unlocked yes)

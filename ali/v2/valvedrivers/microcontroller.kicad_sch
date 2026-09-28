@@ -2632,7 +2632,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_DFN_QFN:QFN-68-1EP_8x8mm_P0.4mm_EP6.4x6.4mm"
+			(property "Footprint" "APRL_Package_QFN:QFN-68-1EP_8x8mm_P0.4mm_EP6.4x6.4mm"
 				(at -22.86 -45.72 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -9052,7 +9052,7 @@
 				)
 			)
 		)
-		(property "MPN" " RC0603FR-0710KL"
+		(property "MPN" "RC0603FR-0710KL"
 			(at 259.08 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -9259,7 +9259,7 @@
 				)
 			)
 		)
-		(property "MPN" " RC0603FR-0710KL"
+		(property "MPN" "RC0603FR-0710KL"
 			(at 250.19 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -10236,7 +10236,7 @@
 				)
 			)
 		)
-		(property "Footprint" "APRL_Package:4-SMD"
+		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
 			(at 199.39 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -10495,7 +10495,7 @@
 				)
 			)
 		)
-		(property "MPN" " RC0603FR-0710KL"
+		(property "MPN" "RC0603FR-0710KL"
 			(at 39.37 139.7 90)
 			(hide yes)
 			(show_name no)
@@ -11415,7 +11415,7 @@
 				)
 			)
 		)
-		(property "MPN" "FLR_178.6165"
+		(property "MPN" "178.6165.0001"
 			(at 189.23 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -12265,7 +12265,7 @@
 				)
 			)
 		)
-		(property "MPN" " RC0603FR-0710KL"
+		(property "MPN" "RC0603FR-0710KL"
 			(at 39.37 129.54 90)
 			(hide yes)
 			(show_name no)
@@ -16220,7 +16220,7 @@
 				)
 			)
 		)
-		(property "MPN" " RC0603FR-0710KL"
+		(property "MPN" "RC0603FR-0710KL"
 			(at 189.23 157.48 90)
 			(hide yes)
 			(show_name no)
@@ -16597,7 +16597,7 @@
 				)
 			)
 		)
-		(property "MPN" " RC0603FR-0710KL"
+		(property "MPN" "RC0603FR-0710KL"
 			(at 39.37 134.62 90)
 			(hide yes)
 			(show_name no)

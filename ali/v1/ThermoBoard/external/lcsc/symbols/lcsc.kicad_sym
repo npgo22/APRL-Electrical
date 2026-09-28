@@ -51,15 +51,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C246766"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "C246766"
 			(at 0 0 0)
 			(effects
@@ -254,15 +245,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C12074"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2667,15 +2649,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2909692"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "C2909692"
 			(at 0 0 0)
 			(effects
@@ -2898,15 +2871,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C621425"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3449,15 +3413,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C485379"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "C485379"
 			(at 0 0 0)
 			(effects
@@ -3665,15 +3620,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C165948"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4045,15 +3991,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C112972"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "C112972"
 			(at 0 0 0)
 			(effects
@@ -4274,9 +4211,6 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "ki_keywords" "C470426" (id 4) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C470426" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     

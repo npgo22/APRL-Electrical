@@ -5366,15 +5366,6 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C2909692"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "ki_keywords" "C2909692"
 				(at 0 0 0)
 				(effects
@@ -10126,15 +10117,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C602037"
-			(at 229.108 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 233.68 156.21 0)
 			(effects
@@ -10207,15 +10189,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 50.8 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 54.61 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10303,15 +10276,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2337"
-			(at 255.27 48.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 254 49.53 90)
 			(effects
@@ -10384,15 +10348,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 96.52 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 100.33 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10613,15 +10568,6 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 254 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C965793"
-			(at 261.62 157.7975 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10975,15 +10921,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
-			(at 43.18 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 39.37 45.72 0)
 			(effects
@@ -11123,15 +11060,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 21.59 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C32949"
-			(at 25.4 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11416,15 +11344,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C602037"
-			(at 220.218 165.354 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 222.25 156.21 0)
 			(effects
@@ -11701,15 +11620,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C602037"
-			(at 59.436 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 62.23 181.61 0)
 			(effects
@@ -11872,15 +11782,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C965793"
-			(at 47.244 121.666 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 43.18 123.19 0)
 			(effects
@@ -11952,15 +11853,6 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 185.42 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C105875"
-			(at 187.579 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12040,15 +11932,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 85.09 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 88.9 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12199,15 +12082,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C165948"
-			(at 189.23 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 189.23 50.8 0)
 			(effects
@@ -12331,15 +12205,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C105875"
-			(at 22.352 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 29.21 129.54 90)
 			(effects
@@ -12411,15 +12276,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 71.12 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C602037"
-			(at 66.802 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12499,15 +12355,6 @@
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M33 MCU, 2048KB flash, 640KB RAM, 250 MHz, 1.62-3.6V, 49 GPIO, LQFP64"
 			(at 119.38 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C20619634"
-			(at 129.54 147.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12855,15 +12702,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C965793"
-			(at 195.58 112.0774 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 191.77 111.76 90)
 			(effects
@@ -13017,15 +12855,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2901668"
-			(at 42.164 87.122 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 31.75 88.9 0)
 			(effects
@@ -13102,15 +12931,6 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 209.55 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C60490"
-			(at 209.55 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13264,15 +13084,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C32949"
-			(at 40.64 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 36.83 101.6 0)
 			(effects
@@ -13343,15 +13154,6 @@
 		)
 		(property "Description" "600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"
 			(at 199.39 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C51118"
-			(at 199.39 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13580,15 +13382,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C105875"
-			(at 22.352 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 29.21 118.11 90)
 			(effects
@@ -13735,15 +13528,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C39057"
-			(at 224.79 111.7599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 222.25 113.03 90)
 			(effects
@@ -13820,15 +13604,6 @@
 		)
 		(property "Description" "-3.6A Id, -30V Vds, P-Channel MOSFET, SOT-23"
 			(at 215.9 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C467897"
-			(at 215.9 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13924,15 +13699,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C965793"
-			(at 47.244 116.586 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 43.18 118.11 0)
 			(effects
@@ -14003,15 +13769,6 @@
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 177.8 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C3029316"
-			(at 177.8 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14091,15 +13848,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 241.3 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C15849"
-			(at 245.11 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14250,15 +13998,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
-			(at 237.49 58.166 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 237.49 64.77 90)
 			(effects
@@ -14328,15 +14067,6 @@
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated"
 			(at 20.32 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2337"
-			(at 22.352 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14425,15 +14155,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 27.94 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C602037"
-			(at 31.75 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14606,15 +14327,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C105873"
-			(at 233.68 48.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 231.14 49.53 0)
 			(effects
@@ -14687,15 +14399,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 254 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C15849"
-			(at 257.81 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14848,15 +14551,6 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 43.18 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C965793"
-			(at 47.244 128.016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15210,15 +14904,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22435898"
-			(at 256.54 36.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part" "LUTE 0805L050/16XR"
 			(at 240.284 37.846 0)
 			(effects
@@ -15366,15 +15051,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 74.93 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C170151"
-			(at 78.74 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15805,15 +15481,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2909692"
-			(at 80.01 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 80.01 59.69 90)
 			(effects
@@ -16032,15 +15699,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
-			(at 66.04 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 62.23 45.72 0)
 			(effects
@@ -16113,15 +15771,6 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 240.03 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C105873"
-			(at 242.57 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16351,15 +16000,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C602037"
-			(at 52.324 190.754 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 53.34 181.61 0)
 			(effects
@@ -16431,15 +16071,6 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 246.38 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C105875"
-			(at 245.11 169.164 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16519,15 +16150,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 73.66 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 77.47 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16680,15 +16302,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C602037"
-			(at 209.55 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 210.82 156.21 0)
 			(effects
@@ -16764,15 +16377,6 @@
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
 			(at 243.84 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C7519"
-			(at 245.4911 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16935,15 +16539,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C19193036"
-			(at 199.39 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part" "LUTE 0805L030/16XR"
 			(at 199.39 103.886 90)
 			(effects
@@ -17023,15 +16618,6 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 29.21 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C105875"
-			(at 22.352 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17188,15 +16774,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 86.36 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C170151"
-			(at 90.17 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)

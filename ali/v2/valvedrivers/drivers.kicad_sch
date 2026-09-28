@@ -1967,24 +1967,6 @@
 					)
 				)
 				(pin passive line
-					(at -8.89 15.24 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -8.89 8.89 0)
 					(length 2.54)
 					(name ""
@@ -4826,7 +4808,7 @@
 				)
 			)
 		)
-		(property "MPN" "PS2841-4A-AX"
+		(property "MPN" "PS2841-4B-F3-AX"
 			(at 93.98 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -4836,9 +4818,6 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "b8c78d53-a189-49bb-a690-981d2f75a9f5")
 		)
 		(pin "3"
 			(uuid "1b4663ca-721c-4cc8-b5a1-89a24ea57b5b")
@@ -4979,7 +4958,7 @@
 				)
 			)
 		)
-		(property "MPN" " RC0603FR-0710KL"
+		(property "MPN" "RC0603FR-0710KL"
 			(at 120.65 144.78 90)
 			(hide yes)
 			(show_name no)
@@ -5344,7 +5323,7 @@
 				)
 			)
 		)
-		(property "MPN" " RC0603FR-0710KL"
+		(property "MPN" "RC0603FR-0710KL"
 			(at 149.86 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -5637,7 +5616,7 @@
 				)
 			)
 		)
-		(property "MPN" " RC0603FR-0710KL"
+		(property "MPN" "RC0603FR-0710KL"
 			(at 120.65 125.73 90)
 			(hide yes)
 			(show_name no)
@@ -5757,7 +5736,7 @@
 				)
 			)
 		)
-		(property "MPN" " RC0603FR-0710KL"
+		(property "MPN" "RC0603FR-0710KL"
 			(at 120.65 138.43 90)
 			(hide yes)
 			(show_name no)
@@ -5848,6 +5827,28 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 248.92 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "503159-0201"
+			(at 248.92 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Molex"
 			(at 248.92 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -5959,7 +5960,7 @@
 				)
 			)
 		)
-		(property "MPN" " RC0603FR-0710KL"
+		(property "MPN" "RC0603FR-0710KL"
 			(at 158.75 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -6279,7 +6280,7 @@
 				)
 			)
 		)
-		(property "MPN" "PS2841-4A-AX"
+		(property "MPN" "PS2841-4B-F3-AX"
 			(at 95.25 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -6289,9 +6290,6 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "574d3b71-acad-461d-b790-5b124bfea715")
 		)
 		(pin "3"
 			(uuid "223c159f-c2e9-43ab-a8ed-b60b3969312b")
@@ -6534,7 +6532,7 @@
 				)
 			)
 		)
-		(property "MPN" " RC0603FR-0710KL"
+		(property "MPN" "RC0603FR-0710KL"
 			(at 132.08 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -6965,7 +6963,7 @@
 				)
 			)
 		)
-		(property "MPN" " RC0603FR-0710KL"
+		(property "MPN" "RC0603FR-0710KL"
 			(at 120.65 132.08 90)
 			(hide yes)
 			(show_name no)
@@ -7424,7 +7422,7 @@
 				)
 			)
 		)
-		(property "MPN" " RC0603FR-0710KL"
+		(property "MPN" "RC0603FR-0710KL"
 			(at 140.97 83.82 0)
 			(hide yes)
 			(show_name no)

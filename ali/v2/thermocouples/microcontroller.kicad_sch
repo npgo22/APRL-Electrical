@@ -10625,7 +10625,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "086f8c13-7f20-4b2f-bbe0-23d1d61c1fa1")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR033"
 			(at 76.2 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -10686,7 +10686,7 @@
 		(instances
 			(project "thermocouples"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "#PWR032")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -10807,7 +10807,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11231a38-668d-4047-b0cc-18036971642c")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR016"
 			(at 226.06 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -10868,7 +10868,7 @@
 		(instances
 			(project "thermocouples"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "#PWR0133")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -10886,7 +10886,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15be2018-1bd4-433f-aced-5ffb7088daf8")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR028"
 			(at 109.22 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -10947,7 +10947,7 @@
 		(instances
 			(project "thermocouples"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "#PWR027")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -11020,7 +11020,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM21B5C2E103FWAA"
+		(property "MPN" "GRM1885C1H103JA01"
 			(at 82.55 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -11148,7 +11148,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "200b8a37-de2b-40d4-960a-7d7adcf9a676")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR024"
 			(at 186.69 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -11208,7 +11208,7 @@
 		(instances
 			(project "thermocouples"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "#PWR030")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -11226,7 +11226,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "227e7b0d-567e-4b09-9612-0a3f855ea9e3")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR022"
 			(at 17.78 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -11287,7 +11287,7 @@
 		(instances
 			(project "thermocouples"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "#PWR020")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -11591,7 +11591,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3643141d-eb26-46ac-a5ff-1d039115b645")
-		(property "Reference" "R54"
+		(property "Reference" "R9"
 			(at 189.23 142.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11677,7 +11677,7 @@
 		(instances
 			(project "thermocouples"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "R54")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -11694,7 +11694,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3c32eaa8-a9f0-4724-bcf4-735ec78acf76")
-		(property "Reference" "D2"
+		(property "Reference" "D4"
 			(at 28.702 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11789,7 +11789,7 @@
 		(instances
 			(project "thermocouples"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "D2")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -11807,7 +11807,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fb27fbe-31cd-4621-8446-1ef26fc011c7")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR014"
 			(at 176.53 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -11867,7 +11867,7 @@
 		(instances
 			(project "thermocouples"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "#PWR017")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -12258,7 +12258,7 @@
 				)
 			)
 		)
-		(property "MPN" "503159-1501"
+		(property "MPN" ""
 			(at 208.28 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -12269,7 +12269,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Molex"
+		(property "MANUFACTURER" ""
 			(at 208.28 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -12434,7 +12434,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a8c3f93-54f9-45c9-8a84-9c2623ad4bf9")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR035"
 			(at 82.55 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -12495,7 +12495,7 @@
 		(instances
 			(project "thermocouples"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "#PWR034")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -12513,7 +12513,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e03b76b-757e-4a64-855d-9a70c99e14af")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR021"
 			(at 233.68 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -12573,7 +12573,7 @@
 		(instances
 			(project "thermocouples"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "#PWR0134")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -12928,7 +12928,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "598f4e63-7348-4db9-a085-baf34bed026f")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR036"
 			(at 147.32 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -12989,7 +12989,7 @@
 		(instances
 			(project "thermocouples"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "#PWR035")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -13190,7 +13190,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b57a928-14d5-4705-8430-3bf6c537049d")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR019"
 			(at 176.53 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -13251,7 +13251,7 @@
 		(instances
 			(project "thermocouples"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "#PWR021")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -13454,7 +13454,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f9a93a2-36ee-437a-9fd4-55212cf7dbd4")
-		(property "Reference" "D4"
+		(property "Reference" "D2"
 			(at 178.562 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13552,7 +13552,7 @@
 		(instances
 			(project "thermocouples"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "D4")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -13856,7 +13856,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7b84b782-c55d-4fa2-a37b-2c31c2507166")
-		(property "Reference" "R3"
+		(property "Reference" "R5"
 			(at 30.988 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13942,7 +13942,7 @@
 		(instances
 			(project "thermocouples"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "R3")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -14313,7 +14313,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7fd3e7c6-9ea0-42dd-9e83-8d9fbdb9f40c")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR017"
 			(at 200.66 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -14373,7 +14373,7 @@
 		(instances
 			(project "thermocouples"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "#PWR015")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -14776,7 +14776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86ce7317-e2a2-4d27-af80-8928a3fd6b30")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR012"
 			(at 248.92 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -14836,7 +14836,7 @@
 		(instances
 			(project "thermocouples"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "#PWR0135")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -14854,7 +14854,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87d71fe9-bbfc-46a2-b2c4-e762d70add29")
-		(property "Reference" "R5"
+		(property "Reference" "R4"
 			(at 187.96 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14940,7 +14940,7 @@
 		(instances
 			(project "thermocouples"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "R5")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -14957,7 +14957,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8849116b-70d0-4943-8a4c-41c00954775d")
-		(property "Reference" "D5"
+		(property "Reference" "D3"
 			(at 187.452 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15055,7 +15055,7 @@
 		(instances
 			(project "thermocouples"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "D5")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -15073,7 +15073,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "892356d4-41c6-4714-aad6-a2d58e5fc1bd")
-		(property "Reference" "R4"
+		(property "Reference" "R3"
 			(at 179.07 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15159,7 +15159,7 @@
 		(instances
 			(project "thermocouples"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "R4")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -15255,7 +15255,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a41bec1-45fa-4b65-9e92-19f45819ffc7")
-		(property "Reference" "R53"
+		(property "Reference" "R8"
 			(at 189.23 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15341,7 +15341,7 @@
 		(instances
 			(project "thermocouples"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "R53")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -15359,7 +15359,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b435d7b-e6f3-4d70-a9b6-779cc1ea5b5c")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR027"
 			(at 186.69 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -15420,7 +15420,7 @@
 		(instances
 			(project "thermocouples"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "#PWR024")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -15653,7 +15653,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97e44c01-9050-48b3-847d-56ceff3b4134")
-		(property "Reference" "J15"
+		(property "Reference" "J4"
 			(at 259.08 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15779,7 +15779,7 @@
 		(instances
 			(project "thermocouples"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "J15")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -16083,7 +16083,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9db3ad7f-4bec-425b-9463-c02ff0d251d9")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR037"
 			(at 135.89 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -16144,7 +16144,7 @@
 		(instances
 			(project "thermocouples"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "#PWR036")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -16627,7 +16627,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "adfabf69-623b-450f-8c4b-6148eb2aa898")
-		(property "Reference" "D3"
+		(property "Reference" "D5"
 			(at 28.702 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16722,7 +16722,7 @@
 		(instances
 			(project "thermocouples"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "D3")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -16843,7 +16843,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba86a34d-c99e-42e0-8233-91c8fcce6a4a")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR030"
 			(at 175.26 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -16903,7 +16903,7 @@
 		(instances
 			(project "thermocouples"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "#PWR029")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -17125,7 +17125,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c6e2de59-6143-4354-8b52-36cbd64e5eaf")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR029"
 			(at 99.06 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -17185,7 +17185,7 @@
 		(instances
 			(project "thermocouples"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "#PWR028")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -17390,7 +17390,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d141ae7d-83c2-4165-a28f-796ef4f79a26")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR018"
 			(at 218.44 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -17450,7 +17450,7 @@
 		(instances
 			(project "thermocouples"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "#PWR016")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -17683,7 +17683,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da14fddb-5931-468f-a9a1-bb5ce3b8ad64")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR015"
 			(at 185.42 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -17743,7 +17743,7 @@
 		(instances
 			(project "thermocouples"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "#PWR018")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -17919,7 +17919,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM21B5C2E103FWAA"
+		(property "MPN" "GRM1885C1H103JA01"
 			(at 44.45 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -18046,7 +18046,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e40de8ec-2580-4d33-88d6-e3781518fb43")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR031"
 			(at 24.13 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -18107,7 +18107,7 @@
 		(instances
 			(project "thermocouples"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "#PWR012")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -18125,7 +18125,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e63cef95-e33b-4411-8bb0-92bd7158ea8c")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR032"
 			(at 53.34 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -18186,7 +18186,7 @@
 		(instances
 			(project "thermocouples"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "#PWR019")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -18385,7 +18385,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef4598fa-8047-4407-a96b-6de0400273a7")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR034"
 			(at 31.75 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -18446,7 +18446,7 @@
 		(instances
 			(project "thermocouples"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "#PWR014")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -18567,7 +18567,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f50cd909-0b84-43bd-a3c4-e66c52de8ee8")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR020"
 			(at 185.42 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -18628,7 +18628,7 @@
 		(instances
 			(project "thermocouples"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "#PWR022")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)

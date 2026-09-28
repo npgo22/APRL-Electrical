@@ -1682,15 +1682,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
-			(at 46.99 40.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 43.18 41.91 0)
 			(effects
@@ -1829,15 +1820,6 @@
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 109.22 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2337"
-			(at 111.76 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1987,15 +1969,6 @@
 		)
 		(property "Description" "Jumper, 2-pole, closed/bridged"
 			(at 97.79 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2337"
-			(at 99.0601 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2210,15 +2183,6 @@
 		)
 		(property "Description" "High-Speed CAN Transceiver, separate VIO, standby mode, SOIC-8"
 			(at 54.61 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C22445414"
-			(at 56.9595 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2456,15 +2420,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
-			(at 26.67 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 22.86 76.2 0)
 			(effects
@@ -2544,15 +2499,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2337"
-			(at 78.7401 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 77.47 48.26 0)
 			(effects
@@ -2624,15 +2570,6 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 87.63 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C137954"
-			(at 85.852 56.896 0)
 			(effects
 				(font
 					(size 1.27 1.27)

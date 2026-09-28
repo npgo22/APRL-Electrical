@@ -4655,15 +4655,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C32949"
-			(at 45.72 144.7799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 41.91 146.05 0)
 			(effects
@@ -4809,15 +4800,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C602037"
-			(at 41.91 52.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 38.1 53.34 0)
 			(effects
@@ -4890,15 +4872,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 102.87 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C602037"
-			(at 106.68 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5051,15 +5024,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C87044"
-			(at 134.62 77.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 132.08 78.74 0)
 			(effects
@@ -5130,15 +5094,6 @@
 		)
 		(property "Description" "1 Port RJ45 Magjack Connector Through Hole 10/100 Base-T, AutoMDIX"
 			(at 214.63 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C12074"
-			(at 215.9 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5314,15 +5269,6 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 58.42 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C138002"
-			(at 53.34 109.474 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5543,15 +5489,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
-			(at 53.34 52.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 49.53 53.34 0)
 			(effects
@@ -5631,15 +5568,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
-			(at 76.2 52.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 72.39 53.34 0)
 			(effects
@@ -5709,15 +5637,6 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 62.23 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C60490"
-			(at 57.15 94.234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5871,15 +5790,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C87044"
-			(at 168.91 77.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 166.37 78.74 0)
 			(effects
@@ -5952,15 +5862,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 184.15 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 187.96 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6047,15 +5948,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C602037"
-			(at 118.11 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 114.3 59.69 0)
 			(effects
@@ -6135,15 +6027,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25852"
-			(at 135.89 105.4099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 133.35 106.68 0)
 			(effects
@@ -6213,15 +6096,6 @@
 		)
 		(property "Description" "Four pin crystal, GND on pins 2 and 4"
 			(at 50.8 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5765970"
-			(at 61.214 129.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6307,15 +6181,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 57.15 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C32949"
-			(at 60.96 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6603,15 +6468,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C87044"
-			(at 146.05 77.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 143.51 78.74 0)
 			(effects
@@ -6691,15 +6547,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
-			(at 64.77 52.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 60.96 53.34 0)
 			(effects
@@ -6772,15 +6619,6 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 256.54 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C105875"
-			(at 259.08 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6927,15 +6765,6 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 113.03 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C60490"
-			(at 115.57 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7289,15 +7118,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C60490"
-			(at 50.8 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 48.26 76.2 0)
 			(effects
@@ -7370,15 +7190,6 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 247.65 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C105875"
-			(at 250.19 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7740,15 +7551,6 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 154.94 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C87044"
-			(at 157.48 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)

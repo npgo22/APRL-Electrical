@@ -4591,15 +4591,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C105875"
-			(at 246.38 106.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 243.84 107.95 0)
 			(effects
@@ -5036,15 +5027,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2653162"
-			(at 211.8995 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 207.01 64.77 0)
 			(effects
@@ -5230,15 +5212,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 68.58 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 72.39 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5926,15 +5899,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
-			(at 196.85 43.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 193.04 44.45 0)
 			(effects
@@ -6007,15 +5971,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 97.79 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 101.6 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6096,15 +6051,6 @@
 		)
 		(property "Description" "Precision Thermocouple to Digital Converter with Linearization, TSSOP-14"
 			(at 82.55 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2653162"
-			(at 87.4395 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6220,15 +6166,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 50.8 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C15195"
-			(at 54.61 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6592,15 +6529,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C105875"
-			(at 121.92 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 119.38 39.37 0)
 			(effects
@@ -6673,15 +6601,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 50.8 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 54.61 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6762,15 +6681,6 @@
 		)
 		(property "Description" "Precision Thermocouple to Digital Converter with Linearization, TSSOP-14"
 			(at 82.55 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2653162"
-			(at 87.4395 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7362,15 +7272,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15195"
-			(at 54.61 52.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 50.8 53.34 0)
 			(effects
@@ -7716,15 +7617,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
-			(at 101.6 111.7599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 97.79 113.03 0)
 			(effects
@@ -7874,15 +7766,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 175.26 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 179.07 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8301,15 +8184,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15195"
-			(at 179.07 120.6499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 175.26 121.92 0)
 			(effects
@@ -8382,15 +8256,6 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 119.38 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C105875"
-			(at 121.92 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8609,15 +8474,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15195"
-			(at 179.07 52.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 175.26 53.34 0)
 			(effects
@@ -8764,15 +8620,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15195"
-			(at 54.61 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 50.8 73.66 0)
 			(effects
@@ -8845,15 +8692,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 175.26 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C15195"
-			(at 179.07 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9077,15 +8915,6 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 233.68 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C60490"
-			(at 236.22 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9469,15 +9298,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C21260817"
-			(at 247.65 51.1174 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 243.84 50.8 90)
 			(effects
@@ -9616,15 +9436,6 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 233.68 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C60490"
-			(at 236.22 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9844,15 +9655,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
-			(at 72.39 43.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 68.58 44.45 0)
 			(effects
@@ -9925,15 +9727,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 175.26 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C15195"
-			(at 179.07 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10097,15 +9890,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C60490"
-			(at 111.76 48.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 109.22 49.53 0)
 			(effects
@@ -10262,15 +10046,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
-			(at 54.61 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 50.8 63.5 0)
 			(effects
@@ -10343,15 +10118,6 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 243.84 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C105875"
-			(at 246.38 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10573,15 +10339,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
-			(at 196.85 111.7599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 193.04 113.03 0)
 			(effects
@@ -10654,15 +10411,6 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 109.22 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C60490"
-			(at 111.76 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10823,15 +10571,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C21260817"
-			(at 123.19 51.1174 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 119.38 50.8 90)
 			(effects
@@ -10904,15 +10643,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 222.25 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 226.06 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11069,15 +10799,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 50.8 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C15195"
-			(at 54.61 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11296,15 +11017,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
-			(at 179.07 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 175.26 63.5 0)
 			(effects
@@ -11511,15 +11223,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 222.25 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 226.06 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11815,15 +11518,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C21260817"
-			(at 247.65 119.6974 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 243.84 119.38 90)
 			(effects
@@ -11982,15 +11676,6 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 119.38 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C21260817"
-			(at 123.19 119.6974 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12204,15 +11889,6 @@
 		)
 		(property "Description" "Precision Thermocouple to Digital Converter with Linearization, TSSOP-14"
 			(at 207.01 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2653162"
-			(at 211.8995 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
