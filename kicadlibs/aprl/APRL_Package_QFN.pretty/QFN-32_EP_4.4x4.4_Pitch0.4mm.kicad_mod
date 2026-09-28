@@ -514,6 +514,7 @@
 		(property pad_prop_heatsink)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "e9ac8a33-65f0-49a7-8cb2-538cded9e953")
 	)
 	(pad "33" thru_hole circle
@@ -523,6 +524,7 @@
 		(property pad_prop_heatsink)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "0f2601a3-8ab7-420f-a527-59e656e7cadc")
 	)
 	(pad "33" thru_hole circle
@@ -532,6 +534,7 @@
 		(property pad_prop_heatsink)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "157e9b67-6e18-4a21-a1ca-ae21b11f8fba")
 	)
 	(pad "33" thru_hole circle
@@ -541,6 +544,7 @@
 		(property pad_prop_heatsink)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "c27232de-ce07-4b5b-a702-bc6499933e0a")
 	)
 	(pad "33" smd roundrect
@@ -558,6 +562,7 @@
 		(property pad_prop_heatsink)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "f9d8df0b-e7d1-4a04-87d7-e0195bd7c49d")
 	)
 	(pad "33" thru_hole circle
@@ -567,6 +572,7 @@
 		(property pad_prop_heatsink)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "27d90a4d-5e6d-4336-9de5-9b6d7dd276c4")
 	)
 	(pad "33" thru_hole circle
@@ -576,6 +582,7 @@
 		(property pad_prop_heatsink)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "59321601-be74-414c-a799-5fc70e318214")
 	)
 	(pad "33" thru_hole circle
@@ -585,6 +592,7 @@
 		(property pad_prop_heatsink)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "5952f5e2-ab5d-4bae-a243-4e8ad78a8934")
 	)
 	(embedded_fonts no)

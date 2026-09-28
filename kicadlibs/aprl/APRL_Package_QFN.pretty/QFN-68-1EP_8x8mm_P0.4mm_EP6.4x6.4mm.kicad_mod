@@ -972,6 +972,7 @@
 		(drill 0.3)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "0b2e844e-eeea-46e7-bc4c-ae34e7d16c83")
 	)
 	(pad "69" thru_hole circle
@@ -980,6 +981,7 @@
 		(drill 0.3)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "ab93a68b-f111-42f8-9f6d-f7b44620e12b")
 	)
 	(pad "69" thru_hole circle
@@ -988,6 +990,7 @@
 		(drill 0.3)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "09b1df6b-8581-40d6-b422-72a8c759e8fe")
 	)
 	(pad "69" thru_hole circle
@@ -996,6 +999,7 @@
 		(drill 0.3)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "71441bf8-ad4f-4941-9a3a-909b0a11b621")
 	)
 	(pad "69" thru_hole circle
@@ -1004,6 +1008,7 @@
 		(drill 0.3)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "ea33b133-fa1d-4139-ba97-f39102cc1cd2")
 	)
 	(pad "69" thru_hole circle
@@ -1013,6 +1018,7 @@
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "3e1a7f46-eb83-41e7-917a-8316ae2bb1d2")
 	)
 	(pad "69" thru_hole circle
@@ -1021,6 +1027,7 @@
 		(drill 0.3)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "bc80ed3f-cb24-4833-a59f-a89067a1187b")
 	)
 	(pad "69" thru_hole circle
@@ -1029,6 +1036,7 @@
 		(drill 0.3)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "fac20de4-d560-45b8-abd1-079af0ef54e4")
 	)
 	(pad "69" thru_hole circle
@@ -1037,6 +1045,7 @@
 		(drill 0.3)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "f8bbcdd8-75b9-423d-bb21-58b3f76d1c54")
 	)
 	(pad "69" thru_hole circle
@@ -1045,6 +1054,7 @@
 		(drill 0.3)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "7984211a-9702-4b7c-87f8-ff6bf7343142")
 	)
 	(pad "69" smd rect
@@ -1061,6 +1071,7 @@
 		(drill 0.3)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "cdd827cc-4ab2-47d5-9d53-6758034db327")
 	)
 	(pad "69" thru_hole circle
@@ -1069,6 +1080,7 @@
 		(drill 0.3)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "0d5e38a1-e388-412c-9e8b-25964a111cdf")
 	)
 	(pad "69" thru_hole circle
@@ -1077,6 +1089,7 @@
 		(drill 0.3)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "0d70904e-fe69-4b9c-9925-ff39631aed99")
 	)
 	(pad "69" thru_hole circle
@@ -1085,6 +1098,7 @@
 		(drill 0.3)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "91ec9b54-268b-45d0-bc11-00e3fa7b8c64")
 	)
 	(pad "69" thru_hole circle
@@ -1094,6 +1108,7 @@
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "446a59a1-380e-4f4c-a91c-d27c9830a01c")
 	)
 	(pad "69" thru_hole circle
@@ -1102,6 +1117,7 @@
 		(drill 0.3)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "f9c8a2b5-9f6b-4103-b74a-4ddf9169ddaa")
 	)
 	(pad "69" thru_hole circle
@@ -1110,6 +1126,7 @@
 		(drill 0.3)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "2f2db355-e0da-408b-8c7d-d3e7a3f74b74")
 	)
 	(pad "69" thru_hole circle
@@ -1118,6 +1135,7 @@
 		(drill 0.3)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "f12161aa-192b-4cd3-b66a-21368c5d36ea")
 	)
 	(pad "69" thru_hole circle
@@ -1126,6 +1144,7 @@
 		(drill 0.3)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "63fb4a70-446c-4223-9ca9-6cb4c0763165")
 	)
 	(pad "69" thru_hole circle
@@ -1135,6 +1154,7 @@
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "1c8657ed-d01c-461b-97d1-7ed23f1cef55")
 	)
 	(embedded_fonts no)

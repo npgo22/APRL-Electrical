@@ -10236,7 +10236,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
+		(property "Footprint" "APRL_Package:4-SMD"
 			(at 199.39 165.1 0)
 			(hide yes)
 			(show_name no)
