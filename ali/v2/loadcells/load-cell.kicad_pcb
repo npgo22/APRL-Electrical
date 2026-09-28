@@ -189,7 +189,7 @@
 		(layer "F.Cu")
 		(uuid "0308ecfd-0909-433e-8002-8e3cb87468a8")
 		(at 162.7125 87.925)
-		(property "Reference" "R4"
+		(property "Reference" "R3"
 			(at 0 -1.4 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -270,6 +270,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/892356d4-41c6-4714-aad6-a2d58e5fc1bd")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -309,7 +315,7 @@
 			(size 0.7 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net "Net-(D3-A)")
+			(net "Net-(D1-A)")
 			(pintype "passive")
 			(uuid "3383f570-ed68-4f40-bfb5-5cf2c8de56ca")
 		)
@@ -713,19 +719,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "Didoes Inc."
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ee6f49aa-ff3f-4c97-9336-c1cc3158bd33")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" "AP2112K-3.3TRG1"
 			(at 0 0 180)
 			(unlocked yes)
@@ -739,10 +732,29 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" "Didoes Inc."
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0840859d-7b6e-4dc0-abe7-4a216568ac21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23?5*")
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/d659d047-a792-4c47-b987-c116036da818")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2" "4" "5")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1224,7 +1236,7 @@
 		(layer "F.Cu")
 		(uuid "1a51306d-d0f1-46e2-b76f-a0c6e6f6079e")
 		(at 169.5125 133.125 -90)
-		(property "Reference" "R17"
+		(property "Reference" "R20"
 			(at 0 -1.4 270)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -1685,7 +1697,7 @@
 		(layer "F.Cu")
 		(uuid "1bb81d74-89f3-41db-82fe-d464e617f862")
 		(at 107.2491 92.975)
-		(property "Reference" "R22"
+		(property "Reference" "R25"
 			(at 0 -1.4 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -3233,7 +3245,7 @@
 		(layer "F.Cu")
 		(uuid "2c0346e4-4ab1-43c6-8da7-9c185d6bad5d")
 		(at 162.2125 109.025 180)
-		(property "Reference" "D2"
+		(property "Reference" "D4"
 			(at 0 -1.6 180)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -3310,10 +3322,29 @@
 				)
 			)
 		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c8c3b851-af77-4231-b096-45a627e2e862")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/3c32eaa8-a9f0-4724-bcf4-735ec78acf76")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3384,7 +3415,7 @@
 			(size 0.7 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net "Net-(D2-A)")
+			(net "Net-(D4-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "2f41a735-7450-457c-99dd-80f100857215")
@@ -3487,6 +3518,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/b39ca608-d3ad-497b-b677-249ea624ecd4")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -3692,7 +3729,7 @@
 		(layer "F.Cu")
 		(uuid "32e35836-bfc6-4b24-8f0e-a139e73605ea")
 		(at 154.2125 120.525 90)
-		(property "Reference" "R13"
+		(property "Reference" "R16"
 			(at 0 -1.4 90)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -4133,7 +4170,7 @@
 		(layer "F.Cu")
 		(uuid "36c26bc3-d20e-41ce-97a7-72fe2d1ac352")
 		(at 165.6125 104.025 90)
-		(property "Reference" "R8"
+		(property "Reference" "R11"
 			(at 0 -1.4 90)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -4798,6 +4835,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/f2ae64f9-ca65-4496-9c03-120d49d4153a")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -4828,7 +4871,7 @@
 			(size 0.7 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net "Net-(D2-A)")
+			(net "Net-(D4-A)")
 			(pintype "passive")
 			(uuid "94db41c3-5ee3-45eb-b74b-d0bf299eaa65")
 		)
@@ -4858,7 +4901,7 @@
 		(layer "F.Cu")
 		(uuid "4206687f-fe48-412b-a293-7fffa0be4912")
 		(at 159.0125 107.425 180)
-		(property "Reference" "R7"
+		(property "Reference" "R8"
 			(at 0 -1.4 180)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -4939,6 +4982,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/4468f489-f01a-431a-9c5c-4ce136f16fe8")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -5076,6 +5125,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/4ce8f493-bccf-4c1e-91af-c4c4cd627ae2")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7" "8" "9" "10" "11" "12" "13" "14" "15")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5678,18 +5733,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "connector/pin_header_socket"
-			(at 0 0 270)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "c4452a2c-b467-42ea-9bea-35e0c47e1ddb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -5720,6 +5763,14 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/479fb3d3-4921-4bfd-b91e-e2fcbc5891be")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "5" "7" "9" "11" "13" "15" "17" "2" "4" "6" "8" "10" "12"
+					"14" "16" "18"
+				)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6220,7 +6271,7 @@
 		(layer "F.Cu")
 		(uuid "4abd9a28-4a68-4b46-809a-e362fa002d49")
 		(at 107.2491 108.425)
-		(property "Reference" "R23"
+		(property "Reference" "R26"
 			(at 0 -1.4 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -6450,6 +6501,14 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/7ed12d1b-19f5-4226-81e7-9a91aaeb5a7b")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "SH" "B1" "B12" "A1" "A12" "A9" "B4" "B9" "A4" "A5" "B5" "A7" "B7"
+					"A6" "B6" "A8" "B8"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7348,6 +7407,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/2cbad63f-ff4f-4268-8015-0582044e3783")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -7489,6 +7554,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/45a9778e-8e59-4f28-9f44-e2e132646838")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -7696,7 +7767,7 @@
 		(layer "F.Cu")
 		(uuid "54ad5e27-7417-4aa7-89b0-4f3b4564f0a0")
 		(at 107.2491 79.125)
-		(property "Reference" "R20"
+		(property "Reference" "R23"
 			(at 0 -1.4 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -7843,7 +7914,7 @@
 		(layer "F.Cu")
 		(uuid "57bf797b-4c9e-4477-a4f3-7fda58f00153")
 		(at 121.7125 73.325 -90)
-		(property "Reference" "R28"
+		(property "Reference" "R10"
 			(at 0 -1.4 270)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -7924,6 +7995,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/74f55acd-e571-4443-bdd2-b245dc6946d6")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -8210,6 +8287,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/50b5b4e1-6889-4c15-bd5b-2114c6a5c2f5")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -8270,7 +8353,7 @@
 		(layer "F.Cu")
 		(uuid "67017415-ca85-4764-8cf9-f1b0c7eafc6b")
 		(at 155.7125 118.025 -90)
-		(property "Reference" "R12"
+		(property "Reference" "R15"
 			(at 0 -1.4 270)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -8645,6 +8728,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/da47212e-4ab2-4b8c-a24d-74b9ec94c9ad")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -8752,18 +8841,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "package/no_lead"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "b65489c7-5f84-4f32-90f2-5159dc0a716d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" "STM32H563RIV6"
 			(at 0 0 0)
 			(unlocked yes)
@@ -8794,6 +8871,17 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/81dc6afc-93e8-4c8c-8cab-337135946a12")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "7" "62" "5" "6" "65" "38" "39" "8" "9" "10" "11" "24" "25" "40"
+					"41" "42" "43" "54" "55" "56" "2" "3" "4" "31" "66" "1" "19" "33" "50"
+					"67" "69" "32" "18" "51" "12" "68" "13" "14" "15" "16" "17" "20" "21"
+					"22" "23" "44" "45" "46" "47" "48" "49" "52" "53" "26" "27" "28" "57"
+					"58" "59" "60" "61" "63" "64" "29" "30" "34" "35" "36" "37"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10154,7 +10242,7 @@
 		(layer "F.Cu")
 		(uuid "7f8c4e92-29ec-47b1-a4bf-803d360aa18a")
 		(at 175.6125 109.925 90)
-		(property "Reference" "R16"
+		(property "Reference" "R19"
 			(at 0 -1.4 90)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -12174,7 +12262,7 @@
 		(layer "F.Cu")
 		(uuid "84d1e508-8b97-4788-b5f2-519157a767b0")
 		(at 152.2125 88.025 180)
-		(property "Reference" "R5"
+		(property "Reference" "R4"
 			(at 0 -1.4 180)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -12255,6 +12343,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/87d71fe9-bbfc-46a2-b2c4-e762d70add29")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -12294,7 +12388,7 @@
 			(size 0.7 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net "Net-(D4-A)")
+			(net "Net-(D2-A)")
 			(pintype "passive")
 			(uuid "f71dff18-2ccc-4684-963f-1764f73a7a0f")
 		)
@@ -13470,6 +13564,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/c28b9764-e83f-41af-a609-8f11b6944941")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -13650,6 +13750,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/6d4d4332-d236-47ba-b933-0a9907c9cdf6")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "4" "3")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13752,7 +13858,7 @@
 		(layer "F.Cu")
 		(uuid "9328e99d-92da-4364-a0e3-c9dc14e75552")
 		(at 149.9125 119.425 90)
-		(property "Reference" "R15"
+		(property "Reference" "R18"
 			(at 0 -1.4 90)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -14177,7 +14283,7 @@
 		(layer "F.Cu")
 		(uuid "9a46df60-f6a2-4644-b70a-281bcbc37f0b")
 		(at 162.2125 110.725 180)
-		(property "Reference" "D1"
+		(property "Reference" "D3"
 			(at 0 -1.6 180)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -14254,10 +14360,29 @@
 				)
 			)
 		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fa1393cf-f883-4e95-b596-e5df4ddd143a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/8c9db644-0f47-4e44-bdb0-7181d7bb92a7")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14328,7 +14453,7 @@
 			(size 0.7 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net "Net-(D1-A)")
+			(net "Net-(D3-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "2fb5abca-9002-4cfb-a4e2-077019b5e9c2")
@@ -14694,6 +14819,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b253e5f0-7062-4af1-89ab-55f03f62f466")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0fdf87bf-c173-4e67-aa24-325f91d62a84")
 			(effects
 				(font
 					(size 1 1)
@@ -15433,7 +15571,7 @@
 		(layer "F.Cu")
 		(uuid "9c7a5109-791b-4e65-855c-1024c33e0278")
 		(at 174.0125 109.925 90)
-		(property "Reference" "R18"
+		(property "Reference" "R21"
 			(at 0 -1.4 90)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -15808,6 +15946,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/0ff3d157-5959-4304-ab49-04b2335bc802")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -16390,7 +16534,7 @@
 		(layer "F.Cu")
 		(uuid "9fa01db6-d291-4574-a790-e3d9b290c9ca")
 		(at 107.2491 120.675)
-		(property "Reference" "R26"
+		(property "Reference" "R29"
 			(at 0 -1.4 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -16537,7 +16681,7 @@
 		(layer "F.Cu")
 		(uuid "a257c957-f744-4632-b3dc-6da546b0e4c4")
 		(at 153.6125 124.74 90)
-		(property "Reference" "R11"
+		(property "Reference" "R14"
 			(at 0 -1.4 90)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -16912,6 +17056,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/bbc22255-feaf-4fde-bd2f-4443bc7cb27f")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -17182,6 +17332,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/a420ac4c-4bef-44c4-901b-c0abe76adaab")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -17281,7 +17437,7 @@
 		(layer "F.Cu")
 		(uuid "ae5934f8-5064-4d7c-ab22-418258777caf")
 		(at 107.2491 80.725)
-		(property "Reference" "R19"
+		(property "Reference" "R22"
 			(at 0 -1.4 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -17620,19 +17776,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "Phoenix Contact"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "aa4b0f3b-0511-43d0-8154-34fadf366167")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" "MSTBV 2,5/ 2-GF-5,08"
 			(at 0 0 270)
 			(unlocked yes)
@@ -17646,10 +17789,29 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" "Phoenix Contact"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "82ed8019-b0f6-4934-8671-c33dfa7f224a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/ea81eb9c-c21f-4096-aed9-6b7b0f4439ff")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18155,6 +18317,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/8f42a212-2fa7-4dc6-a390-bf35579baa35")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -18292,10 +18460,29 @@
 				)
 			)
 		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6eef314b-5111-487c-abd0-157ebceafeab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/adfabf69-623b-450f-8c4b-6148eb2aa898")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18388,7 +18575,7 @@
 		(layer "F.Cu")
 		(uuid "b212d810-019f-4132-ac6b-1383e0ee5879")
 		(at 149.2125 88.025)
-		(property "Reference" "D4"
+		(property "Reference" "D2"
 			(at 0 -1.6 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -18465,10 +18652,29 @@
 				)
 			)
 		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b1fb7181-d374-4b75-8641-75bf8258a310")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/8849116b-70d0-4943-8a4c-41c00954775d")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18539,7 +18745,7 @@
 			(size 0.7 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net "Net-(D4-A)")
+			(net "Net-(D2-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "52bba385-d068-4fd7-b8d8-b2805f6782d5")
@@ -18561,7 +18767,7 @@
 		(layer "F.Cu")
 		(uuid "b43cef2c-9f0b-4f3d-b6a9-06de3a9fd367")
 		(at 165.6125 87.925 180)
-		(property "Reference" "D3"
+		(property "Reference" "D1"
 			(at 0 -1.6 180)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -18638,10 +18844,29 @@
 				)
 			)
 		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d027286-efb6-4dc2-b83f-7c23329a06ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/6f9a93a2-36ee-437a-9fd4-55212cf7dbd4")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18712,7 +18937,7 @@
 			(size 0.7 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net "Net-(D3-A)")
+			(net "Net-(D1-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "6fbcfa28-c9fa-48b6-8549-43970f8bbbe4")
@@ -19460,6 +19685,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/4312b60f-cea9-4021-a210-418c4c855762")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19723,7 +19954,7 @@
 		(layer "F.Cu")
 		(uuid "bb12e8a5-7ba0-4541-91ff-4b3a7bc45523")
 		(at 155.9125 122.125 -90)
-		(property "Reference" "R10"
+		(property "Reference" "R13"
 			(at 0 -1.4 270)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -20245,6 +20476,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/cd53b495-7504-4ffb-8ed1-04acdbb72e76")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "4" "3")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20922,7 +21159,7 @@
 		(layer "F.Cu")
 		(uuid "d01933e1-ee3a-4c85-a06f-31ce796092bb")
 		(at 107.2491 106.825)
-		(property "Reference" "R24"
+		(property "Reference" "R27"
 			(at 0 -1.4 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -21116,18 +21353,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "connector/pin_header_socket"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "fb1a521b-bd28-458e-b080-c72abe4f4be8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -21158,6 +21383,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/7dbc4a79-7b3f-4efd-8ca6-b1d2865224ee")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22486,6 +22717,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/71413f42-1c29-410d-86ae-dc9692a1e938")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -22546,7 +22783,7 @@
 		(layer "F.Cu")
 		(uuid "e146aa9a-e188-4649-a9df-ac0682d7a471")
 		(at 155.8125 104.825 90)
-		(property "Reference" "R29"
+		(property "Reference" "R9"
 			(at 0 -1.4 90)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -22627,6 +22864,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/0cd51b4f-6c73-47ae-92f8-76d0875ae2fa")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -22768,6 +23011,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/9a58d599-63a7-47d8-86f2-f440327a1766")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -22828,7 +23077,7 @@
 		(layer "F.Cu")
 		(uuid "e334577c-2fbb-4901-8aa8-f8b113247cc1")
 		(at 107.2491 94.575)
-		(property "Reference" "R21"
+		(property "Reference" "R24"
 			(at 0 -1.4 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -23057,6 +23306,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/9f57281e-3c2b-4a8c-ae46-39dec53f49c0")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "4" "2" "3")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23238,7 +23493,7 @@
 		(layer "F.Cu")
 		(uuid "ee25f8a0-5da6-4284-a48a-7946a7ffdb61")
 		(at 157.4125 105.325 -90)
-		(property "Reference" "R27"
+		(property "Reference" "R7"
 			(at 0 -1.4 270)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -23319,6 +23574,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/85e4e140-bfb6-4bce-b85f-cb20b0b04352")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -23460,6 +23721,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/27f36dc7-be3f-4fb3-b262-9a4207a7ce35")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -23667,7 +23934,7 @@
 		(layer "F.Cu")
 		(uuid "f685e11f-5118-4d0f-84fb-82909edda189")
 		(at 107.2491 122.275)
-		(property "Reference" "R25"
+		(property "Reference" "R28"
 			(at 0 -1.4 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -24139,7 +24406,7 @@
 		(layer "F.Cu")
 		(uuid "fe87f632-569b-40a9-bf60-a3a004d2e9ec")
 		(at 159.0125 110.725 180)
-		(property "Reference" "R3"
+		(property "Reference" "R5"
 			(at 0 -1.4 180)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -24220,6 +24487,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/7b84b782-c55d-4fa2-a37b-2c31c2507166")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -24250,7 +24523,7 @@
 			(size 0.7 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net "Net-(D1-A)")
+			(net "Net-(D3-A)")
 			(pintype "passive")
 			(uuid "c880cf90-7c46-4d19-9a6d-5ed9c0fa04ef")
 		)
@@ -24361,6 +24634,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/54e0848f-b270-48e3-80a2-e6b1869d9595")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -24421,7 +24700,7 @@
 		(layer "B.Cu")
 		(uuid "01f488a2-7bf6-4d86-81db-f2b7b72be4ea")
 		(at 140.9625 119.725 180)
-		(property "Reference" "R9"
+		(property "Reference" "R12"
 			(at 0 1.4 0)
 			(unlocked yes)
 			(layer "B.SilkS")
@@ -25284,6 +25563,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/9cf46623-37bd-4902-a570-b853d869d2fa")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -26990,6 +27275,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/7e465835-7ecf-4e67-98d4-757b2b1ba132")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -27138,6 +27429,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/f66043b3-bd6d-48ca-86d3-4e20fb53d8fc")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -27748,6 +28045,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/7360cd95-8f05-4e44-8e28-69d6a3601ed6")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -29669,7 +29972,7 @@
 		(layer "B.Cu")
 		(uuid "b3a8369b-1cbe-4d9b-b330-d323551397e5")
 		(at 142.5125 123.025)
-		(property "Reference" "R14"
+		(property "Reference" "R17"
 			(at 0 1.4 180)
 			(unlocked yes)
 			(layer "B.SilkS")
@@ -29910,6 +30213,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/d463e19e-0852-44a2-86a9-cd2cc850ced8")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -30526,6 +30835,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/5c5522dd-4720-475d-8c60-107b5e4abf6e")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -30674,6 +30989,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/a4745355-25d1-4749-aa6b-499a804416b7")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -31752,6 +32073,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/2ac04063-d608-4ea0-a014-e82f8513fc11")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -34015,12 +34342,12 @@
 		(uuid "e4438f31-0bbd-4154-ba11-39d4333b4ff2")
 	)
 	(segment
-		(start 163.4125 87.925)
-		(end 164.9125 87.925)
-		(width 0.3)
+		(start 161.5125 110.725)
+		(end 159.7125 110.725)
+		(width 0.15)
 		(layer "F.Cu")
 		(net "Net-(D3-A)")
-		(uuid "b211006b-d62e-4faf-85a8-5b31838eb573")
+		(uuid "bf0c8f49-f07a-4a51-bf1f-71ed7dbd4fef")
 	)
 	(segment
 		(start 117.5866 105.975)
@@ -40047,12 +40374,12 @@
 		(uuid "5444a0a6-e58e-4165-9b03-20139ca8e7c6")
 	)
 	(segment
-		(start 161.5125 109.025)
-		(end 159.7125 109.025)
-		(width 0.15)
+		(start 151.5125 88.025)
+		(end 149.9125 88.025)
+		(width 0.3)
 		(layer "F.Cu")
 		(net "Net-(D2-A)")
-		(uuid "ac6f1951-b570-49bb-8a80-391b22450a11")
+		(uuid "f7f8c07d-8878-425d-b5aa-b655c4cf24ff")
 	)
 	(segment
 		(start 115.8991 109.6625)
@@ -43703,12 +44030,12 @@
 		(uuid "e5e75a05-0feb-4dc7-a3e2-22901b564e42")
 	)
 	(segment
-		(start 151.5125 88.025)
-		(end 149.9125 88.025)
-		(width 0.3)
+		(start 161.5125 109.025)
+		(end 159.7125 109.025)
+		(width 0.15)
 		(layer "F.Cu")
 		(net "Net-(D4-A)")
-		(uuid "f7f8c07d-8878-425d-b5aa-b655c4cf24ff")
+		(uuid "ac6f1951-b570-49bb-8a80-391b22450a11")
 	)
 	(segment
 		(start 117.5866 119.825)
@@ -43799,12 +44126,12 @@
 		(uuid "df754264-e16c-4975-bc31-3652fe9151a3")
 	)
 	(segment
-		(start 161.5125 110.725)
-		(end 159.7125 110.725)
-		(width 0.15)
+		(start 163.4125 87.925)
+		(end 164.9125 87.925)
+		(width 0.3)
 		(layer "F.Cu")
 		(net "Net-(D1-A)")
-		(uuid "bf0c8f49-f07a-4a51-bf1f-71ed7dbd4fef")
+		(uuid "b211006b-d62e-4faf-85a8-5b31838eb573")
 	)
 	(segment
 		(start 177.5125 125.125)
@@ -45719,29 +46046,18 @@
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 142.795443 120.630631) (xy 142.820575 120.641041) (xy 142.844581 120.657081) (xy 143.3125 121.125)
-				(xy 143.344021 121.125) (xy 143.358457 121.126422) (xy 143.365468 121.127816) (xy 143.37248 121.129211)
-				(xy 143.386355 121.13342) (xy 143.427591 121.1505) (xy 143.497409 121.1505) (xy 143.823781 121.1505)
-				(xy 143.852091 121.156129) (xy 143.862503 121.160442) (xy 143.902553 121.200485) (xy 143.902556 121.200492)
-				(xy 143.906867 121.2109) (xy 143.9125 121.239218) (xy 143.9125 121.325) (xy 144.723781 121.325)
-				(xy 144.752091 121.330629) (xy 144.762503 121.334942) (xy 144.802553 121.374985) (xy 144.802556 121.374992)
-				(xy 144.806867 121.3854) (xy 144.8125 121.413718) (xy 144.8125 121.536281) (xy 144.806867 121.564599)
-				(xy 144.802556 121.575007) (xy 144.802556 121.575008) (xy 144.782531 121.595031) (xy 144.762508 121.615055)
-				(xy 144.762507 121.615056) (xy 144.752099 121.619367) (xy 144.723781 121.625) (xy 143.9125 121.625)
-				(xy 143.9125 121.710781) (xy 143.906867 121.739099) (xy 143.902556 121.749507) (xy 143.862508 121.789555)
-				(xy 143.862507 121.789556) (xy 143.852099 121.793867) (xy 143.823781 121.7995) (xy 143.627591 121.7995)
-				(xy 143.597198 121.812088) (xy 143.58636 121.816578) (xy 143.572484 121.820787) (xy 143.558462 121.823577)
-				(xy 143.544021 121.825) (xy 143.334627 121.825) (xy 143.320118 121.823563) (xy 143.306023 121.820744)
-				(xy 143.292077 121.81649) (xy 142.490095 121.48233) (xy 142.469708 121.469607) (xy 142.452379 121.454378)
-				(xy 142.437142 121.435793) (xy 142.408048 121.3854) (xy 142.399093 121.369889) (xy 142.398285 121.368389)
-				(xy 142.397989 121.367978) (xy 142.314113 121.284102) (xy 142.314107 121.284097) (xy 142.225306 121.232828)
-				(xy 142.217259 121.227451) (xy 142.194467 121.209963) (xy 142.166148 121.160917) (xy 142.164677 121.149744)
-				(xy 142.166567 121.120928) (xy 142.167585 121.117133) (xy 142.167585 120.998515) (xy 142.167585 120.998513)
-				(xy 142.167585 120.997528) (xy 142.166329 120.993831) (xy 142.136885 120.883941) (xy 142.136883 120.883936)
-				(xy 142.136883 120.883935) (xy 142.136881 120.883933) (xy 142.127286 120.867313) (xy 142.119892 120.849462)
-				(xy 142.115021 120.831281) (xy 142.1125 120.812131) (xy 142.1125 120.713718) (xy 142.118129 120.685409)
-				(xy 142.122443 120.674994) (xy 142.162482 120.634948) (xy 142.172911 120.630628) (xy 142.201219 120.625)
-				(xy 142.767129 120.625)
+				(xy 142.834174 120.646674) (xy 143.3125 121.125) (xy 143.351309 121.125) (xy 143.379627 121.130633)
+				(xy 143.427591 121.1505) (xy 143.497409 121.1505) (xy 143.8385 121.1505) (xy 143.890826 121.172174)
+				(xy 143.9125 121.2245) (xy 143.9125 121.325) (xy 144.7385 121.325) (xy 144.790826 121.346674) (xy 144.8125 121.399)
+				(xy 144.8125 121.551) (xy 144.790826 121.603326) (xy 144.7385 121.625) (xy 143.9125 121.625) (xy 143.9125 121.7255)
+				(xy 143.890826 121.777826) (xy 143.8385 121.7995) (xy 143.627591 121.7995) (xy 143.579627 121.819367)
+				(xy 143.551309 121.825) (xy 143.327301 121.825) (xy 143.298839 121.819308) (xy 142.478855 121.477647)
+				(xy 142.443231 121.446339) (xy 142.397991 121.367981) (xy 142.39799 121.36798) (xy 142.397989 121.367978)
+				(xy 142.314113 121.284102) (xy 142.31411 121.2841) (xy 142.314109 121.284099) (xy 142.211387 121.224792)
+				(xy 142.206907 121.222937) (xy 142.207984 121.220335) (xy 142.170149 121.191304) (xy 142.162756 121.135153)
+				(xy 142.167585 121.117133) (xy 142.167585 120.998515) (xy 142.167585 120.998513) (xy 142.167584 120.998512)
+				(xy 142.136885 120.883941) (xy 142.136883 120.883936) (xy 142.122414 120.858875) (xy 142.1125 120.821875)
+				(xy 142.1125 120.699) (xy 142.134174 120.646674) (xy 142.1865 120.625) (xy 142.781848 120.625)
 			)
 		)
 	)
@@ -46440,29 +46756,25 @@
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 141.936417 120.646674) (xy 141.958091 120.699) (xy 141.957735 120.70625) (xy 141.957 120.713715)
-				(xy 141.957 120.812122) (xy 141.957001 120.812159) (xy 141.958329 120.832419) (xy 141.95833 120.832433)
-				(xy 141.96085 120.85157) (xy 141.960852 120.851588) (xy 141.962617 120.860456) (xy 141.964818 120.871523)
-				(xy 141.967862 120.882884) (xy 141.969689 120.889704) (xy 141.976228 120.90897) (xy 141.983618 120.92681)
-				(xy 141.983625 120.926826) (xy 141.988646 120.937009) (xy 141.993754 120.950582) (xy 142.009478 121.009262)
-				(xy 142.012 121.028415) (xy 142.012 121.038513) (xy 142.012085 121.03981) (xy 142.012085 121.100558)
-				(xy 142.011599 121.109022) (xy 142.011399 121.11075) (xy 142.00951 121.139562) (xy 142.009509 121.139581)
-				(xy 142.010506 121.170033) (xy 142.011978 121.181212) (xy 142.01198 121.181224) (xy 142.031481 121.238665)
-				(xy 142.031482 121.238667) (xy 142.031484 121.238672) (xy 142.059803 121.287718) (xy 142.099808 121.333332)
-				(xy 142.1226 121.35082) (xy 142.130866 121.356743) (xy 142.138913 121.36212) (xy 142.147556 121.367495)
-				(xy 142.147565 121.3675) (xy 142.147584 121.367512) (xy 142.210191 121.403657) (xy 142.225518 121.415417)
-				(xy 142.26667 121.456569) (xy 142.27843 121.471895) (xy 142.302476 121.513544) (xy 142.302479 121.513549)
-				(xy 142.316883 121.534372) (xy 142.316883 121.534373) (xy 142.316887 121.534379) (xy 142.31689 121.534382)
-				(xy 142.332127 121.552967) (xy 142.349729 121.571183) (xy 142.367058 121.586412) (xy 142.377148 121.593916)
-				(xy 142.386002 121.600501) (xy 142.387381 121.601526) (xy 142.407768 121.614249) (xy 142.430287 121.625868)
-				(xy 142.431996 121.62658) (xy 142.455815 121.636505) (xy 142.495779 121.676637) (xy 142.49566 121.733274)
-				(xy 142.455528 121.773238) (xy 142.44651 121.776289) (xy 142.338617 121.805199) (xy 142.338614 121.8052)
-				(xy 142.338611 121.805201) (xy 142.235893 121.864505) (xy 142.152008 121.948389) (xy 142.098799 122.04055)
-				(xy 142.079759 122.06226) (xy 142.070822 122.069117) (xy 142.016127 122.083775) (xy 142.016115 122.083773)
-				(xy 142.016114 122.083774) (xy 142.016112 122.083773) (xy 142.011162 122.083122) (xy 141.968485 122.06208)
-				(xy 141.170081 121.263676) (xy 141.154041 121.23967) (xy 141.143631 121.214538) (xy 141.138 121.186224)
-				(xy 141.138 120.713718) (xy 141.143629 120.685409) (xy 141.147943 120.674994) (xy 141.187982 120.634948)
-				(xy 141.198411 120.630628) (xy 141.226719 120.625) (xy 141.884091 120.625)
+				(xy 141.935326 120.646674) (xy 141.957 120.699) (xy 141.957 120.821874) (xy 141.962297 120.862117)
+				(xy 141.962297 120.862119) (xy 141.972211 120.899119) (xy 141.987745 120.936621) (xy 141.988817 120.938794)
+				(xy 141.988526 120.938937) (xy 141.994501 120.953366) (xy 142.009478 121.00926) (xy 142.012 121.028411)
+				(xy 142.012 121.038513) (xy 142.012085 121.03981) (xy 142.012085 121.099657) (xy 142.011927 121.104496)
+				(xy 142.008587 121.155452) (xy 142.015978 121.211595) (xy 142.01598 121.211604) (xy 142.026486 121.250812)
+				(xy 142.026486 121.250813) (xy 142.075486 121.31467) (xy 142.075489 121.314673) (xy 142.110777 121.34175)
+				(xy 142.11078 121.341752) (xy 142.113323 121.343703) (xy 142.113514 121.343453) (xy 142.133213 121.35571)
+				(xy 142.135006 121.357086) (xy 142.133637 121.359459) (xy 142.211261 121.404275) (xy 142.212289 121.404915)
+				(xy 142.212847 121.405695) (xy 142.22552 121.415419) (xy 142.266669 121.456568) (xy 142.278428 121.471893)
+				(xy 142.299322 121.508081) (xy 142.308564 121.524089) (xy 142.340579 121.563142) (xy 142.376203 121.59445)
+				(xy 142.409964 121.615517) (xy 142.419047 121.621185) (xy 142.419049 121.621186) (xy 142.431995 121.62658)
+				(xy 142.455813 121.636504) (xy 142.495778 121.676636) (xy 142.49566 121.733273) (xy 142.455528 121.773238)
+				(xy 142.446505 121.77629) (xy 142.338621 121.805197) (xy 142.338612 121.8052) (xy 142.235893 121.864505)
+				(xy 142.152008 121.948389) (xy 142.098799 122.04055) (xy 142.079759 122.06226) (xy 142.070822 122.069117)
+				(xy 142.016127 122.083775) (xy 142.016115 122.083773) (xy 142.016114 122.083774) (xy 142.016112 122.083773)
+				(xy 142.011162 122.083122) (xy 141.968485 122.06208) (xy 141.170081 121.263676) (xy 141.154041 121.23967)
+				(xy 141.143631 121.214538) (xy 141.138 121.186224) (xy 141.138 120.713718) (xy 141.143629 120.685409)
+				(xy 141.147943 120.674994) (xy 141.187982 120.634948) (xy 141.198411 120.630628) (xy 141.226719 120.625)
+				(xy 141.883 120.625)
 			)
 		)
 		(filled_polygon
@@ -47973,7 +48285,7 @@
 				(xy 106.978306 122.854206) (xy 107.034776 122.769691) (xy 107.0496 122.695167) (xy 107.049599 121.854834)
 				(xy 107.034776 121.780309) (xy 107.01105 121.7448) (xy 106.978308 121.695796) (xy 106.978305 121.695793)
 				(xy 106.893791 121.639324) (xy 106.866171 121.63383) (xy 106.819267 121.6245) (xy 106.819265 121.6245)
-				(xy 106.278935 121.6245) (xy 106.278934 121.6245) (xy 106.272057 121.625868) (xy 106.20441 121.639323)
+				(xy 106.278935 121.6245) (xy 106.278934 121.6245) (xy 106.268482 121.626579) (xy 106.20441 121.639323)
 				(xy 106.204408 121.639323) (xy 106.204408 121.639324) (xy 106.1842 121.652826) (xy 106.119895 121.695791)
 				(xy 106.119895 121.695792) (xy 106.119893 121.695794) (xy 106.11196 121.707667) (xy 106.063423 121.780308)
 				(xy 106.061038 121.792301) (xy 106.050064 121.847473) (xy 106.050063 121.847476) (xy 106.048725 121.854208)
@@ -47995,7 +48307,7 @@
 				(xy 101.482759 121.788475) (xy 101.456961 121.918178) (xy 101.456953 121.918221) (xy 101.456825 121.918866)
 				(xy 101.4516 121.945133) (xy 95.913 121.945133) (xy 95.913 120.445131) (xy 103.451601 120.445131)
 				(xy 103.451601 120.604866) (xy 103.452757 120.610678) (xy 103.48276 120.76152) (xy 103.482763 120.761531)
-				(xy 103.482764 120.761536) (xy 103.531894 120.880145) (xy 103.543888 120.9091) (xy 103.627551 121.034311)
+				(xy 103.482764 120.761536) (xy 103.540326 120.9005) (xy 103.543888 120.9091) (xy 103.627551 121.034311)
 				(xy 103.627552 121.034313) (xy 103.630359 121.038513) (xy 103.632634 121.041917) (xy 103.745582 121.154865)
 				(xy 103.878396 121.243609) (xy 103.878397 121.243609) (xy 103.878398 121.24361) (xy 103.966602 121.280145)
 				(xy 104.02597 121.304736) (xy 104.182634 121.335898) (xy 104.182635 121.335898) (xy 104.342367 121.335898)
@@ -48004,11 +48316,11 @@
 				(xy 105.051895 120.77217) (xy 105.056251 120.770366) (xy 105.104219 120.750498) (xy 105.460322 120.750498)
 				(xy 105.488636 120.756129) (xy 105.513768 120.766539) (xy 105.537774 120.782579) (xy 105.551848 120.796653)
 				(xy 105.551855 120.796661) (xy 105.553712 120.798518) (xy 105.55793 120.802736) (xy 105.621364 120.86617)
-				(xy 105.641473 120.874499) (xy 105.641474 120.8745) (xy 105.641475 120.8745) (xy 105.655074 120.880133)
+				(xy 105.641473 120.874499) (xy 105.641474 120.8745) (xy 105.641475 120.8745) (xy 105.704243 120.9005)
 				(xy 105.704245 120.900501) (xy 105.802567 120.900501) (xy 105.804852 120.900501) (xy 105.804884 120.9005)
 				(xy 105.959882 120.9005) (xy 105.988192 120.906129) (xy 105.998604 120.910442) (xy 106.038653 120.950484)
 				(xy 106.03935 120.952165) (xy 106.042968 120.9609) (xy 106.048601 120.989218) (xy 106.048601 121.095166)
-				(xy 106.051357 121.109022) (xy 106.060468 121.154829) (xy 106.060468 121.154831) (xy 106.060469 121.154831)
+				(xy 106.049463 121.0995) (xy 106.060468 121.154829) (xy 106.060468 121.154831) (xy 106.060469 121.154831)
 				(xy 106.063424 121.169693) (xy 106.119886 121.254198) (xy 106.119891 121.254203) (xy 106.119893 121.254205)
 				(xy 106.119894 121.254206) (xy 106.204409 121.310676) (xy 106.278933 121.3255) (xy 106.819266 121.325499)
 				(xy 106.893791 121.310676) (xy 106.978306 121.254206) (xy 107.034776 121.169691) (xy 107.0496 121.095167)
@@ -49652,7 +49964,7 @@
 				(xy 107.673712 120.022291) (xy 107.653267 120.029605) (xy 107.604407 120.039323) (xy 107.5199 120.095786)
 				(xy 107.519895 120.095791) (xy 107.519895 120.095792) (xy 107.519893 120.095794) (xy 107.502735 120.121474)
 				(xy 107.463424 120.180307) (xy 107.462394 120.185488) (xy 107.458751 120.203801) (xy 107.452142 120.237029)
-				(xy 107.4486 120.254834) (xy 107.4486 121.095165) (xy 107.448961 121.096978) (xy 107.460229 121.153632)
+				(xy 107.4486 120.254834) (xy 107.4486 121.095165) (xy 107.448961 121.096978) (xy 107.460591 121.155452)
 				(xy 107.463424 121.169691) (xy 107.519891 121.254203) (xy 107.519893 121.254205) (xy 107.519894 121.254206)
 				(xy 107.604409 121.310676) (xy 107.678933 121.3255) (xy 108.219266 121.325499) (xy 108.293791 121.310676)
 				(xy 108.378306 121.254206) (xy 108.434776 121.169691) (xy 108.4496 121.095167) (xy 108.4496 121.089218)
@@ -49675,7 +49987,7 @@
 				(xy 108.448135 121.847473) (xy 108.446021 121.836845) (xy 108.434776 121.780309) (xy 108.41105 121.7448)
 				(xy 108.378308 121.695796) (xy 108.378305 121.695793) (xy 108.293791 121.639324) (xy 108.266171 121.63383)
 				(xy 108.219267 121.6245) (xy 108.219265 121.6245) (xy 107.678935 121.6245) (xy 107.678934 121.6245)
-				(xy 107.672057 121.625868) (xy 107.60441 121.639323) (xy 107.604408 121.639323) (xy 107.604408 121.639324)
+				(xy 107.668482 121.626579) (xy 107.60441 121.639323) (xy 107.604408 121.639323) (xy 107.604408 121.639324)
 				(xy 107.5842 121.652826) (xy 107.519895 121.695791) (xy 107.519895 121.695792) (xy 107.519893 121.695794)
 				(xy 107.51196 121.707667) (xy 107.463423 121.780308) (xy 107.461038 121.792301) (xy 107.450923 121.843157)
 				(xy 107.448725 121.854208) (xy 107.4486 121.854834) (xy 107.4486 122.695165) (xy 107.451545 122.709969)
