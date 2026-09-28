@@ -4,7 +4,7 @@
 #   cd <board-dir> && kibot -c ../kibot.yaml -e <board>.kicad_sch -b <board>.kicad_pcb
 #
 # Or via just:
-#   just kibot ground-station-valve-driver-1A
+#   just kibot ali/v2/valvedrivers
 #   just kibot-all
 #
 # Every board uses this config. All symbols, footprints and 3D models come from
@@ -27,17 +27,24 @@ globals:
     - filter: Ignore missing KiCad config from KiAuto, not in docker images
       number: 58
       regex: kicad_common.json
+    - filter: Logo and other graphics-only footprints keep the REF** reference
+      number: 147
+      regex: 'REF\*\*'
+    - filter: render_3d is intentional; blender_export needs Blender in the image
+      number: 143
+      regex: blender_export
   restore_project: true
   time_reformat: false
 
 preflight:
   check_zone_fills: true
   erc: true
-  drc: true
-  filters:
-    - filter: "Connectors that intentionally extend outside the board outline"
-      error: "silk_over_copper"
-      regex: "clipped by solder mask"
+  drc:
+    enabled: true
+    filters:
+      - filter: "Connectors that intentionally extend outside the board outline"
+        error: "silk_over_copper"
+        regex: "clipped by solder mask"
   set_text_variables:
     - name: "git_hash"
       command: 'git log -1 --format="%h" $KIBOT_PCB_NAME'
@@ -46,12 +53,12 @@ preflight:
       command: "date --iso-8601=minutes"
 
 filters:
-  - name: only_jlc_parts
-    comment: 'Only parts with a JLC (LCSC) part number'
+  - name: only_parts_with_mpn
+    comment: 'Only parts with a manufacturer part number (logos, holes and blank-MPN parts are left out)'
     type: generic
     include_only:
-      - column: 'LCSC#'
-        regex: '^C\d+'
+      - column: 'MPN'
+        regex: '\S'
 
 outputs:
   # -------------------------------------------------------------------------
@@ -200,13 +207,14 @@ outputs:
     dir: JLCPCB
     options:
       output: '%f_%i_jlc.%x'
-      exclude_filter: only_jlc_parts
+      exclude_filter: only_parts_with_mpn
       ref_separator: ','
       columns:
         - { field: Value,      name: Comment    }
         - { field: References, name: Designator }
         - Footprint
-        - { field: LCSC,       name: 'LCSC Part #' }
+        - { field: MANUFACTURER, name: Manufacturer }
+        - { field: MPN,          name: 'Manufacturer Part #' }
       csv:
         hide_pcb_info: true
         hide_stats_info: true
@@ -243,9 +251,10 @@ outputs:
 
   - name: STEP
     comment: STEP model of the assembled board
-    type: step
+    type: export_3d
     dir: 3D
     options:
+      format: step
       origin: grid
       download: false      # every model is already in kicadlibs/models/
 

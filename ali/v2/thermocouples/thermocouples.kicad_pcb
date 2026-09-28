@@ -270,6 +270,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/ee9a03c2-e382-4058-9359-d9c94c1fb5c9")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -411,6 +417,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/dbe12897-1ab6-415f-8e58-f120b0fd3565")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -552,6 +564,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/892356d4-41c6-4714-aad6-a2d58e5fc1bd")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -702,6 +720,14 @@
 		(path "/c277875e-7a4a-49a6-a853-f4b1010be12e/b4b060cf-b5f1-4f89-8649-4dd133273f98")
 		(sheetname "/Connectivity/")
 		(sheetfile "connectivity.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "17" "18" "16" "8" "7" "10" "11" "12" "13" "15" "14" "5" "4" "9"
+					"19" "1" "25" "6" "21" "20" "23" "22" "24" "3" "2"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1503,6 +1529,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/082ff640-b53b-4742-b874-1f659c30fbcb")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -1644,6 +1676,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/31b77b11-fc06-4c5e-9277-ff6e294af6ed")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -1785,6 +1823,12 @@
 		(path "/c277875e-7a4a-49a6-a853-f4b1010be12e/78ab0281-3818-4362-b94f-cacd7149a97e")
 		(sheetname "/Connectivity/")
 		(sheetfile "connectivity.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "4" "3")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1934,19 +1978,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "Didoes Inc."
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2d5e8e50-49b7-4a90-b6fd-701398734f31")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" "AP2112K-3.3TRG1"
 			(at 0 0 270)
 			(unlocked yes)
@@ -1960,10 +1991,29 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" "Didoes Inc."
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "18e2ee65-56bd-41f5-b9b4-6ad3339711da")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23?5*")
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/d659d047-a792-4c47-b987-c116036da818")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2" "4" "5")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2379,6 +2429,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/8ae3eec7-e04f-41e2-a673-394ff41eaa50")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -2520,6 +2576,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/797b94cd-7704-41db-96db-147837ec8e1c")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -2661,6 +2723,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/302446ce-456d-4ed8-aa31-e6ca14d689ad")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -2802,6 +2870,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/3643141d-eb26-46ac-a5ff-1d039115b645")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -2943,6 +3017,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/cf4662b4-d362-4864-86c8-5ae5d5cb113c")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -3084,6 +3164,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/fe1a360a-dc12-4fb3-8da2-69e283f96b46")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -3225,6 +3311,12 @@
 		(path "/c277875e-7a4a-49a6-a853-f4b1010be12e/9d986c6a-4aaf-41ad-9b61-0571c33979e0")
 		(sheetname "/Connectivity/")
 		(sheetfile "connectivity.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -3362,6 +3454,12 @@
 		(path "/c277875e-7a4a-49a6-a853-f4b1010be12e/6001b1f0-edd5-4fd7-a381-e8a5de605a01")
 		(sheetname "/Connectivity/")
 		(sheetfile "connectivity.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3674,6 +3772,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/89ca02c6-f88b-4659-a633-c1945690e58e")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -3815,6 +3919,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/cc1495fb-f1e3-4cb4-9b27-bb4247a47856")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -3956,6 +4066,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/0df0a105-3ce0-4963-bcd1-6838231e4484")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -4110,6 +4226,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/3c32eaa8-a9f0-4724-bcf4-735ec78acf76")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4283,6 +4405,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/8a41bec1-45fa-4b65-9e92-19f45819ffc7")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -4424,6 +4552,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/b39ca608-d3ad-497b-b677-249ea624ecd4")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -4565,6 +4699,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/29e586e8-9067-4f84-9aee-c5471db7e3a6")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -4706,6 +4846,12 @@
 		(path "/c277875e-7a4a-49a6-a853-f4b1010be12e/6e67d1e3-cbd7-4317-9771-02483858ecf6")
 		(sheetname "/Connectivity/")
 		(sheetfile "connectivity.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -4847,6 +4993,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/233e3907-5796-4903-8fcc-10f374c04f82")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -4954,18 +5106,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "package/no_lead"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "402017eb-a82d-44fe-92dd-6416aedad460")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" "ADS124S08IRHBT"
 			(at 0 0 90)
 			(layer "F.Fab")
@@ -4993,6 +5133,15 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/79148adc-0afc-4cb2-b76e-81bc190a0847")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "7" "6" "5" "4" "3" "2" "22" "21" "20" "19" "32" "31" "30"
+					"29" "25" "14" "16" "28" "15" "27" "26" "33" "11" "10" "12" "9" "8"
+					"13" "18" "17" "23" "24"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5876,6 +6025,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/17603ac7-046b-49c7-bd87-e9980d545fad")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -6017,6 +6172,12 @@
 		(path "/c277875e-7a4a-49a6-a853-f4b1010be12e/6ae13e63-7d2c-41ed-94cf-9ba967708e0a")
 		(sheetname "/Connectivity/")
 		(sheetfile "connectivity.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -6158,6 +6319,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/ef57de38-506e-4065-8f71-1129c79d8a8e")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -6299,6 +6466,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/b6cbbf87-f71a-4c51-a677-b4cd37f4fd3d")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -6440,6 +6613,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/f2ae64f9-ca65-4496-9c03-120d49d4153a")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -6581,6 +6760,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/4468f489-f01a-431a-9c5c-4ce136f16fe8")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -6719,6 +6904,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/30dbd3c4-6ece-4c55-8f23-dcc813d18293")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7008,6 +7199,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/d4518bb2-0109-4e0b-8f74-00a1de9c7fcb")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -7116,18 +7313,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "7b6475dd-a505-4f8e-baac-cef9765bbdfd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -7158,6 +7343,12 @@
 		(path "/541d203f-356b-4745-918a-d751b7388a27")
 		(sheetname "/")
 		(sheetfile "thermocouples.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -7253,18 +7444,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "connector/pin_header_socket"
-			(at 0 0 270)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "ec1db1c6-c3b0-4f7e-bdc0-b9657baa2ab4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -7295,6 +7474,14 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/479fb3d3-4921-4bfd-b91e-e2fcbc5891be")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "5" "7" "9" "11" "13" "15" "17" "2" "4" "6" "8" "10" "12"
+					"14" "16" "18"
+				)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7876,6 +8063,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/66c82850-fbd4-49b4-ad60-12d0b1bb063f")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -8017,6 +8210,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/905a01e9-a5c8-4cb5-a2ee-50f690e1f161")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -8124,18 +8323,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "package/no_lead"
-			(at 0 0 270)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "cdb7a49b-d500-498b-a893-2cea54a21488")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MANUFACTURER" "TI"
 			(at 0 0 270)
 			(unlocked yes)
@@ -8166,6 +8353,12 @@
 		(path "/ac55a505-1313-4dea-bb6a-7f7100ee270e/8dde2d91-c279-4774-a69d-c62b6b75bf58")
 		(sheetname "/CJC Sensors/")
 		(sheetfile "cjc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "6" "1" "4" "5" "2" "7" "3")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8526,6 +8719,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/a98aab95-7a23-4059-b2c4-3e080d85e609")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -8669,6 +8868,14 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/7ed12d1b-19f5-4226-81e7-9a91aaeb5a7b")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "SH" "B1" "B12" "A1" "A12" "A9" "B4" "B9" "A4" "A5" "B5" "A7" "B7"
+					"A6" "B6" "A8" "B8"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9567,6 +9774,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/2cbad63f-ff4f-4268-8015-0582044e3783")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -9708,6 +9921,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/45a9778e-8e59-4f28-9f44-e2e132646838")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -9846,6 +10065,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/f53d0af4-d136-4678-8585-c36787901b36")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10135,6 +10360,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/7fa1cfc0-62a7-4f44-8f29-a92864bb1c35")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -10276,6 +10507,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/a2f4f5e1-60cf-49d0-8a17-54c4e90d159d")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -10414,6 +10651,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/ef64a68d-29c6-4b14-97c0-119d5d5af860")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10703,6 +10946,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/57087455-8995-465f-9c5b-a54a021b7edc")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -10844,6 +11093,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/50b5b4e1-6889-4c15-bd5b-2114c6a5c2f5")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -10985,6 +11240,12 @@
 		(path "/c277875e-7a4a-49a6-a853-f4b1010be12e/f048b16d-8619-4e44-864f-3fb1073b536e")
 		(sheetname "/Connectivity/")
 		(sheetfile "connectivity.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -11119,6 +11380,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/5436852c-986f-492a-9339-b3ec3cae360a")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "1" "3" "4" "5" "6" "8" "7" "9" "10" "11" "12")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -11468,6 +11735,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/da47212e-4ab2-4b8c-a24d-74b9ec94c9ad")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -11609,6 +11882,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/f8aed454-2c9d-41a6-8c58-96081db6769d")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -11716,18 +11995,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "package/no_lead"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "a63324ca-23ab-4154-bed4-d719cd1dc9a0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" "STM32H563RIV6"
 			(at 0 0 0)
 			(unlocked yes)
@@ -11758,6 +12025,17 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/81dc6afc-93e8-4c8c-8cab-337135946a12")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "7" "62" "5" "6" "65" "38" "39" "8" "9" "10" "11" "24" "25" "40"
+					"41" "42" "43" "54" "55" "56" "2" "3" "4" "31" "66" "1" "19" "33" "50"
+					"67" "69" "32" "18" "51" "12" "68" "13" "14" "15" "16" "17" "20" "21"
+					"22" "23" "44" "45" "46" "47" "48" "49" "52" "53" "26" "27" "28" "57"
+					"58" "59" "60" "61" "63" "64" "29" "30" "34" "35" "36" "37"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13196,6 +13474,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/398185a4-317e-4c60-9a29-3c9034083e64")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13485,6 +13769,12 @@
 		(path "/c277875e-7a4a-49a6-a853-f4b1010be12e/ad1751c5-a09d-4e8a-8c2a-f27bd5216872")
 		(sheetname "/Connectivity/")
 		(sheetfile "connectivity.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -13626,6 +13916,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/87d71fe9-bbfc-46a2-b2c4-e762d70add29")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -13767,6 +14063,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/4d331541-ec35-44b3-83e2-d0e4cdeed12b")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -13874,18 +14176,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "package/no_lead"
-			(at 0 0 270)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "8a7dd831-3020-43d3-833c-a399e4177b13")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MANUFACTURER" "TI"
 			(at 0 0 270)
 			(unlocked yes)
@@ -13916,6 +14206,12 @@
 		(path "/ac55a505-1313-4dea-bb6a-7f7100ee270e/72f170e5-7243-4d1f-96d0-65eb7ab56c2e")
 		(sheetname "/CJC Sensors/")
 		(sheetfile "cjc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "6" "1" "4" "5" "2" "7" "3")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14272,6 +14568,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/97e44c01-9050-48b3-847d-56ceff3b4134")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7" "8" "9" "10" "11" "12" "13" "14" "15")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14742,18 +15044,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "package/no_lead"
-			(at 0 0 270)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "21c107cd-86bf-4023-920a-851a1fc972d7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MANUFACTURER" "TI"
 			(at 0 0 270)
 			(unlocked yes)
@@ -14784,6 +15074,12 @@
 		(path "/ac55a505-1313-4dea-bb6a-7f7100ee270e/695ca4f6-a2c6-4bf7-95d7-a5aa7bd69eba")
 		(sheetname "/CJC Sensors/")
 		(sheetfile "cjc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "6" "1" "4" "5" "2" "7" "3")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15144,6 +15440,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/563be1de-847e-4203-a9af-15ff4646e689")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -15283,6 +15585,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/c28b9764-e83f-41af-a609-8f11b6944941")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -15463,6 +15771,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/6d4d4332-d236-47ba-b933-0a9907c9cdf6")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "4" "3")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15646,6 +15960,12 @@
 		(path "/c277875e-7a4a-49a6-a853-f4b1010be12e/76c524ec-fd6e-4d5c-ba3d-9c15bd105c96")
 		(sheetname "/Connectivity/")
 		(sheetfile "connectivity.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -15753,19 +16073,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "Phoenix Contact"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8fb05a9d-1d6d-4b2c-b99c-2838f2fbcf2e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" "MSTBV 2,5/ 2-GF-5,08"
 			(at 0 0 270)
 			(unlocked yes)
@@ -15779,10 +16086,29 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" "Phoenix Contact"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "90af028e-e17c-43e2-87b9-08397c10038a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/ea81eb9c-c21f-4096-aed9-6b7b0f4439ff")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16288,6 +16614,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/4b351522-649b-4d1c-8b72-72c6ed39d83a")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -16395,18 +16727,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "22139cca-3c49-4212-9faa-862385f194b3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -16437,6 +16757,12 @@
 		(path "/ba8ef6e0-e74c-4d34-a8b1-39cf3e1cb95c")
 		(sheetname "/")
 		(sheetfile "thermocouples.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -16579,6 +16905,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/8c9db644-0f47-4e44-bdb0-7181d7bb92a7")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16718,18 +17050,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "7f6c8ac6-b258-4c15-9512-3a9f1a8cc604")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -16760,6 +17080,12 @@
 		(path "/f4bacc26-69ad-42a6-843e-89fc32fd1e28")
 		(sheetname "/")
 		(sheetfile "thermocouples.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -16889,6 +17215,12 @@
 		(path "/c277875e-7a4a-49a6-a853-f4b1010be12e/7bed26e3-217c-4107-8929-dbde558ea694")
 		(sheetname "/Connectivity/")
 		(sheetfile "connectivity.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -17030,6 +17362,12 @@
 		(path "/c277875e-7a4a-49a6-a853-f4b1010be12e/c836f33d-6982-4b86-b941-6aa3816e1aea")
 		(sheetname "/Connectivity/")
 		(sheetfile "connectivity.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -17171,6 +17509,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/0ff3d157-5959-4304-ab49-04b2335bc802")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -17308,6 +17652,12 @@
 		(path "/c277875e-7a4a-49a6-a853-f4b1010be12e/6524da4f-c44c-4d61-9acf-2131d20f4429")
 		(sheetname "/Connectivity/")
 		(sheetfile "connectivity.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2" "6" "5" "7" "8" "13" "4" "14" "9" "10" "12" "11")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17683,6 +18033,12 @@
 		(path "/c277875e-7a4a-49a6-a853-f4b1010be12e/949d3a1f-570a-47eb-b86e-cc6b0a391b53")
 		(sheetname "/Connectivity/")
 		(sheetfile "connectivity.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -17824,6 +18180,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/a4997772-c7b5-4d2a-bfbb-1b5eefc15f94")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -17965,6 +18327,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/1a9b1ab0-83c9-4c2b-949c-da5762f834a4")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -18106,6 +18474,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/bbc22255-feaf-4fde-bd2f-4443bc7cb27f")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -18213,18 +18587,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "dbc4e2e7-3ebb-45d2-a4ea-9f0e74a8ee5e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -18255,6 +18617,12 @@
 		(path "/ec14aee1-94d0-4cb5-b3e2-af055b92b223")
 		(sheetname "/")
 		(sheetfile "thermocouples.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -18350,18 +18718,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "package/no_lead"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "05b27dfc-9dd8-499b-9648-7115082cbad7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" "TJA1462ATK/0Z"
 			(at 161.7775 104.025 0)
 			(unlocked yes)
@@ -18392,6 +18748,12 @@
 		(path "/c277875e-7a4a-49a6-a853-f4b1010be12e/e48e914d-6044-4725-89b1-feb0b3f76c6c")
 		(sheetname "/Connectivity/")
 		(sheetfile "connectivity.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "4" "5" "8" "3" "2" "9" "7" "6")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18890,6 +19252,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/a420ac4c-4bef-44c4-901b-c0abe76adaab")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -19070,6 +19438,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/8f42a212-2fa7-4dc6-a390-bf35579baa35")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -19224,6 +19598,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/adfabf69-623b-450f-8c4b-6148eb2aa898")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19410,6 +19790,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/8849116b-70d0-4943-8a4c-41c00954775d")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19583,6 +19969,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/de7be208-39dd-491f-98a3-72f76978d32c")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -19737,6 +20129,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/6f9a93a2-36ee-437a-9fd4-55212cf7dbd4")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19910,6 +20308,12 @@
 		(path "/c277875e-7a4a-49a6-a853-f4b1010be12e/1ebc3376-533c-4e48-acfa-8845314d69c8")
 		(sheetname "/Connectivity/")
 		(sheetfile "connectivity.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -20047,6 +20451,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/4312b60f-cea9-4021-a210-418c4c855762")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20391,6 +20801,12 @@
 		(path "/c277875e-7a4a-49a6-a853-f4b1010be12e/2f28ae4c-4367-4cc9-92b3-4ca5b8ccd219")
 		(sheetname "/Connectivity/")
 		(sheetfile "connectivity.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -20532,6 +20948,12 @@
 		(path "/c277875e-7a4a-49a6-a853-f4b1010be12e/6fe56520-7d7f-485e-9323-1cc5cf62124f")
 		(sheetname "/Connectivity/")
 		(sheetfile "connectivity.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -20673,6 +21095,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/b9d8390c-8ecd-40bc-b261-0a81e62106d3")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -20814,6 +21242,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/cd53b495-7504-4ffb-8ed1-04acdbb72e76")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "4" "3")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21058,6 +21492,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/e18883c9-6fd6-43e3-ba8b-d9430bc84d2f")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -21199,6 +21639,12 @@
 		(path "/c277875e-7a4a-49a6-a853-f4b1010be12e/04f4fa71-539f-4d70-9e5c-834bbd1b717d")
 		(sheetname "/Connectivity/")
 		(sheetfile "connectivity.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -21562,6 +22008,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/5aa7f61d-9f1a-4da9-94c5-850c789b3313")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -21703,6 +22155,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/22a5a079-e5db-47a4-a7ba-6f3b8b860022")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -21844,6 +22302,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/042b563f-296d-462d-9757-282220d6aaa0")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -21985,6 +22449,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/d0f8f1b2-6f4b-42e6-8750-f75b22721a16")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -22092,18 +22562,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "connector/pin_header_socket"
-			(at 0 0 270)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "33c1127e-9e7c-4298-9477-e77d816ba275")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -22134,6 +22592,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/7dbc4a79-7b3f-4efd-8ca6-b1d2865224ee")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22388,6 +22852,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/71413f42-1c29-410d-86ae-dc9692a1e938")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -22495,18 +22965,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "package/no_lead"
-			(at 0 0 270)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "ef0ddd90-b50e-48da-a0b7-cca345ce71a5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MANUFACTURER" "TI"
 			(at 0 0 270)
 			(unlocked yes)
@@ -22537,6 +22995,12 @@
 		(path "/ac55a505-1313-4dea-bb6a-7f7100ee270e/8c61378c-b0a5-42cc-971e-7870723377bc")
 		(sheetname "/CJC Sensors/")
 		(sheetfile "cjc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "6" "1" "4" "5" "2" "7" "3")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22897,6 +23361,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/76daaf91-b225-4883-bfcb-019d9d6ebaaa")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -23038,6 +23508,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/13764f86-8057-4352-808b-9634ee75f3ce")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -23179,6 +23655,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/01612237-b1f1-46c4-b2d7-77468dd6730c")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -23320,6 +23802,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/9a58d599-63a7-47d8-86f2-f440327a1766")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -23427,18 +23915,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "package/no_lead"
-			(at 0 0 270)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "d007305d-9e6d-4c46-80c1-f7af15949113")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MANUFACTURER" "TI"
 			(at 0 0 270)
 			(unlocked yes)
@@ -23469,6 +23945,12 @@
 		(path "/ac55a505-1313-4dea-bb6a-7f7100ee270e/3f2fbca4-b56c-45c5-9cfc-750ed5b875f0")
 		(sheetname "/CJC Sensors/")
 		(sheetfile "cjc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "6" "1" "4" "5" "2" "7" "3")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23829,6 +24311,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/107b24eb-45a2-4bce-a054-378cb7c4067b")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -23970,6 +24458,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/3011b438-5c30-47e5-8de2-ccc55e0d997e")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -24111,6 +24605,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/a77cfc2d-c523-4490-be91-4bba0c0f89ff")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -24249,6 +24749,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/c313028e-e8b2-422d-8375-ceefe0ecd9ec")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24538,6 +25044,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/27f36dc7-be3f-4fb3-b262-9a4207a7ce35")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -24679,6 +25191,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/d6fc89f6-494f-467a-b6fd-4fcbcc1c8a18")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -24786,18 +25304,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "package/no_lead"
-			(at 0 0 270)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "6985d6ef-50d6-4ae5-9c3e-16d333222edc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MANUFACTURER" "TI"
 			(at 0 0 270)
 			(unlocked yes)
@@ -24828,6 +25334,12 @@
 		(path "/ac55a505-1313-4dea-bb6a-7f7100ee270e/48b0110c-52b0-419f-aeb4-ca0031e3dc1d")
 		(sheetname "/CJC Sensors/")
 		(sheetfile "cjc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "6" "1" "4" "5" "2" "7" "3")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25188,6 +25700,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/5af29182-6ca8-49cf-9a32-3e1b667006f2")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -25329,6 +25847,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/25a554fe-0f02-41e1-bfdc-7ad15f35b01d")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -25467,6 +25991,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/d6f5405f-aab7-45e6-b2ad-c49acbc19645")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25756,6 +26286,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/7b84b782-c55d-4fa2-a37b-2c31c2507166")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -25897,6 +26433,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/54e0848f-b270-48e3-80a2-e6b1869d9595")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -26044,6 +26586,12 @@
 		(path "/c277875e-7a4a-49a6-a853-f4b1010be12e/c7fffc70-12a6-483c-a41f-4f8ac35acc71")
 		(sheetname "/Connectivity/")
 		(sheetfile "connectivity.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -26192,6 +26740,12 @@
 		(path "/ac55a505-1313-4dea-bb6a-7f7100ee270e/093e919b-0852-4163-a6bf-bdef67685ec2")
 		(sheetname "/CJC Sensors/")
 		(sheetfile "cjc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -26340,6 +26894,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/9cf46623-37bd-4902-a570-b853d869d2fa")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -26452,19 +27012,6 @@
 				(justify mirror)
 			)
 		)
-		(property "KiLib_Generator" "package/gullwing"
-			(at 0 0 180)
-			(layer "B.SilkS")
-			(hide yes)
-			(uuid "49d1484c-1b90-482b-a8c3-6e72d4275706")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "MANUFACTURER" "TI"
 			(at 0 0 180)
 			(layer "B.Fab")
@@ -26494,6 +27041,12 @@
 		(path "/ac55a505-1313-4dea-bb6a-7f7100ee270e/d8ac29f0-3a89-492f-ae4e-630eefab46fa")
 		(sheetname "/CJC Sensors/")
 		(sheetfile "cjc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "13" "12" "3" "11" "1" "2" "14" "7" "4" "5" "6" "8" "9" "10")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26956,6 +27509,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/8e4ee1e2-2369-474c-9cb2-dc3b079aa8ab")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -27104,6 +27663,12 @@
 		(path "/ac55a505-1313-4dea-bb6a-7f7100ee270e/f44dcf00-e80d-4d0b-aaa1-ace70d3d1488")
 		(sheetname "/CJC Sensors/")
 		(sheetfile "cjc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -27252,6 +27817,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/d916601b-1c66-4ed6-baf5-a8522121741f")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27560,6 +28131,12 @@
 		(path "/ac55a505-1313-4dea-bb6a-7f7100ee270e/e73b23e7-ca88-4324-a2b8-b4a717a5a986")
 		(sheetname "/CJC Sensors/")
 		(sheetfile "cjc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -27708,6 +28285,12 @@
 		(path "/c277875e-7a4a-49a6-a853-f4b1010be12e/43a3c1a8-da47-4a99-82be-663479f098a4")
 		(sheetname "/Connectivity/")
 		(sheetfile "connectivity.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -27856,6 +28439,12 @@
 		(path "/ac55a505-1313-4dea-bb6a-7f7100ee270e/171ba1f4-5e2c-4a33-a9d2-eb6b13163b22")
 		(sheetname "/CJC Sensors/")
 		(sheetfile "cjc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -28004,6 +28593,12 @@
 		(path "/ac55a505-1313-4dea-bb6a-7f7100ee270e/aab83405-f589-491f-b25a-463a41995e62")
 		(sheetname "/CJC Sensors/")
 		(sheetfile "cjc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -28152,6 +28747,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/d5c3b1b9-b0ad-44b0-8af2-86d9ad71f2b4")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -28300,6 +28901,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/b19a945b-6a9b-448c-81e4-72fb6d83ba78")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28608,6 +29215,12 @@
 		(path "/ac55a505-1313-4dea-bb6a-7f7100ee270e/e5e81343-2204-4f8f-ac39-7c9a5057d472")
 		(sheetname "/CJC Sensors/")
 		(sheetfile "cjc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -28756,6 +29369,12 @@
 		(path "/c277875e-7a4a-49a6-a853-f4b1010be12e/a2821e85-1004-4a49-b616-b4f2efc9fdb4")
 		(sheetname "/Connectivity/")
 		(sheetfile "connectivity.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -28904,6 +29523,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/7e465835-7ecf-4e67-98d4-757b2b1ba132")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -29052,6 +29677,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/0bd7db01-c692-4ffe-a9da-557c77f30563")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -29360,6 +29991,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/38650dae-1486-4232-bbe6-b08206f2d9f0")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -29668,6 +30305,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/f66043b3-bd6d-48ca-86d3-4e20fb53d8fc")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -29816,6 +30459,12 @@
 		(path "/c277875e-7a4a-49a6-a853-f4b1010be12e/54d9530d-2123-4bc5-aae9-251128b66c52")
 		(sheetname "/Connectivity/")
 		(sheetfile "connectivity.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -29964,6 +30613,12 @@
 		(path "/c277875e-7a4a-49a6-a853-f4b1010be12e/0024db9f-47fd-4098-8e33-d4cfdbef4e3e")
 		(sheetname "/Connectivity/")
 		(sheetfile "connectivity.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -30112,6 +30767,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/7360cd95-8f05-4e44-8e28-69d6a3601ed6")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -30260,6 +30921,12 @@
 		(path "/ac55a505-1313-4dea-bb6a-7f7100ee270e/8885c1c4-402e-4397-9833-6281df4c2103")
 		(sheetname "/CJC Sensors/")
 		(sheetfile "cjc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -30408,6 +31075,12 @@
 		(path "/c277875e-7a4a-49a6-a853-f4b1010be12e/6f8d8584-7b63-434a-8813-0a10d5f180a3")
 		(sheetname "/Connectivity/")
 		(sheetfile "connectivity.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -30556,6 +31229,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/00651e15-8e8c-4c6b-8575-0766820bcfeb")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -30704,6 +31383,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/6728337b-2fdd-46fe-93d7-95370ddd7e75")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -31012,6 +31697,12 @@
 		(path "/ac55a505-1313-4dea-bb6a-7f7100ee270e/53e8d0ec-0a37-4f26-a33e-2c9d538f8c40")
 		(sheetname "/CJC Sensors/")
 		(sheetfile "cjc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -31160,6 +31851,12 @@
 		(path "/ac55a505-1313-4dea-bb6a-7f7100ee270e/b228bcc8-48d5-4332-ac35-5fbacf883715")
 		(sheetname "/CJC Sensors/")
 		(sheetfile "cjc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -31308,6 +32005,12 @@
 		(path "/ac55a505-1313-4dea-bb6a-7f7100ee270e/602b7440-6c38-403b-be7e-1e21710bb681")
 		(sheetname "/CJC Sensors/")
 		(sheetfile "cjc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -31456,6 +32159,12 @@
 		(path "/ac55a505-1313-4dea-bb6a-7f7100ee270e/7937d0e5-1d60-4e23-87b9-198e604aedd3")
 		(sheetname "/CJC Sensors/")
 		(sheetfile "cjc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -31605,6 +32314,12 @@
 		(path "/ac55a505-1313-4dea-bb6a-7f7100ee270e/06245b5c-f541-4437-a600-2795aa9d1a43")
 		(sheetname "/CJC Sensors/")
 		(sheetfile "cjc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -31753,6 +32468,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/625a5103-7cb6-4b96-8a85-0c72717f4f38")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -32061,6 +32782,12 @@
 		(path "/ac55a505-1313-4dea-bb6a-7f7100ee270e/772db52a-1113-47fa-99f3-5f68813be33e")
 		(sheetname "/CJC Sensors/")
 		(sheetfile "cjc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -32209,6 +32936,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/968578d8-357a-4809-9aa8-46fc48fa01e2")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -32517,6 +33250,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/9bd2cc0e-68cf-4bef-ab9d-911db3ef093a")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -32825,6 +33564,12 @@
 		(path "/c277875e-7a4a-49a6-a853-f4b1010be12e/3e7d8654-c592-4a77-a89a-fef89bcd3805")
 		(sheetname "/Connectivity/")
 		(sheetfile "connectivity.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -32973,6 +33718,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/d463e19e-0852-44a2-86a9-cd2cc850ced8")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -33121,6 +33872,12 @@
 		(path "/ac55a505-1313-4dea-bb6a-7f7100ee270e/bccfc8ff-39b1-4620-8bb3-f5bc0c06492a")
 		(sheetname "/CJC Sensors/")
 		(sheetfile "cjc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -33269,6 +34026,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/d8999632-f436-4857-8c6b-b6f4bf1340cd")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -33417,6 +34180,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/4d935f89-cccb-4d54-99e1-0d524b1a0d4b")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -33725,6 +34494,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/5c5522dd-4720-475d-8c60-107b5e4abf6e")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -33873,6 +34648,12 @@
 		(path "/3c5beecf-74b1-48fe-ad8e-ae30f52b972a/a4745355-25d1-4749-aa6b-499a804416b7")
 		(sheetname "/Microcontroller/")
 		(sheetfile "microcontroller.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -34021,6 +34802,12 @@
 		(path "/c277875e-7a4a-49a6-a853-f4b1010be12e/9581dbc1-3d12-4aa8-acde-5b586b42f1bb")
 		(sheetname "/Connectivity/")
 		(sheetfile "connectivity.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -34169,6 +34956,12 @@
 		(path "/ac55a505-1313-4dea-bb6a-7f7100ee270e/5fe08659-d1a9-4975-94ca-9df947ad4fcf")
 		(sheetname "/CJC Sensors/")
 		(sheetfile "cjc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -34317,6 +35110,12 @@
 		(path "/ac55a505-1313-4dea-bb6a-7f7100ee270e/3dde06af-8f67-40e3-a97e-31c3c46ad5db")
 		(sheetname "/CJC Sensors/")
 		(sheetfile "cjc.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -34465,6 +35264,12 @@
 		(path "/c277875e-7a4a-49a6-a853-f4b1010be12e/13d099ca-4668-4e6f-8fc5-67ff7d90877a")
 		(sheetname "/Connectivity/")
 		(sheetfile "connectivity.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -34613,6 +35418,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/607a9894-3847-4d99-962a-f7f660130e9f")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -34921,6 +35732,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/537a0b33-802d-4ce0-959f-8f83bd3303bf")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -35229,6 +36046,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/dd03f164-e2d0-4012-9f54-7ed1dd467655")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -35377,6 +36200,12 @@
 		(path "/de3cef6c-f0bf-43f9-bc77-3e59044b84fe/ae9e4148-d6d6-4728-8091-2214acf6edf6")
 		(sheetname "/ADC/")
 		(sheetfile "analog.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -39733,12 +40562,28 @@
 		(uuid "df754264-e16c-4975-bc31-3652fe9151a3")
 	)
 	(segment
+		(start 170.3125 105.574999)
+		(end 171.6625 105.575)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "0fda18c3-3f6c-44bd-aa76-15bc4b283aaf")
+	)
+	(segment
 		(start 161.8125 116.63)
 		(end 163.4375 116.63)
 		(width 0.3)
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "19cd7b63-8341-479c-b004-24974fba01e3")
+	)
+	(segment
+		(start 170.3125 105.574999)
+		(end 168.9625 105.575)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "9a2ae3ce-0dc0-4250-bb67-11f78db7b87e")
 	)
 	(via
 		(at 127.0125 82.025)
@@ -48034,6 +48879,22 @@
 		(uuid "8f8f9c60-1240-40ec-ab51-11c62f4886ea")
 	)
 	(segment
+		(start 125.05 99.425)
+		(end 123.8125 99.425)
+		(width 0.15)
+		(layer "B.Cu")
+		(net "Net-(U7-~{INT0})")
+		(uuid "25418ece-ddb0-4d5d-b55f-5c2e4d036e17")
+	)
+	(segment
+		(start 123.8125 99.425)
+		(end 122.9125 100.325)
+		(width 0.15)
+		(layer "B.Cu")
+		(net "Net-(U7-~{INT0})")
+		(uuid "ecc94bae-ca0e-4792-a83d-dcc9d0715a3e")
+	)
+	(segment
 		(start 132.7125 97.025)
 		(end 132.7125 96.425)
 		(width 0.15)
@@ -48056,22 +48917,6 @@
 		(layer "B.Cu")
 		(net "Net-(U7-~{INT1})")
 		(uuid "f8be4020-edf9-4e59-813c-b50b30db89e3")
-	)
-	(segment
-		(start 125.05 99.425)
-		(end 123.8125 99.425)
-		(width 0.15)
-		(layer "B.Cu")
-		(net "Net-(U7-~{INT0})")
-		(uuid "25418ece-ddb0-4d5d-b55f-5c2e4d036e17")
-	)
-	(segment
-		(start 123.8125 99.425)
-		(end 122.9125 100.325)
-		(width 0.15)
-		(layer "B.Cu")
-		(net "Net-(U7-~{INT0})")
-		(uuid "ecc94bae-ca0e-4792-a83d-dcc9d0715a3e")
 	)
 	(zone
 		(layer "F.Cu")
