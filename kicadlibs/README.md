@@ -10,7 +10,7 @@ First-party libs drawn by APRL. Every library is named `APRL_*`.
 ## kicad/
 
 The stock KiCad libraries, vendored whole because KiCad devs hate electrical
-engineers. Refresh with `just vendor-kicad`.
+engineers. Refresh with `just vendor-kicad-flatpak`.
 
 ## vendor/
 

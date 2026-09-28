@@ -2,8 +2,8 @@
 	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "DCDC-Converter, TRACO, THR40-72xxWI, THR40-72xxxWI, 40W, Rev. November 4. 2024, https://www.tracopower.com/products/thr40wi.pdf")
-	(tags "DCDC-Converter TRACO THR40WI THT 2\"x1\" 40W")
+	(descr "DCDC-Converter, TRACO, THR40-72xxWI, THR40-72xxxWI, 40W, Rev. August 3. 2026, https://www.tracopower.com/products/thr40wi.pdf")
+	(tags "DCDC-Converter TRACO THT 2\"x1\" 40W THR40WI TEN80WI")
 	(property "Reference" "REF**"
 		(at 7.6 -4.24 0)
 		(layer "F.SilkS")

@@ -2,8 +2,8 @@
 	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "WQFN, 16 Pin (https://www.ti.com/lit/ds/symlink/tlv9064.pdf#page=44)")
-	(tags "WQFN NoLead")
+	(descr "WQFN, 16 Pin (Texas RTE0016C, https://www.ti.com/lit/ml/qfnd525b/qfnd525b.pdf, https://www.ti.com/lit/ds/symlink/tlv9064.pdf#page=49)")
+	(tags "WQFN NoLead Texas_RTE0016C")
 	(property "Reference" "REF**"
 		(at 0 -2.83 0)
 		(layer "F.SilkS")

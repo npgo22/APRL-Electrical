@@ -2,8 +2,8 @@
 	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "TSSOP, 28 Pin (Texas Instruments TAS5805M https://www.ti.com/lit/gpn/tas5805m)")
-	(tags "TSSOP SO")
+	(descr "TSSOP, 28 Pin (Texas Instruments PWP0028M, https://www.ti.com/lit/ml/pptd351/pptd351.pdf, https://www.ti.com/lit/ds/symlink/tas5805m.pdf#page=99)")
+	(tags "TSSOP SO Texas_PowerPAD-TSSOP JEDEC_MO-153-variation-AET HTSSOP")
 	(property "Reference" "REF**"
 		(at 0 -5.8 0)
 		(layer "F.SilkS")

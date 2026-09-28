@@ -1,7 +1,10 @@
 set shell := ["bash", "-euo", "pipefail", "-c"]
 
 # Every live board directory, at whatever depth it sits (same list CI builds).
-boards := `python3 -c 'import sys; sys.path.insert(0, ".github/scripts"); from vendor_kicad import ROOT, boards; print(" ".join(b.relative_to(ROOT).as_posix() for b in boards()))'`
+boards := `python3 -c 'import sys; sys.path.insert(0, ".github/scripts"); from vendor_kicad_flatpak import ROOT, boards; print(" ".join(b.relative_to(ROOT).as_posix() for b in boards()))'`
+
+# KiCad comes from the Flatpak; /tmp is shared so outputs can land there.
+kicad_cli_flatpak := "flatpak run --filesystem=/tmp --command=kicad-cli org.kicad.KiCad"
 
 # List available recipes
 default:
@@ -11,9 +14,9 @@ default:
 noct:
     python3 .github/scripts/strip.py
 
-# Vendor every stock KiCad symbol/footprint library into kicadlibs/kicad, plus the models boards use
-vendor-kicad:
-    python3 .github/scripts/vendor_kicad.py
+# Vendor every stock KiCad symbol/footprint library (from the KiCad Flatpak) into kicadlibs/kicad, plus the models boards use
+vendor-kicad-flatpak:
+    python3 .github/scripts/vendor_kicad_flatpak.py
 
 # Apply the JLCPCB board constraints to every board's .kicad_pro
 constraints *args:
@@ -40,15 +43,15 @@ kibot-all:
     done
 
 # Netlist + gerber + drill snapshot of every board into DIR (for A/B diffing)
-snapshot dir:
+snapshot-flatpak dir:
     mkdir -p {{dir}}
     out=$(realpath {{dir}}); \
     for d in {{boards}}; do pro=$(ls "$d"/*.kicad_pro); \
       d=$(dirname "$pro"); b=$(basename "$pro" .kicad_pro); n=${d//\//-}; \
       [ -f "$d/$b.kicad_pcb" ] || continue; \
       ( cd "$d" && \
-        kicad-cli sch export netlist -o "$out/$n.net" "$b.kicad_sch" >/dev/null && \
-        kicad-cli pcb export gerbers -o "$out/$n.gbr/" "$b.kicad_pcb" >/dev/null && \
-        kicad-cli pcb export drill   -o "$out/$n.drl/" "$b.kicad_pcb" >/dev/null ); \
+        {{kicad_cli_flatpak}} sch export netlist -o "$out/$n.net" "$b.kicad_sch" >/dev/null && \
+        {{kicad_cli_flatpak}} pcb export gerbers -o "$out/$n.gbr/" "$b.kicad_pcb" >/dev/null && \
+        {{kicad_cli_flatpak}} pcb export drill   -o "$out/$n.drl/" "$b.kicad_pcb" >/dev/null ); \
       echo "snapshot $n"; \
     done

@@ -2,8 +2,8 @@
 	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "TSSOP, 28 Pin (Texas Instruments TAS5805M https://www.ti.com/lit/gpn/tas5805m)")
-	(tags "TSSOP SO")
+	(descr "TSSOP, 28 Pin (Texas Instruments PWP0028M, https://www.ti.com/lit/ml/pptd351/pptd351.pdf, https://www.ti.com/lit/ds/symlink/tas5805m.pdf#page=99)")
+	(tags "TSSOP SO Texas_PowerPAD-TSSOP JEDEC_MO-153-variation-AET HTSSOP")
 	(property "Reference" "REF**"
 		(at 0 -5.8 0)
 		(layer "F.SilkS")
@@ -453,7 +453,7 @@
 		(roundrect_rratio 0.25)
 	)
 	(pad "29" thru_hole circle
-		(at -1.45 -4.6)
+		(at -1.2 -4.2)
 		(size 0.5 0.5)
 		(drill 0.2)
 		(property pad_prop_heatsink)
@@ -461,7 +461,7 @@
 		(remove_unused_layers no)
 	)
 	(pad "29" thru_hole circle
-		(at -1.45 -3.285714)
+		(at -1.2 -3)
 		(size 0.5 0.5)
 		(drill 0.2)
 		(property pad_prop_heatsink)
@@ -469,7 +469,7 @@
 		(remove_unused_layers no)
 	)
 	(pad "29" thru_hole circle
-		(at -1.45 -1.971429)
+		(at -1.2 -1.8)
 		(size 0.5 0.5)
 		(drill 0.2)
 		(property pad_prop_heatsink)
@@ -477,7 +477,7 @@
 		(remove_unused_layers no)
 	)
 	(pad "29" thru_hole circle
-		(at -1.45 -0.657143)
+		(at -1.2 -0.6)
 		(size 0.5 0.5)
 		(drill 0.2)
 		(property pad_prop_heatsink)
@@ -485,7 +485,7 @@
 		(remove_unused_layers no)
 	)
 	(pad "29" thru_hole circle
-		(at -1.45 0.657143)
+		(at -1.2 0.6)
 		(size 0.5 0.5)
 		(drill 0.2)
 		(property pad_prop_heatsink)
@@ -493,7 +493,7 @@
 		(remove_unused_layers no)
 	)
 	(pad "29" thru_hole circle
-		(at -1.45 1.971429)
+		(at -1.2 1.8)
 		(size 0.5 0.5)
 		(drill 0.2)
 		(property pad_prop_heatsink)
@@ -501,7 +501,7 @@
 		(remove_unused_layers no)
 	)
 	(pad "29" thru_hole circle
-		(at -1.45 3.285714)
+		(at -1.2 3)
 		(size 0.5 0.5)
 		(drill 0.2)
 		(property pad_prop_heatsink)
@@ -509,7 +509,7 @@
 		(remove_unused_layers no)
 	)
 	(pad "29" thru_hole circle
-		(at -1.45 4.6)
+		(at -1.2 4.2)
 		(size 0.5 0.5)
 		(drill 0.2)
 		(property pad_prop_heatsink)
@@ -517,7 +517,7 @@
 		(remove_unused_layers no)
 	)
 	(pad "29" thru_hole circle
-		(at 0 -4.6)
+		(at 0 -4.2)
 		(size 0.5 0.5)
 		(drill 0.2)
 		(property pad_prop_heatsink)
@@ -525,7 +525,7 @@
 		(remove_unused_layers no)
 	)
 	(pad "29" thru_hole circle
-		(at 0 -3.285714)
+		(at 0 -3)
 		(size 0.5 0.5)
 		(drill 0.2)
 		(property pad_prop_heatsink)
@@ -533,7 +533,7 @@
 		(remove_unused_layers no)
 	)
 	(pad "29" thru_hole circle
-		(at 0 -1.971429)
+		(at 0 -1.8)
 		(size 0.5 0.5)
 		(drill 0.2)
 		(property pad_prop_heatsink)
@@ -541,12 +541,19 @@
 		(remove_unused_layers no)
 	)
 	(pad "29" thru_hole circle
-		(at 0 -0.657143)
+		(at 0 -0.6)
 		(size 0.5 0.5)
 		(drill 0.2)
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
 		(remove_unused_layers no)
+	)
+	(pad "29" smd rect
+		(at 0 0)
+		(size 2.9 8.9)
+		(property pad_prop_heatsink)
+		(layers "B.Cu")
+		(zone_connect 2)
 	)
 	(pad "29" smd rect
 		(at 0 0)
@@ -555,15 +562,8 @@
 		(layers "F.Cu")
 		(zone_connect 2)
 	)
-	(pad "29" smd rect
-		(at 0 0)
-		(size 3.4 9.7)
-		(property pad_prop_heatsink)
-		(layers "B.Cu")
-		(zone_connect 2)
-	)
 	(pad "29" thru_hole circle
-		(at 0 0.657143)
+		(at 0 0.6)
 		(size 0.5 0.5)
 		(drill 0.2)
 		(property pad_prop_heatsink)
@@ -571,7 +571,7 @@
 		(remove_unused_layers no)
 	)
 	(pad "29" thru_hole circle
-		(at 0 1.971429)
+		(at 0 1.8)
 		(size 0.5 0.5)
 		(drill 0.2)
 		(property pad_prop_heatsink)
@@ -579,7 +579,7 @@
 		(remove_unused_layers no)
 	)
 	(pad "29" thru_hole circle
-		(at 0 3.285714)
+		(at 0 3)
 		(size 0.5 0.5)
 		(drill 0.2)
 		(property pad_prop_heatsink)
@@ -587,7 +587,7 @@
 		(remove_unused_layers no)
 	)
 	(pad "29" thru_hole circle
-		(at 0 4.6)
+		(at 0 4.2)
 		(size 0.5 0.5)
 		(drill 0.2)
 		(property pad_prop_heatsink)
@@ -595,7 +595,7 @@
 		(remove_unused_layers no)
 	)
 	(pad "29" thru_hole circle
-		(at 1.45 -4.6)
+		(at 1.2 -4.2)
 		(size 0.5 0.5)
 		(drill 0.2)
 		(property pad_prop_heatsink)
@@ -603,7 +603,7 @@
 		(remove_unused_layers no)
 	)
 	(pad "29" thru_hole circle
-		(at 1.45 -3.285714)
+		(at 1.2 -3)
 		(size 0.5 0.5)
 		(drill 0.2)
 		(property pad_prop_heatsink)
@@ -611,7 +611,7 @@
 		(remove_unused_layers no)
 	)
 	(pad "29" thru_hole circle
-		(at 1.45 -1.971429)
+		(at 1.2 -1.8)
 		(size 0.5 0.5)
 		(drill 0.2)
 		(property pad_prop_heatsink)
@@ -619,7 +619,7 @@
 		(remove_unused_layers no)
 	)
 	(pad "29" thru_hole circle
-		(at 1.45 -0.657143)
+		(at 1.2 -0.6)
 		(size 0.5 0.5)
 		(drill 0.2)
 		(property pad_prop_heatsink)
@@ -627,7 +627,7 @@
 		(remove_unused_layers no)
 	)
 	(pad "29" thru_hole circle
-		(at 1.45 0.657143)
+		(at 1.2 0.6)
 		(size 0.5 0.5)
 		(drill 0.2)
 		(property pad_prop_heatsink)
@@ -635,7 +635,7 @@
 		(remove_unused_layers no)
 	)
 	(pad "29" thru_hole circle
-		(at 1.45 1.971429)
+		(at 1.2 1.8)
 		(size 0.5 0.5)
 		(drill 0.2)
 		(property pad_prop_heatsink)
@@ -643,7 +643,7 @@
 		(remove_unused_layers no)
 	)
 	(pad "29" thru_hole circle
-		(at 1.45 3.285714)
+		(at 1.2 3)
 		(size 0.5 0.5)
 		(drill 0.2)
 		(property pad_prop_heatsink)
@@ -651,7 +651,7 @@
 		(remove_unused_layers no)
 	)
 	(pad "29" thru_hole circle
-		(at 1.45 4.6)
+		(at 1.2 4.2)
 		(size 0.5 0.5)
 		(drill 0.2)
 		(property pad_prop_heatsink)

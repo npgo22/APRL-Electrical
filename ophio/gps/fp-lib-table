@@ -6,6 +6,8 @@
 	(lib (name "APRL_Connector_Molex-noct") (type "KiCad") (uri "${APRL_LIBS}/aprl/APRL_Connector_Molex-noct.pretty") (options "") (descr ""))
 	(lib (name "APRL_Graphic") (type "KiCad") (uri "${APRL_LIBS}/aprl/APRL_Graphic.pretty") (options "") (descr ""))
 	(lib (name "APRL_Graphic-noct") (type "KiCad") (uri "${APRL_LIBS}/aprl/APRL_Graphic-noct.pretty") (options "") (descr ""))
+	(lib (name "APRL_Misc") (type "KiCad") (uri "${APRL_LIBS}/aprl/APRL_Misc.pretty") (options "") (descr ""))
+	(lib (name "APRL_Misc-noct") (type "KiCad") (uri "${APRL_LIBS}/aprl/APRL_Misc-noct.pretty") (options "") (descr ""))
 	(lib (name "APRL_Module") (type "KiCad") (uri "${APRL_LIBS}/aprl/APRL_Module.pretty") (options "") (descr ""))
 	(lib (name "APRL_Module-noct") (type "KiCad") (uri "${APRL_LIBS}/aprl/APRL_Module-noct.pretty") (options "") (descr ""))
 	(lib (name "APRL_Package") (type "KiCad") (uri "${APRL_LIBS}/aprl/APRL_Package.pretty") (options "") (descr ""))

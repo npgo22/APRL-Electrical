@@ -17,7 +17,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(Path(__file__).parent))
-from vendor_kicad import boards  # noqa: E402  (one definition of "every live board")
+from vendor_kicad_flatpak import boards  # noqa: E402  (one definition of "every live board")
 
 # mm, matching kicadlibs/jlcpcb-4layer.kicad_dru. Key -> Board Setup label.
 RULES = {
