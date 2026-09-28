@@ -2282,7 +2282,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MCU_ST_STM32H5:STM32H563RIVx"
+		(symbol "APRL_MCU:STM32H563RIVx"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2310,7 +2310,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_DFN_QFN:QFN-68-1EP_8x8mm_P0.4mm_EP6.4x6.4mm"
+			(property "Footprint" "APRL_Package_QFN:QFN-68-1EP_8x8mm_P0.4mm_EP6.4x6.4mm"
 				(at -22.86 -45.72 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -10177,7 +10177,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MCU_ST_STM32H5:STM32H563RIVx")
+		(lib_id "APRL_MCU:STM32H563RIVx")
 		(at 110.49 99.06 0)
 		(unit 1)
 		(body_style 1)

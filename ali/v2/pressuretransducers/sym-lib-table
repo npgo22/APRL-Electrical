@@ -8,6 +8,7 @@
 	(lib (name "APRL_Analog") (type "KiCad") (uri "${APRL_LIBS}/aprl/APRL_Analog.kicad_sym") (options "") (descr ""))
 	(lib (name "APRL_Comms") (type "KiCad") (uri "${APRL_LIBS}/aprl/APRL_Comms.kicad_sym") (options "") (descr ""))
 	(lib (name "APRL_Connector") (type "KiCad") (uri "${APRL_LIBS}/aprl/APRL_Connector.kicad_sym") (options "") (descr ""))
+	(lib (name "APRL_MCU") (type "KiCad") (uri "${APRL_LIBS}/aprl/APRL_MCU.kicad_sym") (options "") (descr ""))
 	(lib (name "APRL_Misc") (type "KiCad") (uri "${APRL_LIBS}/aprl/APRL_Misc.kicad_sym") (options "") (descr ""))
 	(lib (name "APRL_Power") (type "KiCad") (uri "${APRL_LIBS}/aprl/APRL_Power.kicad_sym") (options "") (descr ""))
 	(lib (name "Amplifier_Audio") (type "KiCad") (uri "${APRL_LIBS}/kicad/Amplifier_Audio.kicad_sym") (options "") (descr ""))

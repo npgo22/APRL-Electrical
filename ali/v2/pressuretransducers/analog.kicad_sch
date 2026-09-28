@@ -8,7 +8,7 @@
 		(date "2026-09-11")
 	)
 	(lib_symbols
-		(symbol "Analog_ADC:ADS131M08xPBS"
+		(symbol "APRL_Analog:ADS131M08IRSN"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -59,7 +59,7 @@
 					)
 				)
 			)
-			(property "Description" "8-Channel, Simultaneously-Sampling, 24-Bit, Delta-Sigma ADC"
+			(property "Description" "8-channel, 24-bit, simultaneous-sampling delta-sigma ADC, 32 kSPS, PGA 1-128, SPI, WQFN-32 with thermal pad (Texas RSN)"
 				(at 60.96 -60.96 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -92,7 +92,7 @@
 					)
 				)
 			)
-			(symbol "ADS131M08xPBS_0_1"
+			(symbol "ADS131M08IRSN_0_1"
 				(rectangle
 					(start -12.7 30.48)
 					(end 12.7 -30.48)
@@ -105,7 +105,7 @@
 					)
 				)
 			)
-			(symbol "ADS131M08xPBS_1_1"
+			(symbol "ADS131M08IRSN_1_1"
 				(pin input line
 					(at -15.24 12.7 0)
 					(length 2.54)
@@ -14393,7 +14393,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Analog_ADC:ADS131M08xPBS")
+		(lib_id "APRL_Analog:ADS131M08IRSN")
 		(at 215.9 114.3 0)
 		(unit 1)
 		(body_style 1)
@@ -14449,7 +14449,7 @@
 				)
 			)
 		)
-		(property "Description" "8-Channel, Simultaneously-Sampling, 24-Bit, Delta-Sigma ADC"
+		(property "Description" "8-channel, 24-bit, simultaneous-sampling delta-sigma ADC, 32 kSPS, PGA 1-128, SPI, WQFN-32 with thermal pad (Texas RSN)"
 			(at 276.86 175.26 0)
 			(hide yes)
 			(show_name no)
