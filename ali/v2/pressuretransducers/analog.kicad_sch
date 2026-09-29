@@ -1900,6 +1900,36 @@
 		)
 		(uuid "fbd711d1-d597-4774-adb5-5a8696796df5")
 	)
+	(text "Still need to double check that 47.5R is good"
+		(exclude_from_sim no)
+		(at 119.888 179.832 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1a657800-086f-436c-a5b6-a80ca249fdcd")
+	)
+	(text "The protection diode and shunt resistor are going to immediately blow and/or short if\nthis thing actually got shorted, but I'm not sure if we want a PTC on every input,\nespecially since it'd mean there'd be a nontrivial change in DC resistance relative to the shunt. That being said,\nit shouldn't affect us if we placed it on the high side, though."
+		(exclude_from_sim no)
+		(at -40.894 89.408 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "293dda0e-4e2e-4964-b3b2-e00be287323c")
+	)
+	(text "These connectors were colored by claude which is why they're off\nI did search for connectors that are not just gray but they simply\ndo not exist"
+		(exclude_from_sim no)
+		(at -17.526 56.134 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4676559a-c0dc-42f2-88ce-85b6d1313bab")
+	)
 	(text "INPUTS"
 		(exclude_from_sim no)
 		(at 31.496 30.734 0)
@@ -1909,6 +1939,26 @@
 			)
 		)
 		(uuid "5582835e-6d45-4be0-9612-a120cf99604e")
+	)
+	(text "It would be trivial to isolate this entire board using the same trick we used on the thermocouple board,\nwhere we just place a dc/dc isolator chip on the +5V rail. This would enhance the protection of our system\nby allowing us to isolate +24V, which would prevent ground bounce and greatly limit damage from shorts because\nthere is no return line back to the power supply if its ground is floating. This was omitted for now, as we agreed."
+		(exclude_from_sim no)
+		(at 112.522 28.448 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "696b8213-fcfa-419a-a262-cc01831d7d87")
+	)
+	(text "The voltage drop over these 1K resistors is nontrivial but can be calibrated out"
+		(exclude_from_sim no)
+		(at 44.704 73.152 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6f8229ef-2260-4b6d-9934-8f9b4ce80f5a")
 	)
 	(text "ADC"
 		(exclude_from_sim no)
@@ -1920,6 +1970,16 @@
 		)
 		(uuid "8b173be3-fc61-4fea-833d-2ee0f04b0ee5")
 	)
+	(text "These caps are all c0g and these resistors are all thin film. I started placing MPN and Manufacturer\non the fields of nearly every part on these boards so that we can standardize on certain parts\nand to make ordering easier, and to prevent the TC situation where we used X5Rs for the DM filtering\non the AFE"
+		(exclude_from_sim no)
+		(at 136.144 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "baf8232e-d201-4f9e-9505-64c64b2a3c82")
+	)
 	(text "fcm = 159 kHz\nfdm = 7.58 kHz"
 		(exclude_from_sim no)
 		(at 53.086 48.514 0)
@@ -1930,6 +1990,16 @@
 		)
 		(uuid "bf8b8e64-669a-4c8b-a401-d67e9ffdeeb6")
 	)
+	(text "The idea behind the net ties is to create a kelvin connection but I don't think I'm really\nachieving it here and I don't think that it'd actually help if I did"
+		(exclude_from_sim no)
+		(at 63.246 189.484 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ca04ec5e-07d0-4eb8-8bf3-f0ae11ceceef")
+	)
 	(text "Should be able to handle +12/24V short\nUse NAMUR NE43 to determine fault states"
 		(exclude_from_sim no)
 		(at 47.244 38.354 0)
@@ -1939,6 +2009,16 @@
 			)
 		)
 		(uuid "e5b3ed3d-b01b-4c5e-8b22-f47711355720")
+	)
+	(text "This diode is a jellybean part but I'm not sure if this is ideal"
+		(exclude_from_sim no)
+		(at 113.03 141.732 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fea9c9a8-c8f2-43a0-98ff-44026c7984af")
 	)
 	(junction
 		(at 36.83 163.83)
@@ -2984,7 +3064,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 91.44) (xy 234.95 92.71)
+			(xy 234.95 92.71) (xy 234.95 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4314,6 +4394,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 86.36) (xy 231.14 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b560002d-235f-428c-bad1-3318554f94e4")
+	)
+	(wire
+		(pts
 			(xy 76.2 134.62) (xy 90.17 134.62)
 		)
 		(stroke
@@ -4444,16 +4534,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 86.36) (xy 234.95 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be207b52-f77d-45af-ad97-1d2ad28707b7")
-	)
-	(wire
-		(pts
 			(xy 144.78 92.71) (xy 149.86 92.71)
 		)
 		(stroke
@@ -4501,6 +4581,16 @@
 			(type default)
 		)
 		(uuid "c54c0d6e-85c3-4f28-94fe-38610c8d3bb2")
+	)
+	(wire
+		(pts
+			(xy 234.95 87.63) (xy 234.95 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c568f8d3-479a-4fa8-84a4-53e355c28d03")
 	)
 	(wire
 		(pts
@@ -8628,7 +8718,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 234.95 92.71 0)
+		(at 234.95 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8639,7 +8729,7 @@
 		(fields_autoplaced yes)
 		(uuid "480d2073-9142-401d-a9fe-29d3e60f1848")
 		(property "Reference" "#PWR080"
-			(at 234.95 99.06 0)
+			(at 234.95 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8650,7 +8740,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 234.95 97.79 0)
+			(at 234.95 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8661,7 +8751,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 92.71 0)
+			(at 234.95 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8672,7 +8762,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 92.71 0)
+			(at 234.95 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8683,7 +8773,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 234.95 92.71 0)
+			(at 234.95 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9770,7 +9860,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 234.95 88.9 0)
+		(at 234.95 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9781,7 +9871,7 @@
 		(fields_autoplaced yes)
 		(uuid "686dd97e-90a0-46db-9ac6-859673a0363f")
 		(property "Reference" "C40"
-			(at 237.49 87.6362 0)
+			(at 237.49 88.9062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9792,7 +9882,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 237.49 90.1762 0)
+			(at 237.49 91.4462 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9803,7 +9893,7 @@
 			)
 		)
 		(property "Footprint" "APRL_Passive:C_0603"
-			(at 234.95 88.9 0)
+			(at 234.95 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9814,7 +9904,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 88.9 0)
+			(at 234.95 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9825,7 +9915,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 234.95 88.9 0)
+			(at 234.95 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9836,7 +9926,7 @@
 			)
 		)
 		(property "MPN" "GRM188R72A104KA35"
-			(at 234.95 88.9 0)
+			(at 234.95 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9847,7 +9937,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Murata"
-			(at 234.95 88.9 0)
+			(at 234.95 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

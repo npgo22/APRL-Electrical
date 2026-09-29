@@ -1624,6 +1624,16 @@
 		)
 		(uuid "1a98fd14-e277-4f35-b3dd-bf45ceb30e18")
 	)
+	(text "I decided that an ADS1261 is a waste on this board"
+		(exclude_from_sim no)
+		(at 196.85 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3fc66197-d817-4595-b6a5-55d2f3e7a4b0")
+	)
 	(text "INPUTS"
 		(exclude_from_sim no)
 		(at 28.448 18.288 0)
@@ -1653,6 +1663,16 @@
 			)
 		)
 		(uuid "aead9700-1eb9-441b-b514-e06f6f77c10a")
+	)
+	(text "I think we can reference this to AINCOM instead of +5V and GND but I'm not totally sure"
+		(exclude_from_sim no)
+		(at 146.304 27.432 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bded777f-f102-4728-b15e-05f99abd454b")
 	)
 	(text "fcm = 159 kHz\nfdm = 7.58 kHz"
 		(exclude_from_sim no)

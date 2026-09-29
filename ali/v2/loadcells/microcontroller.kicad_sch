@@ -6512,6 +6512,16 @@
 		)
 		(uuid "c4b0e8e2-003f-4f29-9d93-0e8df2b80c13")
 	)
+	(text "This spare GPIO header is not standardized, its literally just whatever I had available\njust so that we'd have it available if we ever needed it"
+		(exclude_from_sim no)
+		(at 230.124 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d906b390-f6c8-451c-ac27-4cd15e63e1fa")
+	)
 	(text "I2C is broken out but \nno pullups on host side"
 		(exclude_from_sim no)
 		(at 231.394 92.71 0)
@@ -8646,7 +8656,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 101.6) (xy 146.05 101.6)
+			(xy 133.35 101.6) (xy 147.32 101.6)
 		)
 		(stroke
 			(width 0)
@@ -9435,7 +9445,7 @@
 		(uuid "050ec83b-77e5-4ffb-92b2-66b29762e9c4")
 	)
 	(label "+5V_SENSE"
-		(at 146.05 101.6 180)
+		(at 147.32 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)

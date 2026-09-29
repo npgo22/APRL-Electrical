@@ -1306,6 +1306,16 @@
 		)
 		(uuid "8cd52c53-d693-4b71-8e9c-70f129b04437")
 	)
+	(text "TI has other sensors which are daisy-chainable without needing one of these muxes\nbut their packages are a lot larger"
+		(exclude_from_sim no)
+		(at 281.432 62.992 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "adaaad66-1888-45cd-bfda-15d7fb0242f1")
+	)
 	(text "Im not wasting a pin on alert, if this thing gets so hot that it asserts, its already over"
 		(exclude_from_sim no)
 		(at 220.218 176.022 0)
@@ -1315,6 +1325,16 @@
 			)
 		)
 		(uuid "b62e55b9-0700-4157-9242-f33bd3a5623c")
+	)
+	(text "This mux appears to be jellybean but I didn't do too much research into I2C muxes\nso I am unsure if this is the correct pick for this application"
+		(exclude_from_sim no)
+		(at 63.5 87.884 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e8146d23-2b52-4ccb-8e36-c4d6de2f9298")
 	)
 	(junction
 		(at 242.57 143.51)

@@ -1664,6 +1664,36 @@
 		)
 		(uuid "3950a3b5-b8e1-40e9-9634-81eba1201fd7")
 	)
+	(text "This chip has AC excitation, and I was thinking about breaking it out,\nbut it yields very little benefit for our application so I just left it out"
+		(exclude_from_sim no)
+		(at 120.396 86.868 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "55906890-2fbd-434b-8681-d254d9ac066b")
+	)
+	(text "We could have used a PGA280 to get +10V excitation but I think the temperature rise\nof the load cells + the increased noise floor would eat any of our precision gains"
+		(exclude_from_sim no)
+		(at 104.902 155.956 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "79cc392b-282d-4c3b-b506-5ac5ff3de90f")
+	)
+	(text "I ended up omitting the RC filter on this thing because it'd mean a mismatch between\nthe voltage range of the load cells and what the chip was capable of. On the off chance\nthat a bridge was ever connected to this thing that did need the full range, I didn't want\nthis to be the limit."
+		(exclude_from_sim no)
+		(at 161.036 53.594 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b0c754c4-ec1e-4573-8cea-65dd3d3f1692")
+	)
 	(text "LOAD CELL INPUT"
 		(exclude_from_sim no)
 		(at 85.344 42.164 0)
@@ -1683,6 +1713,16 @@
 			)
 		)
 		(uuid "e5b3ed3d-b01b-4c5e-8b22-f47711355720")
+	)
+	(text "I think we will end up sampling at 7200 Hz with a sinc3, which grants a bandwidth of 1750 Hz and a Effective Resolution (Noise-Free Resolution) of 18.8 (15.9) "
+		(exclude_from_sim no)
+		(at 138.938 145.796 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ec2276b9-494c-4bc6-965b-646532f91451")
 	)
 	(junction
 		(at 113.03 104.14)
