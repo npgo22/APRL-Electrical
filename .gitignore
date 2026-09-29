@@ -10,14 +10,32 @@ outputs/
 **/index.html
 **/_navigate_results*/
 
-# KiCad backup and lock files
-**/*-backups/
-**/_restore_*/
-**/*.lck
-**/*.prl
+# KiCad backups, autosaves, locks, caches and per-user view state
+*-backups/
+_restore_*/
+_autosave-*
+\#auto_saved_files\#
+*.lck
+*.kicad_prl
+fp-info-cache
+*.bak
+*-bak
+*.orig
+.history/
 
-# History directories created by KiCad
-**/.history/
+# ERC/DRC reports and logs
+*-erc.txt
+*-drc.txt
+*-erc.rpt
+*-drc.rpt
+*.log
+production/
+
+# Editor / OS junk
+*.swp
+*~
+.DS_Store
+Thumbs.db
 
 # KiBot temporary files
 **/.kibot/
@@ -36,7 +54,6 @@ __pycache__/
 
 # KiCad creates a "default" template wherever KICAD_USER_TEMPLATE_DIR points
 ali/v2/default/
-**/*.bak
 
-# Secret Nolan stuff  
+# Secret Nolan stuff
 do-not-include/
