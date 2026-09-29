@@ -3565,7 +3565,7 @@
 	)
 	(rectangle
 		(start 152.4 95.25)
-		(end 238.76 148.59)
+		(end 242.57 148.59)
 		(stroke
 			(width 0)
 			(type default)
@@ -3609,6 +3609,16 @@
 		)
 		(uuid "9be55ab2-168a-48d6-97c5-71dc3414104f")
 	)
+	(text "This sheet is pretty much unchanges from the original TC board"
+		(exclude_from_sim no)
+		(at 59.182 162.814 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bc176f10-8d9e-4ba5-9970-31b0dbba7f9b")
+	)
 	(text "CAN"
 		(exclude_from_sim no)
 		(at 158.75 21.59 0)
@@ -3628,6 +3638,16 @@
 			)
 		)
 		(uuid "e8e3f1f3-ef14-42a6-9572-b8665e3b477f")
+	)
+	(text "We agreed to just not populate this resistor if its not at the end\nas our layout will be fixed so it doesn't make sense to waste\nboard space on adding jumpers"
+		(exclude_from_sim no)
+		(at 218.948 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f65d9cdb-6c10-4999-9835-e7cbf10668c6")
 	)
 	(junction
 		(at 100.33 74.93)
