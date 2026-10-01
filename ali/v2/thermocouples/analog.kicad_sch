@@ -1624,6 +1624,16 @@
 		)
 		(uuid "1a98fd14-e277-4f35-b3dd-bf45ceb30e18")
 	)
+	(text "Most likely going to convert this to use VBIAS and sacrifice two of the channels\nstill yields better theoretical results than MAX31856 while being half the cost\nand more compact"
+		(exclude_from_sim no)
+		(at 54.864 193.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "35b835b0-c676-4bf2-9c7e-e71b093336c3")
+	)
 	(text "I decided that an ADS1261 is a waste on this board"
 		(exclude_from_sim no)
 		(at 196.85 163.83 0)
