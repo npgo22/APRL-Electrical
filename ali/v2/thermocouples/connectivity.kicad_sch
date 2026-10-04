@@ -3600,6 +3600,16 @@
 		)
 		(uuid "e9c8ab58-af1a-4a2c-b032-e507bb810439")
 	)
+	(text "The isolation on this board can only occur if we use an unshielded ethernet cable.\nFor this reason, I think that connecting pins 13 and 14 to GND through a large\nisolation capacitor and bleed resistor might be a better choice."
+		(exclude_from_sim no)
+		(at 204.47 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "54430562-7854-4b41-b071-a166ab918cfb")
+	)
 	(text "ETH PHY"
 		(exclude_from_sim no)
 		(at 30.226 20.828 0)
@@ -3629,6 +3639,16 @@
 			)
 		)
 		(uuid "e8e3f1f3-ef14-42a6-9572-b8665e3b477f")
+	)
+	(text "Isolation is completely defeated if we use CAN"
+		(exclude_from_sim no)
+		(at 230.632 50.038 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fcaf0be7-9a89-4b44-a1ab-a40fdf405913")
 	)
 	(junction
 		(at 100.33 74.93)
@@ -5230,26 +5250,6 @@
 		)
 		(uuid "fffcca74-7d48-49d2-a301-9d28c0a14257")
 	)
-	(label "CAN-"
-		(at 205.7332 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d8cca0c3-9eb1-4aba-98df-a051a1dcad90")
-	)
-	(label "CAN+"
-		(at 205.74 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fba300dc-cafb-4527-9fb3-4e422110b172")
-	)
 	(label "TX+"
 		(at 144.78 74.93 180)
 		(effects
@@ -5360,6 +5360,16 @@
 		)
 		(uuid "d701f50a-9f10-4658-9dd6-ba9a2944cd30")
 	)
+	(label "CAN-"
+		(at 205.7332 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8cca0c3-9eb1-4aba-98df-a051a1dcad90")
+	)
 	(label "RX-"
 		(at 161.29 127 0)
 		(effects
@@ -5369,6 +5379,16 @@
 			(justify left bottom)
 		)
 		(uuid "e9e8bc70-292b-4ba1-b7f4-2d4ffc1ddb39")
+	)
+	(label "CAN+"
+		(at 205.74 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fba300dc-cafb-4527-9fb3-4e422110b172")
 	)
 	(hierarchical_label "ETH_RXD1"
 		(shape output)

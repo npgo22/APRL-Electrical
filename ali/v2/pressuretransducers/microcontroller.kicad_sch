@@ -6569,7 +6569,7 @@
 		)
 		(uuid "1415d281-5b4d-49ae-8d69-8f0cc4dc793b")
 	)
-	(text "So the idea here is that every since ADC shares a start pin and a clock pin, such that\nthey always finish conversions and take measurements at the same time. This also grants\nbetter PSRR."
+	(text "So the idea here is that every since ADC shares a start pin and a clock pin, such that\nthey always finish conversions and take measurements at the same time. This also grants\nbetter PSRR on the TC board, and is required on this board (internal oscillator\nrequires an external crystal)."
 		(exclude_from_sim no)
 		(at 314.452 165.354 0)
 		(effects
@@ -6619,9 +6619,9 @@
 		)
 		(uuid "66e43119-3ddc-4ee2-afd4-4a88ef1e1be1")
 	)
-	(text "I didn't place any pullups/pulldowns on many lines because I think we can just rely on the MCU's options.\nAdditionally, I didn't add test points, as we can selectively untent some vias to act as probe points if we feel the need to."
+	(text "I didn't place any pullups/pulldowns on many lines because I think we can just rely on the MCU's options.\nThis does mean I2C pullups would have to be provided externally, which is fine because we should be calculating\nthe values of the I2C resistors anyway which we can't know until we've connected something to it.\nAdditionally, I didn't add test points, as we can selectively untent some vias to act as probe points if we feel the need to."
 		(exclude_from_sim no)
-		(at 317.246 129.032 0)
+		(at 329.692 127.762 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6631,7 +6631,7 @@
 	)
 	(text "UART and I2C are broken out because they're there, and not because\nwe specifically need them. It would help if we used one of ST's iolink\ntranscievers, I guess. They'd most likely just be used for CS and Start pins for more adcs."
 		(exclude_from_sim no)
-		(at 307.086 116.332 0)
+		(at 314.96 116.332 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6708,6 +6708,16 @@
 			)
 		)
 		(uuid "cd87ef7a-b997-47cf-b461-1af4733b06fc")
+	)
+	(text "This GPIO header can probably go. If we do decide to pursue time sync via PPS, we just\nneed a single TIM2 channel broken out, and all these other pins are there just in case\nwe ever need them."
+		(exclude_from_sim no)
+		(at 313.944 143.256 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ee2280ff-7a9a-4ea8-b432-e9ebdac0cc6c")
 	)
 	(text "GPIO"
 		(exclude_from_sim no)

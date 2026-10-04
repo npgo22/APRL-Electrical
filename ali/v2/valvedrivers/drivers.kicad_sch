@@ -3481,7 +3481,7 @@
 		)
 		(uuid "d078186c-44c5-4022-877d-46ab75010b6d")
 	)
-	(text "I'm still not sold on this \"bus switch\" concept. Like if we lose +3.3V all the outputs\nare going low anyway, and here I'm not even offering the option to jumper things.\n\nNobody does a \"safe default\" state where some outputs are high because what, if the board\nloses power the system is unsafe?"
+	(text "I'm still not sold on this \"bus switch\" concept. Like if we lose +3.3V all the outputs\nare going low anyway, and here I'm not even offering the option to jumper things to a\ndefault safe state. This would be helpful on the vehicle but not here, and I feel like\nSPI-based valve drivers would be a better option here, especially since they give\nbetter diag."
 		(exclude_from_sim no)
 		(at 75.692 171.704 0)
 		(effects

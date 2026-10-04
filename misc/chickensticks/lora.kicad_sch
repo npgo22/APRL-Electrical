@@ -7,7 +7,7 @@
 	(title_block
 		(title "Chickenstick")
 		(rev "0")
-		(company "Aggie Propulsion and Rocketry Lab")
+		(company "Aggie Propulsion & Rocketry Lab")
 		(comment 1 "Drawn by: Nolan Poe")
 		(comment 2 "Reviewed by: Daniel Fan (and hopefully Tim Solberg)")
 		(comment 3 "Detects a LoRa signal from a downed rocket to track it down")

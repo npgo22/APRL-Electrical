@@ -1900,16 +1900,6 @@
 		)
 		(uuid "fbd711d1-d597-4774-adb5-5a8696796df5")
 	)
-	(text "Still need to double check that 47.5R is good"
-		(exclude_from_sim no)
-		(at 119.888 179.832 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1a657800-086f-436c-a5b6-a80ca249fdcd")
-	)
 	(text "The protection diode and shunt resistor are going to immediately blow and/or short if\nthis thing actually got shorted, but I'm not sure if we want a PTC on every input,\nespecially since it'd mean there'd be a nontrivial change in DC resistance relative to the shunt. That being said,\nit shouldn't affect us if we placed it on the high side, though."
 		(exclude_from_sim no)
 		(at -40.894 89.408 0)
@@ -2010,15 +2000,15 @@
 		)
 		(uuid "e5b3ed3d-b01b-4c5e-8b22-f47711355720")
 	)
-	(text "This diode is a jellybean part but I'm not sure if this is ideal"
+	(text "On this board in particular the CM caps are not required, but we can always mark\nthem DNP and they shouldn't pose any problems"
 		(exclude_from_sim no)
-		(at 113.03 141.732 0)
+		(at -36.322 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "fea9c9a8-c8f2-43a0-98ff-44026c7984af")
+		(uuid "f5eff2f6-2eb5-405d-bc7f-947d79c32399")
 	)
 	(junction
 		(at 36.83 163.83)

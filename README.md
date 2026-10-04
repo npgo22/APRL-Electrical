@@ -2,6 +2,18 @@
 
 APRL KiCad Projects.
 
+## Setup
+First, clone the repository with `git clone`. GitHub has a button which gives you the command to do this.
+Then, you will have to use `git lfs pull` to get all the 3D models and images.
+
+The projects here rely on `APRL_LIBS` and `KICAD_USER_TEMPLATE_DIR` being set. You can do this by:
+
+1. Going to Preferences > Configure Paths...
+2. Setting `APRL_LIBS` to wherever you cloned this repo + `/kicadlibs`.
+3. Setting `KICAD_USER_TEMPLATE_DIR` to whatever you set in (2) + `/templates`
+
+![Screenshot of the environment variables being set](./doc/env_vars.png)
+
 ## New ALI (Current Project for FQ2026)
 
 ### Design

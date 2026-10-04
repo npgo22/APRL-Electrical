@@ -6700,6 +6700,16 @@
 		)
 		(uuid "c4ddb78a-356d-4ca8-ac2f-35dc820d747d")
 	)
+	(text "This +5V stage is sharing filter caps with the AP2112K,\nthis seems electrically acceptable to me"
+		(exclude_from_sim no)
+		(at 107.188 186.944 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "013b205c-804a-4026-8994-e890abf1bc25")
+	)
 	(text "Enables internal voltage regulator for +VCORE\nSee AN5711 section 2.2"
 		(exclude_from_sim no)
 		(at 38.608 138.176 0)
@@ -6740,7 +6750,7 @@
 		)
 		(uuid "3444ade5-9b29-496b-9021-2257bb6f5928")
 	)
-	(text "chip has a weird footprint\nin stock at lcsc btw"
+	(text "chip has a weird footprint"
 		(exclude_from_sim no)
 		(at 66.294 156.972 0)
 		(effects
@@ -6770,9 +6780,9 @@
 		)
 		(uuid "45524c16-dc68-4680-b851-96466c02d2d7")
 	)
-	(text "fsw is 64.5 MHz (which is kinda crazy)\nI wasn't able to find a bead thats a good fit so it is what it is"
+	(text "fsw is 64.5 MHz (which is kinda crazy)\nI wasn't able to find a bead thats a good fit so it is what it is\n\nLikewise the actual ripple according the datasheet occurs at 500 kHz (50mV)\nand if we really cared we can run this converter at 5.5V by tying SEL to GNDS\nthen add an LDO post-filter (TI explicitly added this feature)"
 		(exclude_from_sim no)
-		(at 116.332 156.464 0)
+		(at 229.108 164.084 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6820,6 +6830,16 @@
 		)
 		(uuid "fd01018f-c60c-45cd-a1b3-0358ca3bfb3c")
 	)
+	(text "in stock at lcsc btw"
+		(exclude_from_sim no)
+		(at 90.932 160.528 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "feb120e3-0da8-4841-a57b-6996a7f4eb83")
+	)
 	(junction
 		(at 46.99 83.82)
 		(diameter 0)
@@ -6851,7 +6871,7 @@
 		(uuid "1b55fd23-aca6-4ef2-b33e-a3dda190ab10")
 	)
 	(junction
-		(at 99.06 167.64)
+		(at 120.65 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31978b5b-b340-4b1d-b198-b2f7ef46b1c7")
@@ -7656,16 +7676,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 167.64) (xy 116.84 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2db7f26f-407c-42c7-99d8-e8688a729d96")
-	)
-	(wire
-		(pts
 			(xy 40.64 88.9) (xy 40.64 100.33)
 		)
 		(stroke
@@ -7973,16 +7983,6 @@
 			(type default)
 		)
 		(uuid "506fcaab-1605-4967-8bd0-f2909cd813a8")
-	)
-	(wire
-		(pts
-			(xy 99.06 167.64) (xy 105.41 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51e42203-7f20-40bd-9d1d-3d1b6e63122b")
 	)
 	(wire
 		(pts
@@ -8346,7 +8346,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 167.64) (xy 99.06 166.37)
+			(xy 120.65 167.64) (xy 120.65 165.1)
 		)
 		(stroke
 			(width 0)
@@ -8796,7 +8796,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 167.64) (xy 99.06 167.64)
+			(xy 82.55 167.64) (xy 127 167.64)
 		)
 		(stroke
 			(width 0)
@@ -9683,16 +9683,6 @@
 			(type default)
 		)
 		(uuid "f0c2ca56-2f58-4b1a-8370-52db18d24501")
-	)
-	(wire
-		(pts
-			(xy 116.84 167.64) (xy 127 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1b3f323-913b-491e-add8-bc0ee994f346")
 	)
 	(wire
 		(pts
@@ -17116,7 +17106,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 99.06 166.37 0)
+		(at 120.65 165.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17126,7 +17116,7 @@
 		(dnp no)
 		(uuid "c6e2de59-6143-4354-8b52-36cbd64e5eaf")
 		(property "Reference" "#PWR029"
-			(at 99.06 170.18 0)
+			(at 120.65 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17137,7 +17127,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 99.06 162.052 0)
+			(at 120.65 160.782 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17147,7 +17137,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 166.37 0)
+			(at 120.65 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17158,7 +17148,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 166.37 0)
+			(at 120.65 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17169,7 +17159,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 99.06 166.37 0)
+			(at 120.65 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

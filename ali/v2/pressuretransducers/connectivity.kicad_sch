@@ -3609,7 +3609,7 @@
 		)
 		(uuid "9be55ab2-168a-48d6-97c5-71dc3414104f")
 	)
-	(text "This sheet is pretty much unchanges from the original TC board"
+	(text "This sheet is pretty much unchanged from the original TC board"
 		(exclude_from_sim no)
 		(at 59.182 162.814 0)
 		(effects
@@ -5249,26 +5249,6 @@
 		)
 		(uuid "fffcca74-7d48-49d2-a301-9d28c0a14257")
 	)
-	(label "CAN-"
-		(at 205.7332 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "81a1a8bb-cd78-4fcb-9711-fade1608235b")
-	)
-	(label "CAN+"
-		(at 205.74 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "15b8e511-1cd3-40ae-af64-cb71eb623c9b")
-	)
 	(label "TX+"
 		(at 144.78 74.93 180)
 		(effects
@@ -5308,6 +5288,26 @@
 			(justify left bottom)
 		)
 		(uuid "151f4f76-1254-42f1-b40b-61922e7e7f58")
+	)
+	(label "CAN+"
+		(at 205.74 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "15b8e511-1cd3-40ae-af64-cb71eb623c9b")
+	)
+	(label "CAN-"
+		(at 205.7332 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "81a1a8bb-cd78-4fcb-9711-fade1608235b")
 	)
 	(label "RX+"
 		(at 161.29 121.92 0)
