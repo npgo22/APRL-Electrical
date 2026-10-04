@@ -1666,7 +1666,7 @@
 	)
 	(text "This chip has AC excitation, and I was thinking about breaking it out,\nbut it yields very little benefit for our application so I just left it out"
 		(exclude_from_sim no)
-		(at 120.396 86.868 0)
+		(at 109.474 86.614 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1684,15 +1684,15 @@
 		)
 		(uuid "79cc392b-282d-4c3b-b506-5ac5ff3de90f")
 	)
-	(text "I ended up omitting the RC filter on this thing because it'd mean a mismatch between\nthe voltage range of the load cells and what the chip was capable of. On the off chance\nthat a bridge was ever connected to this thing that did need the full range, I didn't want\nthis to be the limit."
+	(text "Honestly this chip is overkill and overpriced ($20/chip) for this application.\nADS1220 spam ($3/chip) is an infinitely better fit, and due to cost, might\nbe a better choice on the thermocouple board too."
 		(exclude_from_sim no)
-		(at 161.036 53.594 0)
+		(at 255.016 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "b0c754c4-ec1e-4573-8cea-65dd3d3f1692")
+		(uuid "9ebc945a-1944-41ea-a1f0-5ba0ae90b204")
 	)
 	(text "LOAD CELL INPUT"
 		(exclude_from_sim no)

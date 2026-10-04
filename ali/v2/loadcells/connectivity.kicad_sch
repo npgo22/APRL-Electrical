@@ -5229,26 +5229,6 @@
 		)
 		(uuid "fffcca74-7d48-49d2-a301-9d28c0a14257")
 	)
-	(label "CAN-"
-		(at 205.7332 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dc32ded3-6bd4-4f65-887c-326027f9b58e")
-	)
-	(label "CAN+"
-		(at 205.74 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "467a6d54-b438-4015-ab5c-5030af4982b3")
-	)
 	(label "TX+"
 		(at 144.78 74.93 180)
 		(effects
@@ -5288,6 +5268,16 @@
 			(justify left bottom)
 		)
 		(uuid "151f4f76-1254-42f1-b40b-61922e7e7f58")
+	)
+	(label "CAN+"
+		(at 205.74 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "467a6d54-b438-4015-ab5c-5030af4982b3")
 	)
 	(label "RX+"
 		(at 161.29 121.92 0)
@@ -5358,6 +5348,16 @@
 			(justify right bottom)
 		)
 		(uuid "d701f50a-9f10-4658-9dd6-ba9a2944cd30")
+	)
+	(label "CAN-"
+		(at 205.7332 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc32ded3-6bd4-4f65-887c-326027f9b58e")
 	)
 	(label "RX-"
 		(at 161.29 127 0)
