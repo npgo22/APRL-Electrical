@@ -57,6 +57,7 @@ ali/v2/default/
 
 # Secret Nolan stuff
 do-not-include/
+math
 
 # LTspice sim outputs
 math/sim/**/*.raw

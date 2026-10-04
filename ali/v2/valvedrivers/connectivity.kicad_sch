@@ -5269,6 +5269,16 @@
 		)
 		(uuid "151f4f76-1254-42f1-b40b-61922e7e7f58")
 	)
+	(label "CAN-"
+		(at 205.7332 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "618d7939-e832-4d77-b21f-595b1f37019e")
+	)
 	(label "RX+"
 		(at 161.29 121.92 0)
 		(effects
@@ -5338,6 +5348,16 @@
 			(justify right bottom)
 		)
 		(uuid "d701f50a-9f10-4658-9dd6-ba9a2944cd30")
+	)
+	(label "CAN+"
+		(at 205.74 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "debfb2ec-2258-4d68-80af-34d2db2912b6")
 	)
 	(label "RX-"
 		(at 161.29 127 0)

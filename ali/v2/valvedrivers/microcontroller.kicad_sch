@@ -8404,6 +8404,16 @@
 		)
 		(uuid "071b2bca-c8d6-4159-a997-8b0b8c42a8d8")
 	)
+	(label "BRK_WIRE"
+		(at 148.59 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0d40fafc-2c4f-4fa7-9243-8437c127ca7a")
+	)
 	(label "SWCLK"
 		(at 148.59 93.98 180)
 		(effects
@@ -8414,7 +8424,7 @@
 		)
 		(uuid "0e5c1c7a-32fb-449f-975a-305356c7a89b")
 	)
-	(label "PWR_STAT"
+	(label "+24V_STAT"
 		(at 148.59 81.28 180)
 		(effects
 			(font
@@ -8464,7 +8474,7 @@
 		)
 		(uuid "64a7d64e-62f0-421f-bd19-34c3f88480f7")
 	)
-	(label "IGNIG_STAT"
+	(label "BRK_WIRE"
 		(at 140.97 175.26 0)
 		(effects
 			(font
@@ -8473,16 +8483,6 @@
 			(justify left bottom)
 		)
 		(uuid "7829e1ac-f98b-4f6b-9d2b-15c6b87f1ffb")
-	)
-	(label "IGNIG_STAT"
-		(at 148.59 78.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7c4e5b0e-0128-4d64-bbd5-cff6e4ca3d68")
 	)
 	(label "SWDIO"
 		(at 139.7 35.56 0)
@@ -8494,7 +8494,7 @@
 		)
 		(uuid "84e82555-933a-4592-bd70-95e0339e6a54")
 	)
-	(label "PWR_STAT"
+	(label "+24V_STAT"
 		(at 223.52 162.56 180)
 		(effects
 			(font

@@ -5230,6 +5230,26 @@
 		)
 		(uuid "fffcca74-7d48-49d2-a301-9d28c0a14257")
 	)
+	(label "CAN-"
+		(at 205.7332 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8cca0c3-9eb1-4aba-98df-a051a1dcad90")
+	)
+	(label "CAN+"
+		(at 205.74 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fba300dc-cafb-4527-9fb3-4e422110b172")
+	)
 	(label "TX+"
 		(at 144.78 74.93 180)
 		(effects
