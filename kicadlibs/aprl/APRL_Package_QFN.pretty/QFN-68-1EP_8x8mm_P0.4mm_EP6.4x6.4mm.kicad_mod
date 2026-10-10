@@ -969,7 +969,7 @@
 	(pad "69" thru_hole circle
 		(at -2.8 -2.8 90)
 		(size 0.5 0.5)
-		(drill 0.3)
+		(drill 0.2)
 		(layers "*.Cu")
 		(remove_unused_layers no)
 		(zone_connect 2)
@@ -978,7 +978,7 @@
 	(pad "69" thru_hole circle
 		(at -2.8 -1.68 90)
 		(size 0.5 0.5)
-		(drill 0.3)
+		(drill 0.2)
 		(layers "*.Cu")
 		(remove_unused_layers no)
 		(zone_connect 2)
@@ -987,7 +987,7 @@
 	(pad "69" thru_hole circle
 		(at -2.8 -0.56 90)
 		(size 0.5 0.5)
-		(drill 0.3)
+		(drill 0.2)
 		(layers "*.Cu")
 		(remove_unused_layers no)
 		(zone_connect 2)
@@ -996,7 +996,7 @@
 	(pad "69" thru_hole circle
 		(at -2.8 0.56 90)
 		(size 0.5 0.5)
-		(drill 0.3)
+		(drill 0.2)
 		(layers "*.Cu")
 		(remove_unused_layers no)
 		(zone_connect 2)
@@ -1005,7 +1005,7 @@
 	(pad "69" thru_hole circle
 		(at -2.8 1.68 90)
 		(size 0.5 0.5)
-		(drill 0.3)
+		(drill 0.2)
 		(layers "*.Cu")
 		(remove_unused_layers no)
 		(zone_connect 2)
@@ -1014,7 +1014,7 @@
 	(pad "69" thru_hole circle
 		(at -2.8 2.8 90)
 		(size 0.5 0.5)
-		(drill 0.3)
+		(drill 0.2)
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
 		(remove_unused_layers no)
@@ -1024,7 +1024,7 @@
 	(pad "69" thru_hole circle
 		(at -1.68 -2.8)
 		(size 0.5 0.5)
-		(drill 0.3)
+		(drill 0.2)
 		(layers "*.Cu")
 		(remove_unused_layers no)
 		(zone_connect 2)
@@ -1033,7 +1033,7 @@
 	(pad "69" thru_hole circle
 		(at -1.68 2.8 180)
 		(size 0.5 0.5)
-		(drill 0.3)
+		(drill 0.2)
 		(layers "*.Cu")
 		(remove_unused_layers no)
 		(zone_connect 2)
@@ -1042,7 +1042,7 @@
 	(pad "69" thru_hole circle
 		(at -0.56 -2.8)
 		(size 0.5 0.5)
-		(drill 0.3)
+		(drill 0.2)
 		(layers "*.Cu")
 		(remove_unused_layers no)
 		(zone_connect 2)
@@ -1051,7 +1051,7 @@
 	(pad "69" thru_hole circle
 		(at -0.56 2.8 180)
 		(size 0.5 0.5)
-		(drill 0.3)
+		(drill 0.2)
 		(layers "*.Cu")
 		(remove_unused_layers no)
 		(zone_connect 2)
@@ -1068,7 +1068,7 @@
 	(pad "69" thru_hole circle
 		(at 0.56 -2.8)
 		(size 0.5 0.5)
-		(drill 0.3)
+		(drill 0.2)
 		(layers "*.Cu")
 		(remove_unused_layers no)
 		(zone_connect 2)
@@ -1077,7 +1077,7 @@
 	(pad "69" thru_hole circle
 		(at 0.56 2.8 180)
 		(size 0.5 0.5)
-		(drill 0.3)
+		(drill 0.2)
 		(layers "*.Cu")
 		(remove_unused_layers no)
 		(zone_connect 2)
@@ -1086,7 +1086,7 @@
 	(pad "69" thru_hole circle
 		(at 1.68 -2.8)
 		(size 0.5 0.5)
-		(drill 0.3)
+		(drill 0.2)
 		(layers "*.Cu")
 		(remove_unused_layers no)
 		(zone_connect 2)
@@ -1095,7 +1095,7 @@
 	(pad "69" thru_hole circle
 		(at 1.68 2.8 180)
 		(size 0.5 0.5)
-		(drill 0.3)
+		(drill 0.2)
 		(layers "*.Cu")
 		(remove_unused_layers no)
 		(zone_connect 2)
@@ -1104,7 +1104,7 @@
 	(pad "69" thru_hole circle
 		(at 2.8 -2.8 270)
 		(size 0.5 0.5)
-		(drill 0.3)
+		(drill 0.2)
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
 		(remove_unused_layers no)
@@ -1114,7 +1114,7 @@
 	(pad "69" thru_hole circle
 		(at 2.8 -1.68 270)
 		(size 0.5 0.5)
-		(drill 0.3)
+		(drill 0.2)
 		(layers "*.Cu")
 		(remove_unused_layers no)
 		(zone_connect 2)
@@ -1123,7 +1123,7 @@
 	(pad "69" thru_hole circle
 		(at 2.8 -0.56 270)
 		(size 0.5 0.5)
-		(drill 0.3)
+		(drill 0.2)
 		(layers "*.Cu")
 		(remove_unused_layers no)
 		(zone_connect 2)
@@ -1132,7 +1132,7 @@
 	(pad "69" thru_hole circle
 		(at 2.8 0.56 270)
 		(size 0.5 0.5)
-		(drill 0.3)
+		(drill 0.2)
 		(layers "*.Cu")
 		(remove_unused_layers no)
 		(zone_connect 2)
@@ -1141,7 +1141,7 @@
 	(pad "69" thru_hole circle
 		(at 2.8 1.68 270)
 		(size 0.5 0.5)
-		(drill 0.3)
+		(drill 0.2)
 		(layers "*.Cu")
 		(remove_unused_layers no)
 		(zone_connect 2)
@@ -1150,7 +1150,7 @@
 	(pad "69" thru_hole circle
 		(at 2.8 2.8 180)
 		(size 0.5 0.5)
-		(drill 0.3)
+		(drill 0.2)
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
 		(remove_unused_layers no)

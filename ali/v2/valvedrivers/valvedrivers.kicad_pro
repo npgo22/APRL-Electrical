@@ -63,7 +63,7 @@
           "min_clearance": 0.2,
           "min_island_area": 10.0,
           "min_thickness": 0.15,
-          "pad_connection": 3,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -151,8 +151,8 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.09,
-        "min_connection": 0.09,
+        "min_clearance": 0.2,
+        "min_connection": 0.15,
         "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.2,
@@ -164,7 +164,7 @@
         "min_text_height": 1.0,
         "min_text_thickness": 0.15,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.09,
+        "min_track_width": 0.15,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.005,
@@ -183,6 +183,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -194,6 +195,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -205,6 +207,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -492,6 +495,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "ignore",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -533,7 +537,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.1,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.15,
@@ -563,7 +567,7 @@
       {
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2545,
-        "name": "CAN",
+        "name": "60R",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -590,8 +594,27 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {
+      "Net-(J8-RD+)": [
+        "50R"
+      ],
+      "Net-(J8-RD-)": [
+        "50R"
+      ],
+      "Net-(J8-TD+)": [
+        "50R"
+      ],
+      "Net-(J8-TD-)": [
+        "50R"
+      ],
+      "Net-(J9-Pin_1)": [
+        "60R"
+      ],
+      "Net-(J9-Pin_2)": [
+        "60R"
+      ]
+    },
     "netclass_patterns": [
       {
         "netclass": "50R",
@@ -610,7 +633,7 @@
         "pattern": "+*"
       },
       {
-        "netclass": "CAN",
+        "netclass": "60R",
         "pattern": "**/CAN*"
       },
       {
@@ -815,7 +838,7 @@
         "uuid": "0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666"
       }
     ],
-    "used_designators": "SW1,H1-4,F1-4,U1-15,J1-21,JP1,R1-59,D1-21,C1-56,Y1-2,#PWR1-120",
+    "used_designators": "#PWR1-120,C1-56,D1-21,F1-4,H1-4,J1-22,JP1,R1-59,SW1,U1-15,Y1-2",
     "variants": []
   },
   "sheets": [
@@ -833,15 +856,11 @@
     ],
     [
       "8cc59f38-1699-44c2-acba-89190a5df7d8",
-      "Drivers 1"
+      "Driver Set 1"
     ],
     [
-      "9e5320c8-5979-4a17-b544-4eb9faf12b80",
-      "Drivers 2"
-    ],
-    [
-      "874202e5-99bb-4171-bb05-149c597c3ffb",
-      "Drivers 3"
+      "95c38363-c9a7-4c0c-ae13-d319daefedf2",
+      "Driver Set 2"
     ]
   ],
   "text_variables": {

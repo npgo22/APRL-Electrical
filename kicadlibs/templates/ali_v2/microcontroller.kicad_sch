@@ -5,7 +5,7 @@
 	(uuid "c61265f9-0df7-4873-b850-5e6e1fb0cced")
 	(paper "USLetter")
 	(title_block
-		(date "2026-09-11")
+		(date "2026-10-10")
 	)
 	(lib_symbols
 		(symbol "APRL_Misc:Conn_02x01"
@@ -7779,7 +7779,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "5.1k"
 			(at 214.63 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7823,7 +7823,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-074K7L"
+		(property "MPN" "RC0603FR-075K1L"
 			(at 217.17 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -11177,7 +11177,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "5.1k"
 			(at 223.774 46.228 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11221,7 +11221,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-074K7L"
+		(property "MPN" "RC0603FR-075K1L"
 			(at 220.98 45.72 0)
 			(hide yes)
 			(show_name no)

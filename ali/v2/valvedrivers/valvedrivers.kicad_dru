@@ -16,6 +16,12 @@
 	(constraint hole_size (min 0.3mm) (max 6.3mm))
 )
 
+# Thermal vias in exposed pads are small plated pads with a 0.2 mm drill.
+(rule "Thermal via drill"
+	(condition "A.Type == 'Pad' && A.isPlated() && A.Hole_Size_X == A.Hole_Size_Y && A.Size_X <= 0.6mm")
+	(constraint hole_size (min 0.2mm) (max 6.3mm))
+)
+
 # Minimum NPTH hole size is 0.5 mm.
 (rule "NPTH drill"
 	(condition "A.Type == 'Pad' && !A.isPlated() && A.Hole_Size_X == A.Hole_Size_Y")
@@ -55,7 +61,13 @@
 
 # TRACES
 
-# Minimum track width and spacing is 0.09 mm.
+# APRL copper clearance floor is 0.15 mm, above JLC's 0.09 mm process minimum.
+# Rules further down only ever raise this; later rules take precedence in KiCad.
+(rule "Copper clearance floor"
+	(constraint clearance (min 0.15mm))
+)
+
+# Minimum track width is 0.09 mm (JLC process limit).
 (rule "Track width"
 	(condition "A.Type == 'Track'")
 	(constraint track_width (min 0.09mm))
@@ -63,7 +75,7 @@
 
 (rule "Track to track"
 	(condition "A.Type == 'Track' && B.Type == 'Track'")
-	(constraint clearance (min 0.09mm))
+	(constraint clearance (min 0.15mm))
 )
 
 # PTH annular ring is 0.2 mm, as the total diameter added over the drill, so a 0.3/0.5 via should pass.
@@ -96,10 +108,10 @@
 	(constraint hole_clearance (min 0.3mm))
 )
 
-# Pad to track clearance is 0.1 mm.
+# Pad to track clearance is 0.15 mm (JLC allows 0.1 mm).
 (rule "Pad to track"
 	(condition "A.Type == 'Pad' && B.Type == 'Track'")
-	(constraint clearance (min 0.1mm))
+	(constraint clearance (min 0.15mm))
 )
 
 # SMD pad to pad clearance on different nets is 0.15 mm.
@@ -108,13 +120,11 @@
 	(constraint clearance (min 0.15mm))
 )
 
-# Minimum SMD pad is 0.25 x 0.25 mm.
+# Minimum SMD pad is 0.25 x 0.25 mm, but like this is kind of not nonsensical:
 # Copper only: a paste-only aperture is also an SMD pad to KiCad, and stencil
 # apertures are routinely smaller than any copper minimum.
 # Net-tie pads (NT*) are deliberately trace-width copper, so they're exempt.
-# 0.4 mm-pitch QFNs use the vendor land pattern (0.2 mm pads, e.g. TI RSN); a
-# 0.25 mm pad there would crush the 0.1 mm mask web, so they're exempt too.
-# (Match on A.Library_Link: an A.Parent.* property silently disables the rule.)
+# TI's RSN package wants 0.2mm min, so they need an exemption here, too.
 (rule "Minimum SMD pad size"
 	(condition "A.Type == 'Pad' && A.Pad_Type == 'SMD' && (A.existsOnLayer('F.Cu') || A.existsOnLayer('B.Cu')) && !A.memberOfFootprint('NT*') && A.Library_Link != '*QFN*P0.4mm*' && A.Library_Link != '*QFN*Pitch0.4mm*'")
 	(constraint assertion "A.Size_X >= 0.25mm && A.Size_Y >= 0.25mm")

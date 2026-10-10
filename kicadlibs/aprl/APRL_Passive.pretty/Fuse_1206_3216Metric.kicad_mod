@@ -1,0 +1,114 @@
+(footprint "Fuse_1206_3216Metric"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "The 1206L Series PTC provides surface mount overcurrent protection for applications where space is at a premium and resettable protection is desired.")
+	(tags "fuse PTC polyfuse resettable")
+	(property "Reference" "REF**"
+		(at 0 -1.83 0)
+		(layer "F.SilkS")
+		(uuid "f07697c6-5eb2-4e56-b84c-3c5f930ea4e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Fuse_1206_3216Metric"
+		(at 0 1.83 0)
+		(layer "F.Fab")
+		(uuid "0fc4e260-3ed1-44ac-810c-283003396558")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4bcfeaba-ce93-42d7-98e2-2441438d5fbb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "805b70a1-4da6-4154-ac19-6635bac67e8b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2.15 -1.15)
+		(end 2.15 1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f9cfcc8d-2dc6-49bb-aac0-0484e019b6b8")
+	)
+	(fp_rect
+		(start -1.6 -0.825)
+		(end 1.6 0.825)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "781429c2-5d63-4dc7-9139-157c1c62f086")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "5d1b0ab0-b40f-4ebe-9b2b-57331f418c7d")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.4 0)
+		(size 1 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.05)
+		(uuid "7d46efab-7ee4-46e6-82bd-8af25e432293")
+	)
+	(pad "2" smd roundrect
+		(at 1.4 0)
+		(size 1 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.05)
+		(uuid "e0142697-1913-4e3d-aa97-959cd6b4b8a5")
+	)
+	(embedded_fonts no)
+	(model "${APRL_LIBS}/models/Fuse_1206_3216Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

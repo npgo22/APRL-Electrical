@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -2.65 0)
 		(layer "F.SilkS")
-		(uuid "ccd9b9d6-19c8-4a33-81ac-75b1c4a02e23")
+		(uuid "4f0151e3-fa00-4244-b866-a7e60b6d4caa")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "Fuse_1812_4532Metric"
 		(at 0 2.65 0)
 		(layer "F.Fab")
-		(uuid "2a78a92f-987c-48d6-aec9-fb5e9d6f965a")
+		(uuid "b2a95e61-a62e-4555-9e61-3e8e4191a6a1")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "dbd6909b-2ed6-41a6-9f01-9a1bb85c5fb3")
+		(uuid "76bd45c1-aff8-4745-83f8-787d324b3cc3")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ab49f302-88c4-4241-8f24-1a2e488dc1ca")
+		(uuid "69f59a02-bc47-4651-98bd-85152b4ef9c6")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,7 +53,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "bfe19074-0456-4e84-b6f0-b95e50374903")
+		(uuid "57ae2ebf-3a08-4fb6-9cc3-39102763c4b6")
 		(effects
 			(font
 				(size 1 1)
@@ -72,12 +72,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "0d730301-fbc1-4ad5-9f81-5ef175b5e162")
+		(uuid "c151519e-f9ee-44dc-8bb9-0a9aa028dcdd")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "f784cf4c-274a-46fe-a6c4-efe449dfa78c")
+		(uuid "d2de4f8b-8a0f-4ffd-9b06-e1cd7c05ce33")
 		(effects
 			(font
 				(size 1 1)
@@ -90,14 +90,14 @@
 		(size 1.78 3.15)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.0280899)
-		(uuid "75b8581b-4bba-4682-b98f-ada8c222a5c1")
+		(uuid "9e3008db-3b1a-4bd0-9eea-7e137807ab1f")
 	)
 	(pad "2" smd roundrect
 		(at 2.615 0)
 		(size 1.78 3.15)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.0280899)
-		(uuid "ccd3892a-c7f2-46fd-8403-2a9ca1780cd8")
+		(uuid "1c5f488a-bea8-4071-a286-cc2d6baafa4f")
 	)
 	(embedded_fonts no)
 	(model "${APRL_LIBS}/models/Fuse_1812L_Littelfuse.step"

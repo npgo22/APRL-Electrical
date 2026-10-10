@@ -5,7 +5,7 @@
 	(uuid "0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666")
 	(paper "USLetter")
 	(title_block
-		(date "2026-09-11")
+		(date "2026-10-10")
 		(rev "1A")
 	)
 	(lib_symbols
@@ -200,16 +200,6 @@
 			(type default)
 		)
 		(uuid "29a74100-04c8-470c-a3a4-d9df798cb5cd")
-	)
-	(wire
-		(pts
-			(xy 165.1 158.75) (xy 170.18 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37961f16-effb-402f-9a34-b80af1c59f91")
 	)
 	(wire
 		(pts
@@ -17616,16 +17606,6 @@
 				(justify left)
 			)
 		)
-		(pin "CJC_~{RESET}" output
-			(at 165.1 158.75 0)
-			(uuid "5a5d01bf-dff0-4404-85ad-a30b09685630")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "I2C1_SDA" bidirectional
 			(at 165.1 156.21 0)
 			(uuid "642e0d5d-b7a3-47bb-8b6f-1daa971ab37b")
@@ -17755,16 +17735,6 @@
 		(pin "SCL" bidirectional
 			(at 170.18 153.67 180)
 			(uuid "5748ee85-6d0f-4e8f-87f1-8d550e3d1ab6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "~{RESET}" input
-			(at 170.18 158.75 180)
-			(uuid "45dfaa80-a273-4f7c-9436-c1f60baacde8")
 			(effects
 				(font
 					(size 1.27 1.27)

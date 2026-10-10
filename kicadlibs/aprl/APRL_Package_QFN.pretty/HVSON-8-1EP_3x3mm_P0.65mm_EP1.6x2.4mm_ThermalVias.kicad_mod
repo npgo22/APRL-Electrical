@@ -365,7 +365,7 @@
 	(pad "9" thru_hole circle
 		(at -0.5 -0.9)
 		(size 0.5 0.5)
-		(drill 0.3)
+		(drill 0.2)
 		(layers "*.Cu")
 		(remove_unused_layers no)
 		(zone_connect 2)
@@ -374,7 +374,7 @@
 	(pad "9" thru_hole circle
 		(at -0.5 0)
 		(size 0.5 0.5)
-		(drill 0.3)
+		(drill 0.2)
 		(layers "*.Cu")
 		(remove_unused_layers no)
 		(zone_connect 2)
@@ -383,7 +383,7 @@
 	(pad "9" thru_hole circle
 		(at -0.5 0.9)
 		(size 0.5 0.5)
-		(drill 0.3)
+		(drill 0.2)
 		(layers "*.Cu")
 		(remove_unused_layers no)
 		(zone_connect 2)
@@ -400,7 +400,7 @@
 	(pad "9" thru_hole circle
 		(at 0.5 -0.9)
 		(size 0.5 0.5)
-		(drill 0.3)
+		(drill 0.2)
 		(layers "*.Cu")
 		(remove_unused_layers no)
 		(zone_connect 2)
@@ -409,7 +409,7 @@
 	(pad "9" thru_hole circle
 		(at 0.5 0)
 		(size 0.5 0.5)
-		(drill 0.3)
+		(drill 0.2)
 		(layers "*.Cu")
 		(remove_unused_layers no)
 		(zone_connect 2)
@@ -418,7 +418,7 @@
 	(pad "9" thru_hole circle
 		(at 0.5 0.9)
 		(size 0.5 0.5)
-		(drill 0.3)
+		(drill 0.2)
 		(layers "*.Cu")
 		(remove_unused_layers no)
 		(zone_connect 2)

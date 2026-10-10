@@ -5,7 +5,7 @@
 	(uuid "d6a45768-decb-4c37-b48f-13a77674bd82")
 	(paper "USLetter")
 	(title_block
-		(date "2026-09-11")
+		(date "2026-10-10")
 	)
 	(lib_symbols
 		(symbol "APRL_Comms:LAN8742A"
