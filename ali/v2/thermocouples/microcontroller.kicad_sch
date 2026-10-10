@@ -7125,6 +7125,10 @@
 		(uuid "4118677b-e999-4fab-b853-14d5c2b7eacd")
 	)
 	(no_connect
+		(at 83.82 87.63)
+		(uuid "46757375-3fe2-47ab-a037-72e4eaf0b4a8")
+	)
+	(no_connect
 		(at 83.82 125.73)
 		(uuid "554fabbb-2461-42df-bfa9-8f2f848d25a1")
 	)
@@ -7159,6 +7163,10 @@
 	(no_connect
 		(at 198.12 53.34)
 		(uuid "eda9b7d2-fe51-423d-97ce-239afc6beb17")
+	)
+	(no_connect
+		(at 134.62 102.87)
+		(uuid "f00c4602-717f-4875-ace8-0a03feb902ce")
 	)
 	(no_connect
 		(at 134.62 80.01)
@@ -7297,16 +7305,6 @@
 			(type default)
 		)
 		(uuid "0b5cf689-6cc8-4e8f-9e06-7b7d3180114c")
-	)
-	(wire
-		(pts
-			(xy 69.85 87.63) (xy 83.82 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b8264ea-402d-4cdb-869f-ab4208759412")
 	)
 	(wire
 		(pts
